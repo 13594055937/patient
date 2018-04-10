@@ -57,12 +57,14 @@ class Patient extends Accesscontrol{
             'file_id'=>$pash->pash_id
 			];
 			$customer=Customer::create($test);
+			$file=substr($data['file_name'],0,strlen($data['file_name'])-1);
+			$fiel=explode('/',$file);
 
 
-			if($pash && $customer){
-				$message="成功。";
-			}
-			return ['message'=>$message];
+			// if($pash && $customer){
+			// 	$message="成功。";
+			// }
+			return ['message'=>$fiel];
 		}
 		$province=Province::all();
 		$this->assign('province',$province);

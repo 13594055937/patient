@@ -215,11 +215,12 @@ $("#form-member-add").validate({
         url: "{:url('infoadd')}",
         type: 'post',
         success: function(data) {
-            layer.msg(data.message);
-            if(data.status==1){
-                // setTimeout("parent.layer.closeAll();",1000);
-                setTimeout("parent.location.reload()",1000);
-            }
+            // layer.msg(data.message);
+            console.log(data.message);
+            // if(data.status==1){
+            //     // setTimeout("parent.layer.closeAll();",1000);
+            //     setTimeout("parent.location.reload()",1000);
+            // }
        
         }
      }
