@@ -1,0 +1,62 @@
+    {include file="/../../com/view/public/meta" /}
+    <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 患者信息管理 <span class="c-gray en">&gt;</span> 资料收集 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+    <div class="Hui-article">
+    <article class="cl pd-20">
+    <div class="cl pd-5 bg-1 bk-gray"> <span class="l">  <a class="btn btn-primary radius" href="javascript:;" onclick="role_add()"><i class="Hui-iconfont">&#xe632</i>  保存</a>  <a class="btn btn-primary radius" href="javascript:;" onclick="print1()"><i class="Hui-iconfont">&#xe632</i> 保存并打印</a> </span></div><br>
+    <script type="text/javascript" src="__STATIC__/case/dist/js/sde.editor.js"></script>
+    <div id="myEditor" style="width:1000px;height:1000px;margin:0 auto;">
+    {$list.content}
+    </div>
+    </div></article>
+    <script type="text/javascript">
+        // window.onload = function() {
+            var sde = new SDE({
+                id: "myEditor",
+                title: '', //自定义title
+                mode: 'EDITOR',//配置模式
+                width: 980,//病历中内部页面宽度
+                 print: {
+                     title: '',
+            header: function(index, count, page) {
+              var h = document.createElement('div')
+              h.style.backgroundColor = "red"
+              h.innerHTML = 'header:<br/>Page ' + (index + 1) + ' <br/>of ' + count
+              return h;
+            },
+            footer: function(index, count, page) {
+              var f = document.createElement('div')
+              f.innerHTML = 'footer:<br/>Page ' + (index + 1) + ' <br/>of ' + count
+              return f;
+            },
+            height: 1142,
+            header_height: 100,
+            footer_height: 45
+                 }
+            });
+
+            function print1(){
+                sde.print({},{},'html');
+            }
+        //         sde.print({//打印配置，宽度为模板中的默认宽度
+        //             title: "",//打印页面title
+        //       //       header:function(index, count, page){
+        //       //            var h = document.createElement('div')
+        //       // h.style.backgroundColor = "red"
+        //       // h.innerHTML = 'header:<br/>Page ' + (index + 1) + ' <br/>of ' + count
+        //       // return h;
+        //       //        }//打印页面渲染时的表头回调，需要返回一个Element对象，其中index为第几页（从零开始），count为一共有多少页，page为当年页面的Element对象
+        //       //       footer:function(index, count, page){
+        //       //           var f = document.createElement('div')
+        //       // f.innerHTML = 'footer:<br/>Page ' + (index + 1) + ' <br/>of ' + count
+        //       // return f;
+        //       //       },//打印页面渲染时的页脚回调，参数参考header
+        //             height: 20,//每一页的高度，建议固定该值，单位px
+        //             header_height: 35,//打印表头的高度，单位px
+        //             footer_height: 35 //打印页脚的高度，单位px
+        //             // }
+        //             );
+        //     }
+        // };
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{include file="/../../com/view/public/meta" /}
+    <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 用户管理 <span class="c-gray en">&gt;</span> 用户列表<a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+    <div class="Hui-article">
+        <article class="cl pd-20">
+            <div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><!-- <a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> --> <a href="javascript:;" onclick="addfile()" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 上传文件</a> <!-- <a href="javascript:;" onclick="Print()" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 打印</a> --><!-- <a href="javascript:;" onclick="excel_add()" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> Excel导入</a> <a href="javascript:;" onclick="excelexport()" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> Excel导出</a> --></span> </div>
+        
+        </article>
+    </div>
+{include file="/../../com/view/public/footer" /}
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__STATIC__/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/laypage/1.2/laypage.js"></script>
+<script type="text/javascript" src="__STATIC__/js/LodopFuncs.js"></script>
+<script type="text/javascript">
+// 用户添加
+function addfile(){
+        layer.open({
+  type: 2 //Page层类型
+  ,area: ['770px','600px']
+  ,title: '文件上传'
+  ,shade: 0.6 //遮罩透明度
+  ,maxmin: true //允许全屏最小化
+  ,anim: 1 //0-6的动画形式，-1不开启
+  ,content: 'ibcfileadd.html'
+}); 
+}
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

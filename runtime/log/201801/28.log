@@ -1,0 +1,2469 @@
+---------------------------------------------------------------
+[ 2018-01-28T13:57:05+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/favicon.ico
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/favicon.ico [运行时间：0.357230s][吞吐率：2.80req/s] [内存消耗：2,369.32kb] [文件加载：35]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'favicon.ico',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-28T13:58:24+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/roleadd.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleadd.html [运行时间：0.537402s][吞吐率：1.86req/s] [内存消耗：2,407.44kb] [文件加载：34]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->roleadd[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleadd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-28T14:02:58+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.484762s][吞吐率：2.06req/s] [内存消耗：4,639.97kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022570s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.003127s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.001520s ]
+[ error ] [0]类的属性不存在:app\home\model\Role->id[C:\wamp64\www\order\order-v1.0\tp5\thinkphp\library\think\Model.php:547]
+---------------------------------------------------------------
+[ 2018-01-28T14:03:28+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.406496s][吞吐率：2.46req/s] [内存消耗：4,579.87kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019187s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.003079s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.001925s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:05:15+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.226691s][吞吐率：4.41req/s] [内存消耗：4,581.76kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020708s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.010513s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.001120s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:06:12+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.267258s][吞吐率：3.74req/s] [内存消耗：4,582.34kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.079567s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.010462s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.001542s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:06:15+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/roleedit/role_id/2.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/2.html [运行时间：0.150244s][吞吐率：6.66req/s] [内存消耗：2,290.43kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+  'role_id' => '2',
+)
+[ info ] [ RUN ] app\home\controller\Role->roleedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-28T14:06:23+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.301362s][吞吐率：3.32req/s] [内存消耗：4,313.13kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007652s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.096522s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.002735s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:06:27+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.207881s][吞吐率：4.81req/s] [内存消耗：4,313.13kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006005s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.013512s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.001469s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:06:29+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/roleedit/role_id/2.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/2.html [运行时间：0.190245s][吞吐率：5.26req/s] [内存消耗：2,290.43kb] [文件加载：32]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+  'role_id' => '2',
+)
+[ info ] [ RUN ] app\home\controller\Role->roleedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-28T14:08:24+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.279241s][吞吐率：3.58req/s] [内存消耗：4,583.76kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.072233s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.015613s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.001585s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:08:27+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html [运行时间：0.351685s][吞吐率：2.84req/s] [内存消耗：4,439.16kb] [文件加载：44]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+  'role_id' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Role->roleedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010041s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.004723s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.023181s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:09:14+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.245478s][吞吐率：4.07req/s] [内存消耗：4,314.93kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004909s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.063453s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.002327s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:09:16+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html [运行时间：0.483808s][吞吐率：2.07req/s] [内存消耗：4,517.85kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+  'role_id' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Role->roleedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.032671s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.003137s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001742s ]
+[ error ] [0]类的属性不存在:app\home\model\Role->memo[C:\wamp64\www\order\order-v1.0\tp5\thinkphp\library\think\Model.php:547]
+---------------------------------------------------------------
+[ 2018-01-28T14:11:11+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.217231s][吞吐率：4.60req/s] [内存消耗：4,314.93kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027386s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.017544s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.001136s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:11:12+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html [运行时间：0.458726s][吞吐率：2.18req/s] [内存消耗：4,440.70kb] [文件加载：44]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+  'role_id' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Role->roleedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019932s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.079651s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.002686s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:12:31+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/roleadd.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleadd.html [运行时间：0.243440s][吞吐率：4.11req/s] [内存消耗：2,673.78kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->roleadd[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleadd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-28T14:12:47+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/roleadd.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleadd.html [运行时间：0.253614s][吞吐率：3.94req/s] [内存消耗：2,673.86kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->roleadd[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleadd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-28T14:12:57+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.309847s][吞吐率：3.23req/s] [内存消耗：4,315.07kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.101498s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.018790s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.001682s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:12:58+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/roleadd.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleadd.html [运行时间：0.256788s][吞吐率：3.89req/s] [内存消耗：2,673.78kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->roleadd[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleadd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-28T14:13:23+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.245105s][吞吐率：4.08req/s] [内存消耗：4,315.07kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.061386s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.016591s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.000974s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:13:26+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/roleedit/role_id/2.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/2.html [运行时间：0.365746s][吞吐率：2.73req/s] [内存消耗：4,441.76kb] [文件加载：44]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+  'role_id' => '2',
+)
+[ info ] [ RUN ] app\home\controller\Role->roleedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012978s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.085629s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role_id` = 2 LIMIT 1 [ RunTime:0.001823s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:18:02+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.262219s][吞吐率：3.81req/s] [内存消耗：4,315.07kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.060631s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.024174s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.001032s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:18:31+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.259592s][吞吐率：3.85req/s] [内存消耗：4,315.07kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.070474s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.003028s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.001887s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:18:33+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/roleedit/role_id/2.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/2.html [运行时间：0.320740s][吞吐率：3.12req/s] [内存消耗：4,442.44kb] [文件加载：44]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+  'role_id' => '2',
+)
+[ info ] [ RUN ] app\home\controller\Role->roleedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.063462s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.003092s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role_id` = 2 LIMIT 1 [ RunTime:0.019137s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:18:36+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/roleedit/role_id/3.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/3.html [运行时间：0.238834s][吞吐率：4.19req/s] [内存消耗：4,178.45kb] [文件加载：42]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+  'role_id' => '3',
+)
+[ info ] [ RUN ] app\home\controller\Role->roleedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007809s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.005573s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role_id` = 3 LIMIT 1 [ RunTime:0.002194s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:20:24+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.236140s][吞吐率：4.23req/s] [内存消耗：4,314.95kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.056610s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.018900s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.001205s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:21:44+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/roleadd.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleadd.html [运行时间：0.191296s][吞吐率：5.23req/s] [内存消耗：2,674.04kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->roleadd[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleadd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-28T14:22:21+08:00 ] ::1 ::1 POST /order/order-v1.0/order/admin.php/home/role/rolesave.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/rolesave.html [运行时间：0.385871s][吞吐率：2.59req/s] [内存消耗：4,177.98kb] [文件加载：42]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'rolesave',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '113',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/roleadd.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+  'roleName' => '派单人',
+  'memo' => '订单制造者',
+  'status' => '0',
+  'admin-role-save' => '',
+)
+[ info ] [ RUN ] app\home\controller\Role->rolesave[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005196s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.055935s ]
+[ sql ] [ SQL ] INSERT INTO `role` (`name` , `bewrite` , `role_status` , `create_roletime`) VALUES ('派单人' , '订单制造者' , 0 , 1517120541) [ RunTime:0.146886s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:22:26+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.339244s][吞吐率：2.95req/s] [内存消耗：4,319.06kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.103129s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.017307s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.049672s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:22:35+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/roleadd.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleadd.html [运行时间：0.303342s][吞吐率：3.30req/s] [内存消耗：2,410.95kb] [文件加载：34]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->roleadd[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleadd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-28T14:22:37+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/roleedit/role_id/4.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/4.html [运行时间：0.320387s][吞吐率：3.12req/s] [内存消耗：4,178.66kb] [文件加载：42]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+  'role_id' => '4',
+)
+[ info ] [ RUN ] app\home\controller\Role->roleedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011902s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.121028s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role_id` = 4 LIMIT 1 [ RunTime:0.002033s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:26:15+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.253018s][吞吐率：3.95req/s] [内存消耗：4,321.44kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.055532s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.018346s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.001974s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:26:16+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/roleedit/role_id/2.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/2.html [运行时间：0.355902s][吞吐率：2.81req/s] [内存消耗：4,444.85kb] [文件加载：44]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+  'role_id' => '2',
+)
+[ info ] [ RUN ] app\home\controller\Role->roleedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.100094s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.007354s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role_id` = 2 LIMIT 1 [ RunTime:0.002161s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:26:21+08:00 ] ::1 ::1 POST /order/order-v1.0/order/admin.php/home/role/roleedit/role_id/2.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/2.html [运行时间：0.271270s][吞吐率：3.69req/s] [内存消耗：4,181.77kb] [文件加载：42]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '118',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/2.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'roleName' => '工程师',
+  'memo' => '维修工作者',
+  'status' => '1',
+  'admin-role-save' => '',
+  'role_id' => '2',
+)
+[ info ] [ RUN ] app\home\controller\Role->roleedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.035767s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.058478s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role_id` = 2 LIMIT 1 [ RunTime:0.035176s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:26:51+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.204185s][吞吐率：4.90req/s] [内存消耗：4,321.44kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.056769s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.009276s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.000999s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:26:53+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html [运行时间：0.314778s][吞吐率：3.18req/s] [内存消耗：4,180.52kb] [文件加载：42]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+  'role_id' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Role->roleedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021855s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.009004s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001556s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:26:55+08:00 ] ::1 ::1 POST /order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html [运行时间：0.216375s][吞吐率：4.62req/s] [内存消耗：4,181.94kb] [文件加载：42]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '127',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'roleName' => '管理员',
+  'memo' => '权力至高无上',
+  'status' => '1',
+  'admin-role-save' => '',
+  'role_id' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Role->roleedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.051472s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.026006s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001321s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:27:34+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.303037s][吞吐率：3.30req/s] [内存消耗：4,321.44kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.125478s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.021364s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.001165s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:27:59+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.267925s][吞吐率：3.73req/s] [内存消耗：4,321.29kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.069606s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.009207s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.001129s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:28:01+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/roleedit/role_id/2.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/2.html [运行时间：0.398445s][吞吐率：2.51req/s] [内存消耗：4,180.55kb] [文件加载：42]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+  'role_id' => '2',
+)
+[ info ] [ RUN ] app\home\controller\Role->roleedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013992s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.090597s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role_id` = 2 LIMIT 1 [ RunTime:0.005042s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:28:05+08:00 ] ::1 ::1 POST /order/order-v1.0/order/admin.php/home/role/roleedit/role_id/2.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/2.html [运行时间：0.203097s][吞吐率：4.92req/s] [内存消耗：4,181.77kb] [文件加载：42]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '118',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/2.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'roleName' => '工程师',
+  'memo' => '维修工作者',
+  'status' => '1',
+  'admin-role-save' => '',
+  'role_id' => '2',
+)
+[ info ] [ RUN ] app\home\controller\Role->roleedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.041442s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.037110s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role_id` = 2 LIMIT 1 [ RunTime:0.001147s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:28:09+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.236183s][吞吐率：4.23req/s] [内存消耗：4,321.29kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016102s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.052188s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.003198s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:28:12+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html [运行时间：0.320807s][吞吐率：3.12req/s] [内存消耗：4,180.52kb] [文件加载：42]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+  'role_id' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Role->roleedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010081s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.091158s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.003048s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:29:29+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.245707s][吞吐率：4.07req/s] [内存消耗：4,321.29kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024343s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.019448s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.002112s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:29:31+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html [运行时间：0.309700s][吞吐率：3.23req/s] [内存消耗：4,444.82kb] [文件加载：44]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+  'role_id' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Role->roleedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007661s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002528s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001289s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:30:47+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html [运行时间：0.226233s][吞吐率：4.42req/s] [内存消耗：4,445.13kb] [文件加载：44]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+  'role_id' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Role->roleedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.073782s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.008894s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001457s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:30:49+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.177928s][吞吐率：5.62req/s] [内存消耗：4,321.29kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005209s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.014255s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.001313s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:30:51+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html [运行时间：0.215916s][吞吐率：4.63req/s] [内存消耗：4,180.50kb] [文件加载：42]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+  'role_id' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Role->roleedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026528s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002461s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.004638s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:32:37+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.211401s][吞吐率：4.73req/s] [内存消耗：4,321.29kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.058177s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.010397s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.001065s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:32:55+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.224945s][吞吐率：4.45req/s] [内存消耗：4,321.29kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.063412s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.009889s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.001433s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:32:58+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html [运行时间：0.362911s][吞吐率：2.76req/s] [内存消耗：4,444.82kb] [文件加载：44]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+  'role_id' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Role->roleedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010804s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.090616s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.002227s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:36:36+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.230401s][吞吐率：4.34req/s] [内存消耗：4,321.29kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006898s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.056985s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.001315s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:36:38+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html [运行时间：0.400647s][吞吐率：2.50req/s] [内存消耗：4,444.40kb] [文件加载：44]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+  'role_id' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Role->roleedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007760s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.106524s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.005314s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:36:49+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.204886s][吞吐率：4.88req/s] [内存消耗：4,321.44kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.053425s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.010424s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.001127s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:36:51+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html [运行时间：0.211124s][吞吐率：4.74req/s] [内存消耗：4,180.87kb] [文件加载：42]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+  'role_id' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Role->roleedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030920s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.051339s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001502s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:37:59+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.162554s][吞吐率：6.15req/s] [内存消耗：4,321.29kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005629s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.020923s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.000855s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:38:01+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html [运行时间：0.270732s][吞吐率：3.69req/s] [内存消耗：4,444.36kb] [文件加载：44]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+  'role_id' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Role->roleedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.061176s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.011472s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001847s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:40:30+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.262381s][吞吐率：3.81req/s] [内存消耗：4,321.29kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.073969s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.011033s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.000990s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:40:34+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html [运行时间：0.467142s][吞吐率：2.14req/s] [内存消耗：4,560.81kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+  'role_id' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Role->roleedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009547s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.129265s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001380s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:40:43+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html [运行时间：0.221656s][吞吐率：4.51req/s] [内存消耗：4,296.59kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+  'role_id' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Role->roleedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009312s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.082585s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001722s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:41:07+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.202391s][吞吐率：4.94req/s] [内存消耗：4,321.29kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012540s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.012795s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.001194s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:41:09+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html [运行时间：0.303592s][吞吐率：3.29req/s] [内存消耗：4,560.84kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+  'role_id' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Role->roleedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024856s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.051781s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001251s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:41:14+08:00 ] ::1 ::1 POST /order/order-v1.0/order/admin.php/home/role/rolesave.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/rolesave.html [运行时间：0.387127s][吞吐率：2.58req/s] [内存消耗：4,317.17kb] [文件加载：44]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'rolesave',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '127',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'roleName' => '管理员',
+  'memo' => '权力至高无上',
+  'status' => '1',
+  'admin-role-save' => '',
+)
+[ info ] [ RUN ] app\home\controller\Role->rolesave[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031097s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.037169s ]
+[ sql ] [ SQL ] UPDATE `role`  SET `name`='管理员',`bewrite`='权力至高无上',`role_status`=1  WHERE  `role_id` = 1 [ RunTime:0.138109s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:41:44+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.286021s][吞吐率：3.50req/s] [内存消耗：4,321.30kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.055215s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.012280s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.000997s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:42:41+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.248900s][吞吐率：4.02req/s] [内存消耗：4,321.42kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010155s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.074452s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.001291s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:42:43+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html [运行时间：0.324735s][吞吐率：3.08req/s] [内存消耗：4,560.84kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'roleedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+  'role_id' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Role->roleedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\roleedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.028274s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.008050s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.002402s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:42:45+08:00 ] ::1 ::1 POST /order/order-v1.0/order/admin.php/home/role/rolesave.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/rolesave.html [运行时间：0.514343s][吞吐率：1.94req/s] [内存消耗：4,331.33kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'rolesave',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '127',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/roleedit/role_id/1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'roleName' => '管理员',
+  'memo' => '权力至高无上',
+  'status' => '0',
+  'admin-role-save' => '',
+)
+[ info ] [ RUN ] app\home\controller\Role->rolesave[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005565s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.003335s ]
+[ sql ] [ SQL ] UPDATE `role`  SET `name`='管理员',`bewrite`='权力至高无上',`role_status`=0  WHERE  `role_id` = 1 [ RunTime:0.338709s ]
+---------------------------------------------------------------
+[ 2018-01-28T14:42:49+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/role/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/role/index.html [运行时间：0.174302s][吞吐率：5.74req/s] [内存消耗：4,321.44kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/role/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Role->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Role.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\role\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009036s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.004895s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.003094s ]

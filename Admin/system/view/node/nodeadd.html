@@ -1,0 +1,103 @@
+{include file="/../../com/view/public/meta" /}
+<article class="cl pd-20">
+	<form action="" method="post" class="form form-horizontal" id="form-admin-role-add">
+	<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3">节点级别：</label>
+			<div class="formControls col-xs-8 col-sm-9"> <span class="select-box">
+				<select class="select" size="1" name="type" id="type">
+					<option value="1" selected>一级节点</option>
+					<option value="2">二级节点</option>
+					<option value="3">三级节点</option>
+				</select>
+				</span> </div>
+		</div>
+		<div class="row cl" id="parentnode">
+			<label class="form-label col-xs-4 col-sm-3">所属父节点：</label>
+			<div class="formControls col-xs-8 col-sm-9"><span class="select-box">
+				<select class="select" size="1" name="parenttype" id="parent">
+				</select>
+				</span> </div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>支点名称：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" name="nodename">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3">URL：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="" id="" name="url">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3">描述：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="" id="" name="memo">
+			</div>
+		</div>
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+				<button type="submit" class="btn btn-success radius" id="admin-role-save" name="admin-role-save"><i class="icon-ok"></i> 确定</button>
+			</div>
+		</div>
+	</form>
+</article>
+
+{include file="/../../com/view/public/footer" /}
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/jquery.validate.js"></script> 
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/validate-methods.js"></script> 
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/messages_zh.js"></script> 
+<script>
+    $(document).ready(function() {
+    		$('#parentnode').hide();
+        $("#type").change(function(){
+        	$('#parentnode').show();
+            var uu = $(this).val();
+            if(uu==1){
+            	$('#parentnode').hide();
+            }
+            $.ajax({
+            type:"post",
+            url:"{:url('system/node/getparentnode')}",
+            data:{'type':uu},
+            success:function(msg){
+          $("#parent").html(msg);
+            }
+        })
+     }); 
+     });         
+	$("#form-admin-role-add").validate({
+		rules:{
+			nodename:{
+				required:true,
+			},
+			url:{
+			required:true,
+		},
+	},
+		onkeyup:false,
+		focusCleanup:true,
+		success:"valid",
+		submitHandler:function(form){
+			 $(form).ajaxSubmit(options);
+            return false;
+		}
+	});
+	var options = {
+	    url: "{:url('node/nodeadd')}",
+	    type: 'post',
+	    success: function(data) {
+	    	layer.msg(data.message);
+	    	if(data.status==1){
+	    		// setTimeout("parent.layer.closeAll();",1000);
+	    		setTimeout("parent.location.reload()",1000);
+	    	}		   
+	    }
+	 }
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

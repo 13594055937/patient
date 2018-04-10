@@ -1,0 +1,78 @@
+{include file="/../../com/view/public/meta" /}
+ <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 患者信息管理 <span class="c-gray en">&gt;</span> 患者信息管理 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+    <script type="text/javascript" src="__STATIC__/case/sde.config.js?_=v3.0"></script>
+    <link rel="stylesheet" href="__STATIC__/case/ueditor/themes/default/css/ueditor.css?_=v3.0" />
+    <script type="text/javascript" src="__STATIC__/case/ueditor/ueditor.all.js?_=v3.0"></script>
+    <script type="text/javascript" src="__STATIC__/case/ueditor/lang/zh-cn/zh-cn.js?_=v3.0"></script>
+    <script type="text/javascript" id="design" src="__STATIC__/case/dist/js/sde.design.js?_=v3.0"></script>
+    <script id="myEditor" type="text/plain" style="height:1000px;">
+    {$list.content}
+    </script>
+</body>
+</html>
+{include file="/../../com/view/public/footer" /}
+<script type="text/javascript">
+        // window.onload = function() {
+            var toolbarext = [
+  {
+    name: 'sde-toolbar-test',
+    title: '保存',
+    init: function(option) {
+      var div = document.createElement('div');
+      div.className = 'tab-content-item';
+      div.setAttribute('id', 'sde-toolbar-test');
+      var btn1 = document.createElement('div');
+      btn1.className = 'tab-content-item-panel';
+      btn1.innerHTML =
+        ' <div class="tab-content-item-panel-label">按钮</div>' +
+        '<div class="tab-content-item-panel-content">' +
+        '<div style="float:left;">' +
+        '<div class="tab-content-item-panel-content-control" onclick="save()" title="保存">' +
+        '<div class="sde-icon sde-icon-emrdesign" style="width: 64px;height: 32px;"></div>' +
+        '<div style="text-align: center;">保存</div>' +
+        ' </div>' +
+        '</div>' +
+        '</div>';
+      div.appendChild(btn1);
+      // console.log(toolbarext);
+      return div;
+    },
+  },
+];
+            var sde = new SDE({
+                id: "myEditor",
+                title: '',
+                footer: "用户信息表设计器",//编辑器底部的footer
+                width:980,
+                toolbar_plugins: toolbarext, //给该实例扩展的toolbar
+                toolbars: {
+            // 'sde-toolbar-file': 'file',
+            'sde-toolbar-editor': ['history', 'clipboard', 'fonts', 'paragraphs', 'styles'],
+            'sde-toolbar-insert': ['horizontal', 'spechars', 'link', {
+              'img': ['insertimage', 'simpleupload', 'snapscreen', 'emotion', 'sdescrawl']
+            }, 'map', 'code', 'table', 'formula', 'comment'],
+            'sde-toolbar-tables': ['table', 'blockmergecells', 'alignmergecells'],
+            // 'sde-toolbar-views': ['directory', 'showcomment', 'preview'],
+            'sde-toolbar-tools': ['drafts', 'print', 'searchreplace', 'wordcount'],
+            'sde-toolbar-records': ['sdetemplate', 'sdecontrols']
+          },
+          mode: 'DESIGN',
+                ready:function(){
+                    $(".sde-editor").css("height","790px");
+                    //sde为异步渲染，若想在sde加载完成后 设置html或修改模式等，可在这里触发
+                },
+                 print: { //打印配置，宽度为模板中的默认宽度
+                    title: "",//打印页面title                   
+                }
+            });   
+// }
+        function save(){
+            layer.confirm('确认要保存模板吗？',function(){
+        $.post("{:url('Casedesign/info')}",{text:sde.html()},function(data){
+        layer.msg(data.message);
+        // setTimeout("location.reload()",500);
+        });
+    });
+            // console.log();
+        }
+    </script>

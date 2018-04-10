@@ -1,0 +1,57 @@
+		  <div class="formControls col-xs-8 col-sm-9"> 
+			<span class="select-box" style="width:27%">
+				<select class="select" size="1" name="province" id="province">
+				<if condition="empty($data['province'])">
+    			<option value="">请选择省市</option>
+    			</if>
+				{volist name="province" id="vo"}
+					<option value="{$vo.name}">{$vo.name}</option>
+				{/volist}
+				</select>
+				</span>&nbsp;--
+				<span class="select-box" style="width:27%">
+				<select class="select" size="1" name="city" id='cityinfo'>
+				<if condition="empty($data['city'])">
+				<option value="">请选择市</option>
+				</if>
+				</select>
+				</span>&nbsp;--
+				<span class="select-box" style="width:27%">
+				<select class="select" size="1" name="area" id="areainfo">
+				<if condition="empty($data['area'])">
+				<option value="">请选择城区</option>
+				</if>
+				</select>
+				</span> </div>
+		</div>
+<script type="text/javascript">
+//select监听事件
+    // $(document).ready(function() {
+    //     $("#province").change(function(){
+    //         var uu = $(this).find('option:selected').val();
+    //         $.ajax({
+    //         type:"POST",
+    //         // url:'getcityinfo',
+    //         url:"{:url('home/Cityarea/getcityinfo')}",
+    //         data:{'province':uu},
+    //         success:function(msg){
+    //      // console.log(msg);
+    //       $("#cityinfo").html(msg);
+    //         }
+    //     })
+    //     });
+    //     $("#cityinfo").change(function(){
+    //         var uu = $(this).find('option:selected').val();
+    			// var uu = $('province').find('option:selected').val();
+    //         $.ajax({
+    //             // url  :'getareainfo',
+    //             url:"{:url('home/Cityarea/getareainfo')}",
+    //             data :{'city':uu},
+    //             type :'POST',
+    //             success:function(msg){
+    //                 $("#areainfo").html(msg);
+    //             }
+    //         })
+    //     });
+    // })
+</script> 

@@ -1,0 +1,4396 @@
+---------------------------------------------------------------
+[ 2018-03-26T09:57:24+08:00 ] ::1 ::1 GET /Patient/admin.php
+[ info ] localhost/Patient/admin.php [运行时间：0.620036s][吞吐率：1.61req/s] [内存消耗：1,007.87kb] [文件加载：28]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T09:57:46+08:00 ] ::1 ::1 GET /Patient/admin.php
+[ info ] localhost/Patient/admin.php [运行时间：0.288016s][吞吐率：3.47req/s] [内存消耗：1,369.66kb] [文件加载：36]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\login\controller\Login->index[ C:\PHP\php11\WWW\Patient\Admin\login\controller\Login.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/login\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T09:57:59+08:00 ] ::1 ::1 GET /Patient/admin.php
+[ info ] localhost/Patient/admin.php [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：1,369.63kb] [文件加载：36]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\login\controller\Login->index[ C:\PHP\php11\WWW\Patient\Admin\login\controller\Login.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/login\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T09:59:01+08:00 ] ::1 ::1 GET /Patient/admin.php
+[ info ] localhost/Patient/admin.php [运行时间：0.131007s][吞吐率：7.63req/s] [内存消耗：1,513.06kb] [文件加载：38]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\login\controller\Login->index[ C:\PHP\php11\WWW\Patient\Admin\login\controller\Login.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/login\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T10:00:34+08:00 ] ::1 ::1 POST /Patient/admin.php/login/login/loginvalidate.html
+[ info ] localhost/Patient/admin.php/login/login/loginvalidate.html [运行时间：0.684039s][吞吐率：1.46req/s] [内存消耗：2,551.08kb] [文件加载：46]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'login',
+    1 => 'login',
+    2 => 'loginvalidate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/Patient/admin.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\login\controller\Login->loginvalidate[ C:\PHP\php11\WWW\Patient\Admin\login\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007000s ] mysql:dbname=patients;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.097006s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `usercode` = 'admin'  AND `userpwd` = '880343944aeb296d98d986b169ee9414'  AND `status` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.031002s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `latestLogin`=1522029633  WHERE  `usercode` = 'admin' [ RunTime:0.035002s ]
+---------------------------------------------------------------
+[ 2018-03-26T10:00:34+08:00 ] ::1 ::1 GET /Patient/admin.php/com/index/index.html
+[ info ] localhost/Patient/admin.php/com/index/index.html [运行时间：0.094005s][吞吐率：10.64req/s] [内存消耗：1,663.21kb] [文件加载：38]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\com\controller\Index->index[ C:\PHP\php11\WWW\Patient\Admin\com\controller\Index.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/com\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T10:00:34+08:00 ] ::1 ::1 GET /Patient/admin.php/user/user/index.html
+[ info ] localhost/Patient/admin.php/user/user/index.html [运行时间：0.228014s][吞吐率：4.39req/s] [内存消耗：2,588.20kb] [文件加载：48]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\user\controller\User->index[ C:\PHP\php11\WWW\Patient\Admin\user\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/user\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=patients;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 0,5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-03-26T10:00:37+08:00 ] ::1 ::1 GET /Patient/admin.php/patient/patient/info.html
+[ info ] localhost/Patient/admin.php/patient/patient/info.html [运行时间：0.351020s][吞吐率：2.85req/s] [内存消耗：2,441.44kb] [文件加载：44]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'patient',
+    1 => 'patient',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\patient\controller\Patient->info[ C:\PHP\php11\WWW\Patient\Admin\patient\controller\Patient.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/patient\view\patient\info.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=patients;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casedesign` [ RunTime:0.075005s ]
+[ sql ] [ SQL ] SELECT * FROM `casedesign` WHERE  `case_id` = 2 LIMIT 1 [ RunTime:0.004000s ]
+---------------------------------------------------------------
+[ 2018-03-26T10:00:37+08:00 ] ::1 ::1 GET /Patient/admin.php/patient/patient/data.html
+[ info ] localhost/Patient/admin.php/patient/patient/data.html [运行时间：0.124007s][吞吐率：8.06req/s] [内存消耗：2,384.33kb] [文件加载：44]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'patient',
+    1 => 'patient',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\patient\controller\Patient->data[ C:\PHP\php11\WWW\Patient\Admin\patient\controller\Patient.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/patient\view\patient\data.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=patients;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casedesign` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT * FROM `casedesign` WHERE  `case_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-26T10:00:37+08:00 ] ::1 ::1 GET /Patient/admin.php/patient/patient/info.html
+[ info ] localhost/Patient/admin.php/patient/patient/info.html [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：2,441.44kb] [文件加载：44]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'patient',
+    1 => 'patient',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\patient\controller\Patient->info[ C:\PHP\php11\WWW\Patient\Admin\patient\controller\Patient.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/patient\view\patient\info.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=patients;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casedesign` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `casedesign` WHERE  `case_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-26T11:04:01+08:00 ] ::1 ::1 GET /Patient/admin.php/com/index/index.html
+[ info ] localhost/Patient/admin.php/com/index/index.html [运行时间：1.011058s][吞吐率：0.99req/s] [内存消耗：1,817.50kb] [文件加载：40]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\com\controller\Index->index[ C:\PHP\php11\WWW\Patient\Admin\com\controller\Index.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/com\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:04:01+08:00 ] ::1 ::1 GET /Patient/admin.php/user/user/index.html
+[ info ] localhost/Patient/admin.php/user/user/index.html [运行时间：0.356020s][吞吐率：2.81req/s] [内存消耗：2,588.20kb] [文件加载：48]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\user\controller\User->index[ C:\PHP\php11\WWW\Patient\Admin\user\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/user\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=patients;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 0,5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-26T11:13:01+08:00 ] ::1 ::1 GET /Patient/admin.php/com/index/index.html
+[ info ] localhost/Patient/admin.php/com/index/index.html [运行时间：0.147009s][吞吐率：6.80req/s] [内存消耗：1,817.47kb] [文件加载：40]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\com\controller\Index->index[ C:\PHP\php11\WWW\Patient\Admin\com\controller\Index.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/com\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:13:01+08:00 ] ::1 ::1 GET /Patient/admin.php/user/user/index.html
+[ info ] localhost/Patient/admin.php/user/user/index.html [运行时间：0.067004s][吞吐率：14.92req/s] [内存消耗：2,588.20kb] [文件加载：48]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\user\controller\User->index[ C:\PHP\php11\WWW\Patient\Admin\user\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/user\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=patients;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 0,5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-03-26T11:24:14+08:00 ] ::1 ::1 GET /Patient/admin.php/com/index/index.html
+[ info ] localhost/Patient/admin.php/com/index/index.html [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,663.45kb] [文件加载：38]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\com\controller\Index->index[ C:\PHP\php11\WWW\Patient\Admin\com\controller\Index.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/com\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:24:14+08:00 ] ::1 ::1 GET /Patient/admin.php/user/user/index.html
+[ info ] localhost/Patient/admin.php/user/user/index.html [运行时间：0.064003s][吞吐率：15.62req/s] [内存消耗：2,588.20kb] [文件加载：48]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\user\controller\User->index[ C:\PHP\php11\WWW\Patient\Admin\user\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/user\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=patients;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 0,5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-03-26T11:24:16+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.138008s][吞吐率：7.25req/s] [内存消耗：1,627.01kb] [文件加载：38]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html[C:\PHP\php11\WWW\tp5\thinkphp\library\think\view\driver\Think.php:80]
+---------------------------------------------------------------
+[ 2018-03-26T11:28:09+08:00 ] ::1 ::1 GET /Patient/admin.php/com/index/index.html
+[ info ] localhost/Patient/admin.php/com/index/index.html [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：1,663.45kb] [文件加载：38]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\com\controller\Index->index[ C:\PHP\php11\WWW\Patient\Admin\com\controller\Index.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/com\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:28:09+08:00 ] ::1 ::1 GET /Patient/admin.php/user/user/index.html
+[ info ] localhost/Patient/admin.php/user/user/index.html [运行时间：0.081004s][吞吐率：12.35req/s] [内存消耗：2,588.20kb] [文件加载：48]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\user\controller\User->index[ C:\PHP\php11\WWW\Patient\Admin\user\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/user\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=patients;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.035002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 0,5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-26T11:28:10+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：1,798.48kb] [文件加载：39]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:28:13+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/propodeum.html
+[ info ] localhost/Patient/admin.php/score/score/propodeum.html [运行时间：0.046003s][吞吐率：21.74req/s] [内存消耗：1,593.68kb] [文件加载：36]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'propodeum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->propodeum[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\propodeum.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:28:14+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/midleg.html
+[ info ] localhost/Patient/admin.php/score/score/midleg.html [运行时间：0.069004s][吞吐率：14.49req/s] [内存消耗：1,593.69kb] [文件加载：36]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'midleg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->midleg[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\midleg.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:28:14+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：1,654.72kb] [文件加载：37]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:28:15+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/propodeum.html
+[ info ] localhost/Patient/admin.php/score/score/propodeum.html [运行时间：0.043002s][吞吐率：23.25req/s] [内存消耗：1,593.66kb] [文件加载：36]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'propodeum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->propodeum[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\propodeum.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:28:15+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/midleg.html
+[ info ] localhost/Patient/admin.php/score/score/midleg.html [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,593.61kb] [文件加载：36]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'midleg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->midleg[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\midleg.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:28:16+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：1,654.72kb] [文件加载：37]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:30:35+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.058003s][吞吐率：17.24req/s] [内存消耗：1,798.60kb] [文件加载：39]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:30:57+08:00 ] ::1 ::1 GET /Patient/admin.php/com/index/index.html
+[ info ] localhost/Patient/admin.php/com/index/index.html [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：1,663.45kb] [文件加载：38]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\com\controller\Index->index[ C:\PHP\php11\WWW\Patient\Admin\com\controller\Index.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/com\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:30:57+08:00 ] ::1 ::1 GET /Patient/admin.php/user/user/index.html
+[ info ] localhost/Patient/admin.php/user/user/index.html [运行时间：0.060004s][吞吐率：16.67req/s] [内存消耗：2,588.20kb] [文件加载：48]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\user\controller\User->index[ C:\PHP\php11\WWW\Patient\Admin\user\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/user\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001001s ] mysql:dbname=patients;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 0,5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-26T11:30:59+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,798.61kb] [文件加载：39]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:33:23+08:00 ] ::1 ::1 GET /Patient/admin.php/com/index/index.html
+[ info ] localhost/Patient/admin.php/com/index/index.html [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,663.45kb] [文件加载：38]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\com\controller\Index->index[ C:\PHP\php11\WWW\Patient\Admin\com\controller\Index.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/com\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:33:23+08:00 ] ::1 ::1 GET /Patient/admin.php/user/user/index.html
+[ info ] localhost/Patient/admin.php/user/user/index.html [运行时间：0.062003s][吞吐率：16.13req/s] [内存消耗：2,588.20kb] [文件加载：48]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\user\controller\User->index[ C:\PHP\php11\WWW\Patient\Admin\user\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/user\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=patients;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 0,5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-03-26T11:33:24+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.067004s][吞吐率：14.92req/s] [内存消耗：1,798.62kb] [文件加载：39]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:33:25+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.072004s][吞吐率：13.89req/s] [内存消耗：1,654.77kb] [文件加载：37]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:33:25+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.022001s][吞吐率：45.45req/s] [内存消耗：1,654.77kb] [文件加载：37]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:33:26+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.021001s][吞吐率：47.62req/s] [内存消耗：1,654.77kb] [文件加载：37]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:33:36+08:00 ] ::1 ::1 GET /Patient/admin.php/com/index/index.html
+[ info ] localhost/Patient/admin.php/com/index/index.html [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：1,663.45kb] [文件加载：38]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\com\controller\Index->index[ C:\PHP\php11\WWW\Patient\Admin\com\controller\Index.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/com\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:33:37+08:00 ] ::1 ::1 GET /Patient/admin.php/user/user/index.html
+[ info ] localhost/Patient/admin.php/user/user/index.html [运行时间：0.062004s][吞吐率：16.13req/s] [内存消耗：2,588.20kb] [文件加载：48]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\user\controller\User->index[ C:\PHP\php11\WWW\Patient\Admin\user\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/user\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=patients;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.019002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 0,5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-03-26T11:33:40+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：1,798.61kb] [文件加载：39]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:36:03+08:00 ] ::1 ::1 GET /Patient/admin.php/com/index/index.html
+[ info ] localhost/Patient/admin.php/com/index/index.html [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,663.45kb] [文件加载：38]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\com\controller\Index->index[ C:\PHP\php11\WWW\Patient\Admin\com\controller\Index.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/com\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:36:03+08:00 ] ::1 ::1 GET /Patient/admin.php/user/user/index.html
+[ info ] localhost/Patient/admin.php/user/user/index.html [运行时间：0.088005s][吞吐率：11.36req/s] [内存消耗：2,588.20kb] [文件加载：48]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\user\controller\User->index[ C:\PHP\php11\WWW\Patient\Admin\user\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/user\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=patients;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.027001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 0,5 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-26T11:36:05+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：1,799.34kb] [文件加载：39]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:36:37+08:00 ] ::1 ::1 GET /Patient/admin.php/com/index/index.html
+[ info ] localhost/Patient/admin.php/com/index/index.html [运行时间：0.041003s][吞吐率：24.39req/s] [内存消耗：1,663.45kb] [文件加载：38]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\com\controller\Index->index[ C:\PHP\php11\WWW\Patient\Admin\com\controller\Index.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/com\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:36:38+08:00 ] ::1 ::1 GET /Patient/admin.php/user/user/index.html
+[ info ] localhost/Patient/admin.php/user/user/index.html [运行时间：0.070004s][吞吐率：14.28req/s] [内存消耗：2,588.20kb] [文件加载：48]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\user\controller\User->index[ C:\PHP\php11\WWW\Patient\Admin\user\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/user\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=patients;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 0,5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-03-26T11:36:39+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.050002s][吞吐率：20.00req/s] [内存消耗：1,799.36kb] [文件加载：39]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:38:07+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.090005s][吞吐率：11.11req/s] [内存消耗：1,802.83kb] [文件加载：39]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:38:40+08:00 ] ::1 ::1 GET /Patient/admin.php/com/index/index.html
+[ info ] localhost/Patient/admin.php/com/index/index.html [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：1,663.45kb] [文件加载：38]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\com\controller\Index->index[ C:\PHP\php11\WWW\Patient\Admin\com\controller\Index.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/com\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:38:40+08:00 ] ::1 ::1 GET /Patient/admin.php/user/user/index.html
+[ info ] localhost/Patient/admin.php/user/user/index.html [运行时间：0.066004s][吞吐率：15.15req/s] [内存消耗：2,588.20kb] [文件加载：48]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\user\controller\User->index[ C:\PHP\php11\WWW\Patient\Admin\user\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/user\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=patients;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 0,5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-26T11:38:42+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,808.00kb] [文件加载：39]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:38:48+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：1,654.78kb] [文件加载：37]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:38:48+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.075004s][吞吐率：13.33req/s] [内存消耗：1,654.78kb] [文件加载：37]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:38:48+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,654.78kb] [文件加载：37]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:38:48+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,654.78kb] [文件加载：37]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:38:49+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.022001s][吞吐率：45.45req/s] [内存消耗：1,654.78kb] [文件加载：37]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:38:49+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.093005s][吞吐率：10.75req/s] [内存消耗：1,654.78kb] [文件加载：37]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:38:49+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.022001s][吞吐率：45.45req/s] [内存消耗：1,654.78kb] [文件加载：37]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:38:49+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.067003s][吞吐率：14.92req/s] [内存消耗：1,654.78kb] [文件加载：37]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:38:50+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,654.78kb] [文件加载：37]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:38:50+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,654.78kb] [文件加载：37]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:38:50+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,654.78kb] [文件加载：37]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:38:50+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.086005s][吞吐率：11.63req/s] [内存消耗：1,654.78kb] [文件加载：37]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:38:50+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.022001s][吞吐率：45.45req/s] [内存消耗：1,654.78kb] [文件加载：37]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:38:51+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.060003s][吞吐率：16.67req/s] [内存消耗：1,654.78kb] [文件加载：37]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:38:51+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.058003s][吞吐率：17.24req/s] [内存消耗：1,654.78kb] [文件加载：37]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:38:52+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：1,654.78kb] [文件加载：37]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:38:52+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,654.78kb] [文件加载：37]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:38:52+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,654.78kb] [文件加载：37]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:47:20+08:00 ] ::1 ::1 GET /Patient/admin.php/com/index/index.html
+[ info ] localhost/Patient/admin.php/com/index/index.html [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：1,663.45kb] [文件加载：38]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\com\controller\Index->index[ C:\PHP\php11\WWW\Patient\Admin\com\controller\Index.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/com\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T11:47:20+08:00 ] ::1 ::1 GET /Patient/admin.php/user/user/index.html
+[ info ] localhost/Patient/admin.php/user/user/index.html [运行时间：0.059003s][吞吐率：16.95req/s] [内存消耗：2,588.20kb] [文件加载：48]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\user\controller\User->index[ C:\PHP\php11\WWW\Patient\Admin\user\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/user\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=patients;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 0,5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-03-26T11:47:22+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,654.78kb] [文件加载：37]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T17:08:51+08:00 ] ::1 ::1 GET /Patient/admin.php/com/index/index.html
+[ info ] localhost/Patient/admin.php/com/index/index.html [运行时间：0.063003s][吞吐率：15.87req/s] [内存消耗：1,663.45kb] [文件加载：38]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\com\controller\Index->index[ C:\PHP\php11\WWW\Patient\Admin\com\controller\Index.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/com\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T17:08:51+08:00 ] ::1 ::1 GET /Patient/admin.php/user/user/index.html
+[ info ] localhost/Patient/admin.php/user/user/index.html [运行时间：0.122007s][吞吐率：8.20req/s] [内存消耗：2,588.20kb] [文件加载：48]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\user\controller\User->index[ C:\PHP\php11\WWW\Patient\Admin\user\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/user\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007001s ] mysql:dbname=patients;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.077004s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 0,5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-03-26T17:08:53+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.271015s][吞吐率：3.69req/s] [内存消耗：1,808.00kb] [文件加载：39]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T17:09:30+08:00 ] ::1 ::1 GET /Patient/admin.php/com/index/index.html
+[ info ] localhost/Patient/admin.php/com/index/index.html [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,663.45kb] [文件加载：38]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\com\controller\Index->index[ C:\PHP\php11\WWW\Patient\Admin\com\controller\Index.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/com\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T17:09:31+08:00 ] ::1 ::1 GET /Patient/admin.php/user/user/index.html
+[ info ] localhost/Patient/admin.php/user/user/index.html [运行时间：0.076004s][吞吐率：13.16req/s] [内存消耗：2,588.20kb] [文件加载：48]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\user\controller\User->index[ C:\PHP\php11\WWW\Patient\Admin\user\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/user\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=patients;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 0,5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-03-26T17:09:32+08:00 ] ::1 ::1 GET /Patient/admin.php/patient/patient/info.html
+[ info ] localhost/Patient/admin.php/patient/patient/info.html [运行时间：0.167009s][吞吐率：5.99req/s] [内存消耗：2,441.44kb] [文件加载：44]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'patient',
+    1 => 'patient',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\patient\controller\Patient->info[ C:\PHP\php11\WWW\Patient\Admin\patient\controller\Patient.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/patient\view\patient\info.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=patients;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `casedesign` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `casedesign` WHERE  `case_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-26T17:09:34+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：1,807.92kb] [文件加载：39]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T17:10:13+08:00 ] ::1 ::1 GET /Patient/admin.php/com/index/index.html
+[ info ] localhost/Patient/admin.php/com/index/index.html [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：1,663.45kb] [文件加载：38]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\com\controller\Index->index[ C:\PHP\php11\WWW\Patient\Admin\com\controller\Index.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/com\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T17:10:13+08:00 ] ::1 ::1 GET /Patient/admin.php/user/user/index.html
+[ info ] localhost/Patient/admin.php/user/user/index.html [运行时间：0.063004s][吞吐率：15.87req/s] [内存消耗：2,588.20kb] [文件加载：48]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\user\controller\User->index[ C:\PHP\php11\WWW\Patient\Admin\user\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/user\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=patients;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 0,5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-03-26T17:10:14+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.039003s][吞吐率：25.64req/s] [内存消耗：1,808.05kb] [文件加载：39]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T17:10:16+08:00 ] ::1 ::1 GET /Patient/admin.php/file/ibcfile/index.html
+[ info ] localhost/Patient/admin.php/file/ibcfile/index.html [运行时间：0.099006s][吞吐率：10.10req/s] [内存消耗：1,658.32kb] [文件加载：37]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'file',
+    1 => 'ibcfile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\file\controller\Ibcfile->index[ C:\PHP\php11\WWW\Patient\Admin\file\controller\Ibcfile.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/file\view\ibcfile\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T17:10:17+08:00 ] ::1 ::1 GET /Patient/admin.php/file/ibcfile/index.html
+[ info ] localhost/Patient/admin.php/file/ibcfile/index.html [运行时间：0.059003s][吞吐率：16.95req/s] [内存消耗：1,658.32kb] [文件加载：37]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'file',
+    1 => 'ibcfile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\file\controller\Ibcfile->index[ C:\PHP\php11\WWW\Patient\Admin\file\controller\Ibcfile.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/file\view\ibcfile\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T17:10:18+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.032001s][吞吐率：31.25req/s] [内存消耗：1,654.81kb] [文件加载：37]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T17:10:19+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.043002s][吞吐率：23.25req/s] [内存消耗：1,654.81kb] [文件加载：37]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T17:10:20+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：1,654.81kb] [文件加载：37]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T17:10:59+08:00 ] ::1 ::1 GET /Patient/admin.php/com/index/index.html
+[ info ] localhost/Patient/admin.php/com/index/index.html [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,663.45kb] [文件加载：38]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\com\controller\Index->index[ C:\PHP\php11\WWW\Patient\Admin\com\controller\Index.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/com\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T17:10:59+08:00 ] ::1 ::1 GET /Patient/admin.php/user/user/index.html
+[ info ] localhost/Patient/admin.php/user/user/index.html [运行时间：0.078004s][吞吐率：12.82req/s] [内存消耗：2,588.20kb] [文件加载：48]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\user\controller\User->index[ C:\PHP\php11\WWW\Patient\Admin\user\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/user\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=patients;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 0,5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-03-26T17:11:01+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.099006s][吞吐率：10.10req/s] [内存消耗：1,808.00kb] [文件加载：39]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T17:11:01+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/propodeum.html
+[ info ] localhost/Patient/admin.php/score/score/propodeum.html [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,593.69kb] [文件加载：36]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'propodeum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->propodeum[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\propodeum.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T17:11:02+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/midleg.html
+[ info ] localhost/Patient/admin.php/score/score/midleg.html [运行时间：0.064004s][吞吐率：15.62req/s] [内存消耗：1,593.66kb] [文件加载：36]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'midleg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->midleg[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\midleg.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T17:11:02+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/propodeum.html
+[ info ] localhost/Patient/admin.php/score/score/propodeum.html [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：1,593.69kb] [文件加载：36]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'propodeum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->propodeum[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\propodeum.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T17:11:06+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,654.78kb] [文件加载：37]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T17:15:48+08:00 ] ::1 ::1 GET /Patient/admin.php/com/index/index.html
+[ info ] localhost/Patient/admin.php/com/index/index.html [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：1,663.45kb] [文件加载：38]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\com\controller\Index->index[ C:\PHP\php11\WWW\Patient\Admin\com\controller\Index.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/com\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T17:15:48+08:00 ] ::1 ::1 GET /Patient/admin.php/user/user/index.html
+[ info ] localhost/Patient/admin.php/user/user/index.html [运行时间：0.087005s][吞吐率：11.49req/s] [内存消耗：2,588.20kb] [文件加载：48]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\user\controller\User->index[ C:\PHP\php11\WWW\Patient\Admin\user\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/user\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=patients;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 0,5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-26T17:15:49+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：1,798.43kb] [文件加载：39]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T17:16:45+08:00 ] ::1 ::1 GET /Patient/admin.php/com/index/index.html
+[ info ] localhost/Patient/admin.php/com/index/index.html [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：1,663.45kb] [文件加载：38]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\com\controller\Index->index[ C:\PHP\php11\WWW\Patient\Admin\com\controller\Index.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/com\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T17:16:45+08:00 ] ::1 ::1 GET /Patient/admin.php/user/user/index.html
+[ info ] localhost/Patient/admin.php/user/user/index.html [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：2,588.20kb] [文件加载：48]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\user\controller\User->index[ C:\PHP\php11\WWW\Patient\Admin\user\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/user\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=patients;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 0,5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-03-26T17:16:47+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,798.55kb] [文件加载：39]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T17:17:20+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.060004s][吞吐率：16.67req/s] [内存消耗：1,798.52kb] [文件加载：39]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T17:18:35+08:00 ] ::1 ::1 GET /Patient/admin.php/com/index/index.html
+[ info ] localhost/Patient/admin.php/com/index/index.html [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：1,663.45kb] [文件加载：38]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\com\controller\Index->index[ C:\PHP\php11\WWW\Patient\Admin\com\controller\Index.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/com\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T17:18:35+08:00 ] ::1 ::1 GET /Patient/admin.php/user/user/index.html
+[ info ] localhost/Patient/admin.php/user/user/index.html [运行时间：0.098005s][吞吐率：10.20req/s] [内存消耗：2,588.20kb] [文件加载：48]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\user\controller\User->index[ C:\PHP\php11\WWW\Patient\Admin\user\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/user\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=patients;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 0,5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-03-26T17:18:37+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.062003s][吞吐率：16.13req/s] [内存消耗：1,799.25kb] [文件加载：39]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T17:18:49+08:00 ] ::1 ::1 GET /Patient/admin.php/com/index/index.html
+[ info ] localhost/Patient/admin.php/com/index/index.html [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：1,663.45kb] [文件加载：38]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\com\controller\Index->index[ C:\PHP\php11\WWW\Patient\Admin\com\controller\Index.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/com\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T17:18:50+08:00 ] ::1 ::1 GET /Patient/admin.php/user/user/index.html
+[ info ] localhost/Patient/admin.php/user/user/index.html [运行时间：0.114007s][吞吐率：8.77req/s] [内存消耗：2,588.20kb] [文件加载：48]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\user\controller\User->index[ C:\PHP\php11\WWW\Patient\Admin\user\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/user\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=patients;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.026001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 0,5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-26T17:18:51+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.194012s][吞吐率：5.15req/s] [内存消耗：1,799.24kb] [文件加载：39]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T17:19:07+08:00 ] ::1 ::1 GET /Patient/admin.php/com/index/index.html
+[ info ] localhost/Patient/admin.php/com/index/index.html [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,663.45kb] [文件加载：38]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\com\controller\Index->index[ C:\PHP\php11\WWW\Patient\Admin\com\controller\Index.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/com\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T17:19:07+08:00 ] ::1 ::1 GET /Patient/admin.php/user/user/index.html
+[ info ] localhost/Patient/admin.php/user/user/index.html [运行时间：0.110007s][吞吐率：9.09req/s] [内存消耗：2,588.20kb] [文件加载：48]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\user\controller\User->index[ C:\PHP\php11\WWW\Patient\Admin\user\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/user\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=patients;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.023001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 0,5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-26T17:19:09+08:00 ] ::1 ::1 GET /Patient/admin.php/score/score/metapedes.html
+[ info ] localhost/Patient/admin.php/score/score/metapedes.html [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,799.25kb] [文件加载：39]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'score',
+    1 => 'score',
+    2 => 'metapedes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\score\controller\Score->metapedes[ C:\PHP\php11\WWW\Patient\Admin\score\controller\Score.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T17:19:50+08:00 ] ::1 ::1 GET /Patient/admin.php/com/index/index.html
+[ info ] localhost/Patient/admin.php/com/index/index.html [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：1,663.45kb] [文件加载：38]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'com',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\com\controller\Index->index[ C:\PHP\php11\WWW\Patient\Admin\com\controller\Index.php ]
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/com\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T17:19:50+08:00 ] ::1 ::1 GET /Patient/admin.php/user/user/index.html
+[ info ] localhost/Patient/admin.php/user/user/index.html [运行时间：0.150009s][吞吐率：6.67req/s] [内存消耗：2,588.20kb] [文件加载：48]
+[ info ] [ LANG ] C:\PHP\php11\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Patient/admin.php/com/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=97fj8taacflif96vdbd7pnkl43',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 0,
+)
+[ info ] [ RUN ] app\user\controller\User->index[ C:\PHP\php11\WWW\Patient\Admin\user\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\Patient/Admin/user\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=patients;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.070004s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 0,5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.000000s ]

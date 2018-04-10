@@ -1,0 +1,95 @@
+﻿{include file="/../../com/view/public/meta" /}
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页
+	<span class="c-gray en">&gt;</span>
+	系统管理
+	<span class="c-gray en">&gt;</span>
+	系统日志
+	<a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a>
+</nav>
+<form action="{:url('system/log/search')}" method="post">
+<div class="page-container">
+	<div class="text-c"> 日期范围：
+		<input type="text" name="start_time" id="countTimestart" onfocus="selecttime(1)" value="" size="17" class="date input-text Wdate" id="logmax" style="width:120px;" readonly> - <input type="text" name="end_time" id="countTimeend" onfocus="selecttime(2)" value="" size="17" class="date input-text Wdate" id="logmax" style="width:120px;" readonly>
+		<input type="text" name="value" id="" placeholder="日志内容" style="width:250px" class="input-text">
+		<button name="" id="" class="btn btn-success" type="submit"><i class="Hui-iconfont">&#xe665;</i> 搜日志</button>
+	</div>
+	</form>	
+	<div class="cl pd-5 bg-1 bk-gray mt-20">
+		<span class="l">
+		<a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a>
+		</span>
+		<span class="r">共有数据：<strong>{$count}</strong> 条</span>
+	</div>
+	<form action="" id="form">
+	<table class="table table-border table-bordered table-bg table-hover table-sort">
+		<thead>
+			<tr class="text-c">
+				<th><input type="checkbox" name="" id="checkbox"></th>
+				<th width="">ID</th>
+				<th width="">用户名</th>
+				<th>姓名</th>
+				<th width="">内容</th>
+				<th width="">时间</th>
+			</tr>
+		</thead>
+		<tbody>
+		{volist name="list" id="vo"}
+			<tr class="text-c">
+				<td width="25"><input type="checkbox" value="{$vo.log_id}" name="delete[]" ></td>
+				<td>{$vo.log_id}</td>
+				<td>{$vo.log_user_name}</td>
+				<td>{$vo.log_name}</td>
+				<td>{$vo.log_operation}</td>
+				<td>{$vo.create_time|date='Y-m-d h:m:s',###}</td>
+			</tr>
+			{/volist}
+		</tbody>
+	</table>
+	</form>
+	<div id="pageNav" class="pageNav"></div>
+	{$list->render()}
+</div>
+
+{include file="/../../com/view/public/footer" /}
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__STATIC__/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/laypage/1.2/laypage.js"></script>
+<script type="text/javascript">
+/*日志-删除*/
+function datadel(){
+	var len=$("input:checkbox:checked").length;
+	if($('#checkbox').prop('checked') ){
+		len = len-1
+	}
+	 if(len==0){
+	 layer.msg("没有选中记录。");
+	}
+	 else{
+	 	layer.confirm('确定要删除这'+len+'条日志吗？',function(){
+	 	$.post("{:url('Log/deletelog')}",$('#form').serializeArray(),
+	 	 function(data){
+	 		layer.msg(data.message);
+	 		setTimeout("location.reload()",1000);
+	 	});
+	 })
+	}
+}
+//日期选择函数
+function selecttime(flag){
+    if(flag==1){
+        var endTime = $("#countTimeend").val();
+        if(endTime != ""){
+            WdatePicker({dateFmt:'yyyy-MM-dd',maxDate:endTime})}else{
+            WdatePicker({dateFmt:'yyyy-MM-dd'})}
+    }else{
+        var startTime = $("#countTimestart").val();
+        if(startTime != ""){
+            WdatePicker({dateFmt:'yyyy-MM-dd',minDate:startTime})}else{
+            WdatePicker({dateFmt:'yyyy-MM-dd'})}
+    }
+ }
+</script>
+</body>
+</html>

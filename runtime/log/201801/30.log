@@ -1,0 +1,251 @@
+---------------------------------------------------------------
+[ 2018-01-30T10:33:34+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/user/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/user/index.html [运行时间：0.650037s][吞吐率：1.54req/s] [内存消耗：2,508.66kb] [文件加载：46]
+[ info ] [ LANG ] C:\PHP\php11\WWW\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/user/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\User->index[ C:\PHP\php11\WWW\order\order-v1.0\order\Admin\home\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\order\order-v1.0\order/Admin/home\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 1 [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 0,10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-30T10:33:35+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/user/favicon.ico
+[ info ] localhost/order/order-v1.0/order/admin.php/home/user/favicon.ico [运行时间：0.278016s][吞吐率：3.60req/s] [内存消耗：1,315.84kb] [文件加载：35]
+[ info ] [ LANG ] C:\PHP\php11\WWW\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'favicon.ico',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/user/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-30T10:33:36+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/user/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/user/index.html [运行时间：0.071004s][吞吐率：14.08req/s] [内存消耗：2,508.41kb] [文件加载：46]
+[ info ] [ LANG ] C:\PHP\php11\WWW\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/user/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\User->index[ C:\PHP\php11\WWW\order\order-v1.0\order\Admin\home\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\order\order-v1.0\order/Admin/home\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-30T10:33:37+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/user/adduser.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/user/adduser.html [运行时间：0.212012s][吞吐率：4.72req/s] [内存消耗：2,505.61kb] [文件加载：44]
+[ info ] [ LANG ] C:\PHP\php11\WWW\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'adduser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/user/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\User->adduser[ C:\PHP\php11\WWW\order\order-v1.0\order\Admin\home\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\order\order-v1.0\order/Admin/home\view\user\adduser.html [ array (
+  0 => 'company',
+  1 => 'role',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.084005s ]
+[ sql ] [ SQL ] SELECT * FROM `company` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-30T10:34:45+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/user/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/user/index.html [运行时间：0.087005s][吞吐率：11.49req/s] [内存消耗：2,508.65kb] [文件加载：46]
+[ info ] [ LANG ] C:\PHP\php11\WWW\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/user/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\User->index[ C:\PHP\php11\WWW\order\order-v1.0\order\Admin\home\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\order\order-v1.0\order/Admin/home\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-30T10:34:46+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/user/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/user/index.html [运行时间：0.095006s][吞吐率：10.53req/s] [内存消耗：2,508.41kb] [文件加载：46]
+[ info ] [ LANG ] C:\PHP\php11\WWW\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/user/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\User->index[ C:\PHP\php11\WWW\order\order-v1.0\order\Admin\home\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\order\order-v1.0\order/Admin/home\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.026002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` `a` INNER JOIN `role` `w` ON `a`.`roleid`=`w`.`role_id` LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-30T10:34:48+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/user/adduser.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/user/adduser.html [运行时间：0.090005s][吞吐率：11.11req/s] [内存消耗：2,505.59kb] [文件加载：44]
+[ info ] [ LANG ] C:\PHP\php11\WWW\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'adduser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/user/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\User->adduser[ C:\PHP\php11\WWW\order\order-v1.0\order\Admin\home\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\PHP\php11\WWW\order\order-v1.0\order/Admin/home\view\user\adduser.html [ array (
+  0 => 'company',
+  1 => 'role',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001001s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT * FROM `role` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `company` [ RunTime:0.001000s ]

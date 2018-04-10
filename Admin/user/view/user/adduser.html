@@ -1,0 +1,96 @@
+{include file="/../../com/view/public/meta" /}
+<article class="cl pd-20">
+	<form action="" method="post" class="form form-horizontal" id="form-member-add">
+	<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>用户名：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="3到15位字符由字母开头、数字组合" id="" name="usercode">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>姓名：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="2到17位字符组合" id="username" name="username">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>密码：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="password" class="input-text" value="" placeholder="6到17位字符由字母、数字及英文符号组合" id="password" name="password">
+			</div>
+		</div>
+		<!-- <div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>手机：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="11位的手机号" id="mobile" name="mobile">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red"></span>微信号：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" placeholder="以字母开头的6-20个字母、数字、下划线或减号" name="openid" >
+			</div>
+		</div> -->
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red"></span>邮箱：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" placeholder="@" name="email" id="email">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>用户类型：</label>
+			<div class="formControls col-xs-8 col-sm-9"> <span class="select-box">
+				<select class="select" size="1" name="usertype">
+					<option value="" selected>请选择用户类型</option>
+				{volist name="role" id="vo1"}
+					<option value="{$vo1.role_id}">{$vo1.name}</option>
+				{/volist}
+				</select>
+				</span> </div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>用户状态：</label>
+			<div class="formControls col-xs-8 col-sm-9 skin-minimal">
+				<div class="radio-box">
+					<input name="status" type="radio" id="sex-1" value="1" checked>
+					<label for="sex-1">启用</label>
+				</div>
+				<div class="radio-box">
+					<input type="radio" id="sex-2" name="status" value="0">
+					<label for="sex-2">停用</label>
+				</div>
+			</div>
+		</div>	<br> 
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+				<input class="btn btn-primary radius" type="button" onclick="submit_form('usersave')" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+			</div>
+		</div>
+	</form>
+</article>
+{include file="/../../com/view/public/footer" /}
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__STATIC__/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/jquery.validate.js"></script> 
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/validate-methods.js"></script> 
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/messages_zh.js"></script> 
+<script type="text/javascript">
+function submit_form(url){
+        $.ajax({
+            type:"POST",
+            // url:"{:url('loginvalidate')}",
+            url:url,
+            data:$("form").serialize(),//将表单序列化
+            dataType:'json',
+            success:function(data){
+            	layer.msg(data.message);
+                if(data.status==1){
+                    setTimeout("parent.location.reload()",1000);
+				}
+            }
+        })
+    }
+</script> 
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

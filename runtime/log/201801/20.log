@@ -1,0 +1,3858 @@
+---------------------------------------------------------------
+[ 2018-01-20T09:47:45+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php
+[ info ] localhost/order/order-v1.0/order/admin.php [运行时间：0.087599s][吞吐率：11.42req/s] [内存消耗：1,844.71kb] [文件加载：28]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T09:47:49+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/index/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/index/index.html [运行时间：0.185271s][吞吐率：5.40req/s] [内存消耗：2,657.35kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Index.php ]
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T09:48:02+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/index/favicon.ico
+[ info ] localhost/order/order-v1.0/order/admin.php/home/index/favicon.ico [运行时间：0.108568s][吞吐率：9.21req/s] [内存消耗：2,354.64kb] [文件加载：35]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'favicon.ico',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T09:49:20+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/index.html [运行时间：0.653098s][吞吐率：1.53req/s] [内存消耗：4,864.67kb] [文件加载：48]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Company->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\index.html [ array (
+  0 => 'count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.365744s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.004700s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.003239s ]
+[ sql ] [ SQL ] SELECT * FROM `company` LIMIT 0,15 [ RunTime:0.002141s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001718s ]
+---------------------------------------------------------------
+[ 2018-01-20T09:49:20+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/favicon.ico
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/favicon.ico [运行时间：0.122622s][吞吐率：8.16req/s] [内存消耗：2,381.97kb] [文件加载：35]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'favicon.ico',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T09:51:10+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/companyedit/id/9.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/9.html [运行时间：0.740832s][吞吐率：1.35req/s] [内存消耗：4,565.14kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'companyedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '9',
+)
+[ info ] [ RUN ] app\home\controller\Company->companyedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\companyedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.060368s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.004061s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001691s ]
+---------------------------------------------------------------
+[ 2018-01-20T09:51:38+08:00 ] ::1 ::1 POST /order/order-v1.0/order/admin.php/home/company/savecompany.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/savecompany.html [运行时间：0.381699s][吞吐率：2.62req/s] [内存消耗：4,417.59kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'savecompany',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '183',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/9.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '9',
+  'companycode' => 'chinaunicome',
+  'companyname' => '中国联通',
+  'position' => '江北区',
+  'user' => '洪师傅',
+  'mobile' => '125456784645',
+  'memo' => '',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Company->savecompany[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021953s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.003190s ]
+[ sql ] [ SQL ] UPDATE `company`  SET `code`='chinaunicome',`name`='中国联通',`position`='江北区',`contactname`='洪师傅',`contacttel`='125456784645',`status`=1,`memo`=''  WHERE  `id` = 9 [ RunTime:0.094608s ]
+[ error ] [0]数据表字段不存在:[create_time][C:\wamp64\www\order\order-v1.0\tp5\thinkphp\library\think\db\Builder.php:107]
+---------------------------------------------------------------
+[ 2018-01-20T09:54:13+08:00 ] ::1 ::1 POST /order/order-v1.0/order/admin.php/home/company/savecompany.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/savecompany.html [运行时间：0.589633s][吞吐率：1.70req/s] [内存消耗：4,439.07kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'savecompany',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '183',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/9.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '9',
+  'companycode' => 'chinaunicome',
+  'companyname' => '中国联通',
+  'position' => '江北区',
+  'user' => '洪师傅',
+  'mobile' => '125456784645',
+  'memo' => '',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Company->savecompany[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010754s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.063229s ]
+[ sql ] [ SQL ] UPDATE `company`  SET `code`='chinaunicome',`name`='中国联通',`position`='江北区',`contactname`='洪师傅',`contacttel`='125456784645',`status`=1,`memo`=''  WHERE  `id` = 9 [ RunTime:0.074304s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '中国联通' for key 'name'[C:\wamp64\www\order\order-v1.0\tp5\thinkphp\library\think\db\Connection.php:451]
+---------------------------------------------------------------
+[ 2018-01-20T09:57:14+08:00 ] ::1 ::1 POST /order/order-v1.0/order/admin.php/home/company/savecompany.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/savecompany.html [运行时间：0.475539s][吞吐率：2.10req/s] [内存消耗：4,439.07kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'savecompany',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '183',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/9.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '9',
+  'companycode' => 'chinaunicome',
+  'companyname' => '中国联通',
+  'position' => '江北区',
+  'user' => '洪师傅',
+  'mobile' => '125456784645',
+  'memo' => '',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Company->savecompany[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009999s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.049370s ]
+[ sql ] [ SQL ] UPDATE `company`  SET `code`='chinaunicome',`name`='中国联通',`position`='江北区',`contactname`='洪师傅',`contacttel`='125456784645',`status`=1,`memo`=''  WHERE  `id` = 9 [ RunTime:0.086273s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'chinaunicome' for key 'code'[C:\wamp64\www\order\order-v1.0\tp5\thinkphp\library\think\db\Connection.php:451]
+---------------------------------------------------------------
+[ 2018-01-20T09:57:49+08:00 ] ::1 ::1 POST /order/order-v1.0/order/admin.php/home/company/savecompany.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/savecompany.html [运行时间：0.397779s][吞吐率：2.51req/s] [内存消耗：4,347.98kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'savecompany',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '183',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/9.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '9',
+  'companycode' => 'chinaunicome',
+  'companyname' => '中国联通',
+  'position' => '江北区',
+  'user' => '洪师傅',
+  'mobile' => '125456784645',
+  'memo' => '',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Company->savecompany[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.033563s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.054758s ]
+[ sql ] [ SQL ] UPDATE `company`  SET `code`='chinaunicome',`name`='中国联通',`position`='江北区',`contactname`='洪师傅',`contacttel`='125456784645',`status`=1,`memo`=''  WHERE  `id` = 9 [ RunTime:0.089525s ]
+[ sql ] [ SQL ] INSERT INTO `company` (`code` , `name` , `position` , `contactname` , `contacttel` , `status` , `memo` , `create_time`) VALUES ('chinaunicome' , '中国联通' , '江北区' , '洪师傅' , '125456784645' , 1 , '' , 1516413469) [ RunTime:0.052378s ]
+---------------------------------------------------------------
+[ 2018-01-20T09:58:00+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/index.html [运行时间：0.428839s][吞吐率：2.33req/s] [内存消耗：4,581.18kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Company->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\index.html [ array (
+  0 => 'count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.069435s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.055948s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.011900s ]
+[ sql ] [ SQL ] SELECT * FROM `company` LIMIT 0,15 [ RunTime:0.009929s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001589s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:00:06+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/user/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/user/index.html [运行时间：0.427831s][吞吐率：2.34req/s] [内存消耗：4,834.15kb] [文件加载：48]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\User->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003977s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.174184s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.003426s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.002077s ]
+[ sql ] [ SQL ] SELECT * FROM `user` LIMIT 0,3 [ RunTime:0.004100s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:00:06+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/user/favicon.ico
+[ info ] localhost/order/order-v1.0/order/admin.php/home/user/favicon.ico [运行时间：0.081387s][吞吐率：12.29req/s] [内存消耗：2,403.72kb] [文件加载：35]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'favicon.ico',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/user/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T10:00:12+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/addcompany.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/addcompany.html [运行时间：0.121928s][吞吐率：8.20req/s] [内存消耗：2,686.66kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'addcompany',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/user/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Company->addcompany[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\addcompany.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T10:00:14+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/index.html [运行时间：0.312494s][吞吐率：3.20req/s] [内存消耗：4,581.12kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/addcompany.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Company->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\index.html [ array (
+  0 => 'count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018065s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.041349s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.017077s ]
+[ sql ] [ SQL ] SELECT * FROM `company` LIMIT 0,15 [ RunTime:0.002180s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001033s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:00:16+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/companyedit/id/6.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/6.html [运行时间：0.372776s][吞吐率：2.68req/s] [内存消耗：4,305.89kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'companyedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] app\home\controller\Company->companyedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\companyedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.068338s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.041025s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.002101s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:00:24+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/companyedit/id/8.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/8.html [运行时间：0.426939s][吞吐率：2.34req/s] [内存消耗：4,306.02kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'companyedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '8',
+)
+[ info ] [ RUN ] app\home\controller\Company->companyedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\companyedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005982s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.071502s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.002659s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:01:18+08:00 ] ::1 ::1 POST /order/order-v1.0/order/admin.php/home/company/savecompany.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/savecompany.html [运行时间：0.556218s][吞吐率：1.80req/s] [内存消耗：4,427.04kb] [文件加载：48]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'savecompany',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '182',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/8.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '8',
+  'companycode' => 'chinatelecom',
+  'companyname' => '中国电信',
+  'position' => '南岸区',
+  'user' => '陆师傅',
+  'mobile' => '15946765155',
+  'memo' => '',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Company->savecompany[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.055447s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.205542s ]
+[ sql ] [ SQL ] UPDATE `company`  SET `code`='chinatelecom',`name`='中国电信',`position`='南岸区',`contactname`='陆师傅',`contacttel`='15946765155',`status`=1,`memo`=''  WHERE  `id` = 8 [ RunTime:0.094321s ]
+[ error ] [8]未定义变量: retuls[C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php:68]
+---------------------------------------------------------------
+[ 2018-01-20T10:01:58+08:00 ] ::1 ::1 POST /order/order-v1.0/order/admin.php/home/company/savecompany.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/savecompany.html [运行时间：0.411920s][吞吐率：2.43req/s] [内存消耗：4,343.65kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'savecompany',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '182',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/8.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '8',
+  'companycode' => 'chinatelecom',
+  'companyname' => '中国电信',
+  'position' => '南岸区',
+  'user' => '陆师傅',
+  'mobile' => '15946765155',
+  'memo' => '',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Company->savecompany[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.073502s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.052923s ]
+[ sql ] [ SQL ] UPDATE `company`  SET `code`='chinatelecom',`name`='中国电信',`position`='南岸区',`contactname`='陆师傅',`contacttel`='15946765155',`status`=1,`memo`=''  WHERE  `id` = 8 [ RunTime:0.119655s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:02:33+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/index.html [运行时间：0.545607s][吞吐率：1.83req/s] [内存消耗：4,581.15kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/addcompany.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Company->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\index.html [ array (
+  0 => 'count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.113173s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.049834s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.008341s ]
+[ sql ] [ SQL ] SELECT * FROM `company` LIMIT 0,15 [ RunTime:0.002033s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001857s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:02:36+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/companyedit/id/7.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/7.html [运行时间：0.354621s][吞吐率：2.82req/s] [内存消耗：4,305.59kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'companyedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+)
+[ info ] [ RUN ] app\home\controller\Company->companyedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\companyedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004433s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.019744s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.002103s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:03:25+08:00 ] ::1 ::1 POST /order/order-v1.0/order/admin.php/home/company/savecompany.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/savecompany.html [运行时间：0.795100s][吞吐率：1.26req/s] [内存消耗：4,343.31kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'savecompany',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '165',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/7.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+  'companycode' => 'CMCC',
+  'companyname' => '中国移动',
+  'position' => '南京',
+  'user' => '齐师傅',
+  'mobile' => '13594055937',
+  'memo' => '',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Company->savecompany[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.214373s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.225754s ]
+[ sql ] [ SQL ] UPDATE `company`  SET `code`='CMCC',`name`='中国移动',`position`='南京',`contactname`='齐师傅',`contacttel`='13594055937',`status`=1,`memo`=''  WHERE  `id` = 7 [ RunTime:0.134192s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:03:34+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/index.html [运行时间：0.495163s][吞吐率：2.02req/s] [内存消耗：4,581.14kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/addcompany.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Company->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\index.html [ array (
+  0 => 'count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.059578s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.055545s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.014184s ]
+[ sql ] [ SQL ] SELECT * FROM `company` LIMIT 0,15 [ RunTime:0.014302s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.009753s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:04:04+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/addcompany.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/addcompany.html [运行时间：0.176680s][吞吐率：5.66req/s] [内存消耗：2,419.92kb] [文件加载：34]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'addcompany',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Company->addcompany[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\addcompany.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T10:05:36+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/addcompany.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/addcompany.html [运行时间：0.228107s][吞吐率：4.38req/s] [内存消耗：2,703.18kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'addcompany',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Company->addcompany[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\addcompany.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T10:06:09+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/addcompany.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/addcompany.html [运行时间：0.124777s][吞吐率：8.01req/s] [内存消耗：2,703.50kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'addcompany',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Company->addcompany[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\addcompany.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T10:07:21+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/addcompany.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/addcompany.html [运行时间：0.113580s][吞吐率：8.80req/s] [内存消耗：2,703.40kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'addcompany',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Company->addcompany[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\addcompany.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T10:10:02+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/addcompany.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/addcompany.html [运行时间：0.118728s][吞吐率：8.42req/s] [内存消耗：2,703.30kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'addcompany',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Company->addcompany[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\addcompany.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T10:10:23+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/addcompany.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/addcompany.html [运行时间：0.107893s][吞吐率：9.27req/s] [内存消耗：2,703.55kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'addcompany',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Company->addcompany[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\addcompany.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T10:10:51+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/addcompany.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/addcompany.html [运行时间：0.104716s][吞吐率：9.55req/s] [内存消耗：2,686.69kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'addcompany',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Company->addcompany[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\addcompany.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T10:11:51+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/addcompany.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/addcompany.html [运行时间：0.125819s][吞吐率：7.95req/s] [内存消耗：2,703.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'addcompany',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Company->addcompany[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\addcompany.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T10:12:16+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/addcompany.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/addcompany.html [运行时间：0.102746s][吞吐率：9.73req/s] [内存消耗：2,703.55kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'addcompany',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Company->addcompany[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\addcompany.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T10:19:23+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/addcompany.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/addcompany.html [运行时间：0.397976s][吞吐率：2.51req/s] [内存消耗：5,859.43kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'addcompany',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Company->addcompany[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\addcompany.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.064271s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.034814s ]
+[ sql ] [ SQL ] SELECT * FROM `city` [ RunTime:0.016299s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:25:31+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/addcompany.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/addcompany.html [运行时间：0.197375s][吞吐率：5.07req/s] [内存消耗：1,899.29kb] [文件加载：29]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'addcompany',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected ';', expecting ']'[C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php:57]
+---------------------------------------------------------------
+[ 2018-01-20T10:25:44+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/addcompany.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/addcompany.html [运行时间：0.715121s][吞吐率：1.40req/s] [内存消耗：5,859.89kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'addcompany',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Company->addcompany[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\addcompany.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.289361s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.046003s ]
+[ sql ] [ SQL ] SELECT * FROM `city` [ RunTime:0.006632s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:25:55+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/addcompany.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/addcompany.html [运行时间：0.701282s][吞吐率：1.43req/s] [内存消耗：5,568.37kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'addcompany',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/addcompany.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Company->addcompany[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\addcompany.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.057417s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.048710s ]
+[ sql ] [ SQL ] SELECT * FROM `city` [ RunTime:0.006350s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:27:26+08:00 ] ::1 ::1 POST /order/order-v1.0/order/admin.php/home/company/savecompany.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/savecompany.html [运行时间：0.377111s][吞吐率：2.65req/s] [内存消耗：4,281.05kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'savecompany',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '218',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/addcompany.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'companycode' => 'jbb',
+  'companyname' => '金宝保',
+  'city' => '中卫市',
+  'position' => '江北区合山村',
+  'user' => '福据按',
+  'mobile' => '0235976215',
+  'memo' => '',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Company->savecompany[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: id[C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php:63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031158s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.125126s ]
+[ sql ] [ SQL ] INSERT INTO `company` (`code` , `name` , `position` , `contactname` , `contacttel` , `status` , `memo` , `create_time`) VALUES ('jbb' , '金宝保' , '中卫市--江北区合山村' , '福据按' , '0235976215' , 1 , '' , 1516415246) [ RunTime:0.073085s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:27:33+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/user/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/user/index.html [运行时间：0.231340s][吞吐率：4.32req/s] [内存消耗：4,562.46kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/addcompany.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\User->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029583s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.031637s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.016004s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.001360s ]
+[ sql ] [ SQL ] SELECT * FROM `user` LIMIT 0,3 [ RunTime:0.010285s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:27:36+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/index.html [运行时间：0.272186s][吞吐率：3.67req/s] [内存消耗：4,582.40kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/user/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Company->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\index.html [ array (
+  0 => 'count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.067568s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.005634s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001234s ]
+[ sql ] [ SQL ] SELECT * FROM `company` LIMIT 0,15 [ RunTime:0.002727s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001048s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:27:39+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/index.html?page=3
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3 [运行时间：0.252330s][吞吐率：3.96req/s] [内存消耗：4,561.36kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ RUN ] app\home\controller\Company->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\index.html [ array (
+  0 => 'count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013415s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.039981s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001731s ]
+[ sql ] [ SQL ] SELECT * FROM `company` LIMIT 30,15 [ RunTime:0.001486s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.003006s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:28:01+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html [运行时间：0.285048s][吞吐率：3.51req/s] [内存消耗：4,307.30kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'companyedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\home\controller\Company->companyedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\companyedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008479s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.089746s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.004348s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:30:06+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/index.html?page=3
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3 [运行时间：0.348728s][吞吐率：2.87req/s] [内存消耗：4,561.93kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ RUN ] app\home\controller\Company->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\index.html [ array (
+  0 => 'count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.063750s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.027341s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001632s ]
+[ sql ] [ SQL ] SELECT * FROM `company` LIMIT 30,15 [ RunTime:0.015592s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001946s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:30:10+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/companyedit/id/38.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/38.html [运行时间：0.333152s][吞吐率：3.00req/s] [内存消耗：4,567.56kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'companyedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '38',
+)
+[ info ] [ RUN ] app\home\controller\Company->companyedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\companyedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.043857s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.008865s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 38 LIMIT 1 [ RunTime:0.009825s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:33:56+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html [运行时间：0.322869s][吞吐率：3.10req/s] [内存消耗：4,578.45kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'companyedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\home\controller\Company->companyedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\companyedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004738s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.031840s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.016011s ]
+[ error ] [4]语法错误: unexpected '(', expecting ',' or ';'[C:\wamp64\www\order\order-v1.0\order\runtime\temp\408da851c98c1078bffd9bb88c7b5876.php:59]
+---------------------------------------------------------------
+[ 2018-01-20T10:35:30+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/index.html?page=3
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3 [运行时间：0.287107s][吞吐率：3.48req/s] [内存消耗：4,561.93kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ RUN ] app\home\controller\Company->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\index.html [ array (
+  0 => 'count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004032s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.019619s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.026329s ]
+[ sql ] [ SQL ] SELECT * FROM `company` LIMIT 30,15 [ RunTime:0.001172s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.000824s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:35:33+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html [运行时间：0.241821s][吞吐率：4.14req/s] [内存消耗：4,567.57kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'companyedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\home\controller\Company->companyedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\companyedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005641s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.003326s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.001879s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:35:53+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html [运行时间：0.340748s][吞吐率：2.93req/s] [内存消耗：4,567.39kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'companyedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\home\controller\Company->companyedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\companyedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004122s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.018046s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.001941s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:35:57+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/index.html?page=3
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3 [运行时间：0.335498s][吞吐率：2.98req/s] [内存消耗：4,561.93kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ RUN ] app\home\controller\Company->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\index.html [ array (
+  0 => 'count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.053787s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.007036s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001920s ]
+[ sql ] [ SQL ] SELECT * FROM `company` LIMIT 30,15 [ RunTime:0.002331s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001518s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:35:59+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html [运行时间：0.360801s][吞吐率：2.77req/s] [内存消耗：4,307.44kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'companyedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\home\controller\Company->companyedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\companyedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004305s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.004894s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.002847s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:36:18+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/index.html?page=3
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3 [运行时间：0.324630s][吞吐率：3.08req/s] [内存消耗：4,561.93kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ RUN ] app\home\controller\Company->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\index.html [ array (
+  0 => 'count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011459s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.002882s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001437s ]
+[ sql ] [ SQL ] SELECT * FROM `company` LIMIT 30,15 [ RunTime:0.017742s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001847s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:36:20+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html [运行时间：0.271451s][吞吐率：3.68req/s] [内存消耗：4,567.57kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'companyedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\home\controller\Company->companyedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\companyedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004784s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.061950s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.001809s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:37:15+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/index.html?page=3
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3 [运行时间：0.445106s][吞吐率：2.25req/s] [内存消耗：4,561.93kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ RUN ] app\home\controller\Company->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\index.html [ array (
+  0 => 'count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.090442s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.004282s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.051073s ]
+[ sql ] [ SQL ] SELECT * FROM `company` LIMIT 30,15 [ RunTime:0.001821s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.003832s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:37:16+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html [运行时间：0.403079s][吞吐率：2.48req/s] [内存消耗：4,567.97kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'companyedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\home\controller\Company->companyedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\companyedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007397s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.056493s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.001767s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:37:57+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/index.html?page=3
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3 [运行时间：0.316184s][吞吐率：3.16req/s] [内存消耗：4,561.93kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ RUN ] app\home\controller\Company->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\index.html [ array (
+  0 => 'count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006403s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.053942s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001627s ]
+[ sql ] [ SQL ] SELECT * FROM `company` LIMIT 30,15 [ RunTime:0.002361s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001958s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:37:58+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html [运行时间：0.347245s][吞吐率：2.88req/s] [内存消耗：4,567.87kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'companyedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\home\controller\Company->companyedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\companyedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005706s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.004870s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.006210s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:49:29+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/index.html?page=3
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3 [运行时间：0.243312s][吞吐率：4.11req/s] [内存消耗：4,561.93kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ RUN ] app\home\controller\Company->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\index.html [ array (
+  0 => 'count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014055s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.002326s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.056561s ]
+[ sql ] [ SQL ] SELECT * FROM `company` LIMIT 30,15 [ RunTime:0.015710s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.000854s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:49:32+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html [运行时间：0.216981s][吞吐率：4.61req/s] [内存消耗：4,567.97kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'companyedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\home\controller\Company->companyedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\companyedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003811s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.006046s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.001453s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:49:37+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html [运行时间：0.309192s][吞吐率：3.23req/s] [内存消耗：4,307.35kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'companyedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\home\controller\Company->companyedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\companyedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006178s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.005318s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.002262s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:50:31+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/index.html?page=3
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3 [运行时间：0.433264s][吞吐率：2.31req/s] [内存消耗：4,561.93kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ RUN ] app\home\controller\Company->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\index.html [ array (
+  0 => 'count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.050954s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.046997s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.015375s ]
+[ sql ] [ SQL ] SELECT * FROM `company` LIMIT 30,15 [ RunTime:0.001795s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.002445s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:50:32+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html [运行时间：0.475805s][吞吐率：2.10req/s] [内存消耗：4,551.84kb] [文件加载：48]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'companyedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\home\controller\Company->companyedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\companyedit.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007958s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.094133s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.001996s ]
+[ error ] [8]未定义变量: vo[C:\wamp64\www\order\order-v1.0\order\runtime\temp\408da851c98c1078bffd9bb88c7b5876.php:50]
+---------------------------------------------------------------
+[ 2018-01-20T10:51:41+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/index.html?page=3
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3 [运行时间：0.308031s][吞吐率：3.25req/s] [内存消耗：4,562.66kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ RUN ] app\home\controller\Company->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\index.html [ array (
+  0 => 'count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.067285s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.039582s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.002021s ]
+[ sql ] [ SQL ] SELECT * FROM `company` LIMIT 30,15 [ RunTime:0.006908s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001767s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:51:44+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html [运行时间：1.254711s][吞吐率：0.80req/s] [内存消耗：7,009.90kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'companyedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\home\controller\Company->companyedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\companyedit.html [ array (
+  0 => 'city',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.071190s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.293776s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.002817s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.002388s ]
+[ sql ] [ SQL ] SELECT * FROM `city` [ RunTime:0.015338s ]
+[ error ] [8]未定义变量: vo[C:\wamp64\www\order\order-v1.0\order\runtime\temp\408da851c98c1078bffd9bb88c7b5876.php:50]
+---------------------------------------------------------------
+[ 2018-01-20T10:52:23+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/index.html?page=3
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3 [运行时间：0.347482s][吞吐率：2.88req/s] [内存消耗：4,562.66kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ RUN ] app\home\controller\Company->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\index.html [ array (
+  0 => 'count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.066852s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.026964s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.019113s ]
+[ sql ] [ SQL ] SELECT * FROM `company` LIMIT 30,15 [ RunTime:0.002530s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001694s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:52:27+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html [运行时间：0.706572s][吞吐率：1.42req/s] [内存消耗：7,009.89kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'companyedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\home\controller\Company->companyedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\companyedit.html [ array (
+  0 => 'city',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.053255s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.039072s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.001418s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.011501s ]
+[ sql ] [ SQL ] SELECT * FROM `city` [ RunTime:0.005523s ]
+[ error ] [8]未定义变量: vo[C:\wamp64\www\order\order-v1.0\order\runtime\temp\408da851c98c1078bffd9bb88c7b5876.php:50]
+---------------------------------------------------------------
+[ 2018-01-20T10:53:19+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/index.html?page=3
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3 [运行时间：0.282673s][吞吐率：3.54req/s] [内存消耗：4,562.66kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ RUN ] app\home\controller\Company->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\index.html [ array (
+  0 => 'count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003356s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.094654s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.021564s ]
+[ sql ] [ SQL ] SELECT * FROM `company` LIMIT 30,15 [ RunTime:0.001321s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001445s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:53:22+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html [运行时间：0.676400s][吞吐率：1.48req/s] [内存消耗：7,009.89kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'companyedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\home\controller\Company->companyedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\companyedit.html [ array (
+  0 => 'city',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.063335s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.006811s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.001489s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.008058s ]
+[ sql ] [ SQL ] SELECT * FROM `city` [ RunTime:0.004325s ]
+[ error ] [8]未定义变量: vo[C:\wamp64\www\order\order-v1.0\order\runtime\temp\408da851c98c1078bffd9bb88c7b5876.php:50]
+---------------------------------------------------------------
+[ 2018-01-20T10:53:27+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html [运行时间：0.827927s][吞吐率：1.21req/s] [内存消耗：6,747.95kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'companyedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\home\controller\Company->companyedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\companyedit.html [ array (
+  0 => 'city',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009462s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.150591s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.003165s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.008595s ]
+[ sql ] [ SQL ] SELECT * FROM `city` [ RunTime:0.005593s ]
+[ error ] [8]未定义变量: vo[C:\wamp64\www\order\order-v1.0\order\runtime\temp\408da851c98c1078bffd9bb88c7b5876.php:50]
+---------------------------------------------------------------
+[ 2018-01-20T10:54:50+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/index.html?page=3
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3 [运行时间：0.317567s][吞吐率：3.15req/s] [内存消耗：4,562.66kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ RUN ] app\home\controller\Company->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\index.html [ array (
+  0 => 'count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.086658s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.038102s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001883s ]
+[ sql ] [ SQL ] SELECT * FROM `company` LIMIT 30,15 [ RunTime:0.001564s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001357s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:54:53+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/47.html [运行时间：0.550181s][吞吐率：1.82req/s] [内存消耗：5,909.38kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'companyedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\home\controller\Company->companyedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\companyedit.html [ array (
+  0 => 'city',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006752s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.005973s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.005818s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.066627s ]
+[ sql ] [ SQL ] SELECT * FROM `city` [ RunTime:0.005185s ]
+---------------------------------------------------------------
+[ 2018-01-20T10:55:12+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/index.html?page=3
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3 [运行时间：0.323328s][吞吐率：3.09req/s] [内存消耗：4,562.66kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ RUN ] app\home\controller\Company->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\index.html [ array (
+  0 => 'count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.064305s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.039197s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001785s ]
+[ sql ] [ SQL ] SELECT * FROM `company` LIMIT 30,15 [ RunTime:0.001811s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001236s ]
+---------------------------------------------------------------
+[ 2018-01-20T11:31:25+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/companyedit/id/40.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/40.html [运行时间：0.505205s][吞吐率：1.98req/s] [内存消耗：5,909.23kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'companyedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '40',
+)
+[ info ] [ RUN ] app\home\controller\Company->companyedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\companyedit.html [ array (
+  0 => 'city',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.069787s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.030488s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 40 LIMIT 1 [ RunTime:0.005148s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.012282s ]
+[ sql ] [ SQL ] SELECT * FROM `city` [ RunTime:0.005939s ]
+---------------------------------------------------------------
+[ 2018-01-20T11:32:34+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/index.html?page=1
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=1 [运行时间：0.283907s][吞吐率：3.52req/s] [内存消耗：4,584.07kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Company->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\index.html [ array (
+  0 => 'count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.060820s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.021486s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001335s ]
+[ sql ] [ SQL ] SELECT * FROM `company` LIMIT 0,15 [ RunTime:0.001484s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001317s ]
+---------------------------------------------------------------
+[ 2018-01-20T11:32:37+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/companyedit/id/6.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/6.html [运行时间：0.672979s][吞吐率：1.49req/s] [内存消耗：5,628.80kb] [文件加载：44]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'companyedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] app\home\controller\Company->companyedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\companyedit.html [ array (
+  0 => 'city',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.067083s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.124488s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.002311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.005645s ]
+[ sql ] [ SQL ] SELECT * FROM `city` [ RunTime:0.010351s ]
+---------------------------------------------------------------
+[ 2018-01-20T11:33:00+08:00 ] ::1 ::1 POST /order/order-v1.0/order/admin.php/home/company/savecompany.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/savecompany.html [运行时间：1.324930s][吞吐率：0.75req/s] [内存消耗：4,346.30kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'savecompany',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '203',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/6.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+  'companycode' => 'HL001',
+  'companyname' => '禾连科技',
+  'city' => '南宁市',
+  'position' => '北新区',
+  'user' => '刘春龙',
+  'mobile' => 'longof',
+  'memo' => '',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Company->savecompany[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.297622s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.277256s ]
+[ sql ] [ SQL ] UPDATE `company`  SET `code`='HL001',`name`='禾连科技',`position`='南宁市--北新区',`contactname`='刘春龙',`contacttel`='longof',`status`=1,`memo`=''  WHERE  `id` = 6 [ RunTime:0.495215s ]
+---------------------------------------------------------------
+[ 2018-01-20T11:33:04+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/index.html?page=1
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=1 [运行时间：0.338157s][吞吐率：2.96req/s] [内存消耗：4,584.45kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Company->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\index.html [ array (
+  0 => 'count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.036101s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.074602s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001802s ]
+[ sql ] [ SQL ] SELECT * FROM `company` LIMIT 0,15 [ RunTime:0.002343s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001199s ]
+---------------------------------------------------------------
+[ 2018-01-20T11:35:28+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/index.html?page=1
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=1 [运行时间：0.402854s][吞吐率：2.48req/s] [内存消耗：4,584.41kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Company->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\index.html [ array (
+  0 => 'count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.064592s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.017913s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001594s ]
+[ sql ] [ SQL ] SELECT * FROM `company` LIMIT 0,15 [ RunTime:0.002937s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.019011s ]
+---------------------------------------------------------------
+[ 2018-01-20T11:35:31+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/companyedit/id/13.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/companyedit/id/13.html [运行时间：0.522964s][吞吐率：1.91req/s] [内存消耗：5,628.83kb] [文件加载：44]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'companyedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '13',
+)
+[ info ] [ RUN ] app\home\controller\Company->companyedit[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\companyedit.html [ array (
+  0 => 'city',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021002s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.012806s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.002455s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.008412s ]
+[ sql ] [ SQL ] SELECT * FROM `city` [ RunTime:0.044881s ]
+---------------------------------------------------------------
+[ 2018-01-20T11:35:37+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/index.html?page=2
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=2 [运行时间：0.372081s][吞吐率：2.69req/s] [内存消耗：4,584.05kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ RUN ] app\home\controller\Company->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\index.html [ array (
+  0 => 'count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007994s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.047270s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.085553s ]
+[ sql ] [ SQL ] SELECT * FROM `company` LIMIT 15,15 [ RunTime:0.002049s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001030s ]
+---------------------------------------------------------------
+[ 2018-01-20T11:35:50+08:00 ] ::1 ::1 POST /order/order-v1.0/order/admin.php/home/company/deletecompany.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/deletecompany.html [运行时间：0.763277s][吞吐率：1.31req/s] [内存消耗：4,360.19kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'deletecompany',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '79',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=2',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'delete' => 
+  array (
+    0 => '31',
+    1 => '32',
+    2 => '33',
+    3 => '34',
+    4 => '35',
+  ),
+)
+[ info ] [ RUN ] app\home\controller\Company->deletecompany[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003471s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.001895s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 31 [ RunTime:0.129679s ]
+[ sql ] [ SQL ] DELETE FROM `company`    WHERE  `id` = 31 [ RunTime:0.050314s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 32 [ RunTime:0.002992s ]
+[ sql ] [ SQL ] DELETE FROM `company`    WHERE  `id` = 32 [ RunTime:0.066549s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 33 [ RunTime:0.020277s ]
+[ sql ] [ SQL ] DELETE FROM `company`    WHERE  `id` = 33 [ RunTime:0.066752s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 34 [ RunTime:0.002340s ]
+[ sql ] [ SQL ] DELETE FROM `company`    WHERE  `id` = 34 [ RunTime:0.157836s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 35 [ RunTime:0.001313s ]
+[ sql ] [ SQL ] DELETE FROM `company`    WHERE  `id` = 35 [ RunTime:0.063298s ]
+---------------------------------------------------------------
+[ 2018-01-20T11:35:51+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/index.html?page=2
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=2 [运行时间：0.250531s][吞吐率：3.99req/s] [内存消耗：4,584.40kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=2',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ RUN ] app\home\controller\Company->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\index.html [ array (
+  0 => 'count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006275s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.004961s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.002624s ]
+[ sql ] [ SQL ] SELECT * FROM `company` LIMIT 15,15 [ RunTime:0.002157s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001370s ]
+---------------------------------------------------------------
+[ 2018-01-20T11:36:02+08:00 ] ::1 ::1 POST /order/order-v1.0/order/admin.php/home/company/deletecompany.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/deletecompany.html [运行时间：0.565661s][吞吐率：1.77req/s] [内存消耗：4,355.49kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'deletecompany',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '63',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=2',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'delete' => 
+  array (
+    0 => '37',
+    1 => '38',
+    2 => '39',
+    3 => '40',
+  ),
+)
+[ info ] [ RUN ] app\home\controller\Company->deletecompany[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003320s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.001742s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 37 [ RunTime:0.001255s ]
+[ sql ] [ SQL ] DELETE FROM `company`    WHERE  `id` = 37 [ RunTime:0.053338s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 38 [ RunTime:0.080807s ]
+[ sql ] [ SQL ] DELETE FROM `company`    WHERE  `id` = 38 [ RunTime:0.123540s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 39 [ RunTime:0.001157s ]
+[ sql ] [ SQL ] DELETE FROM `company`    WHERE  `id` = 39 [ RunTime:0.082651s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 40 [ RunTime:0.000938s ]
+[ sql ] [ SQL ] DELETE FROM `company`    WHERE  `id` = 40 [ RunTime:0.082915s ]
+---------------------------------------------------------------
+[ 2018-01-20T11:36:03+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/index.html?page=2
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=2 [运行时间：0.267011s][吞吐率：3.75req/s] [内存消耗：4,584.39kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=2',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ RUN ] app\home\controller\Company->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\index.html [ array (
+  0 => 'count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003445s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.002620s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.002544s ]
+[ sql ] [ SQL ] SELECT * FROM `company` LIMIT 15,15 [ RunTime:0.093945s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001058s ]
+---------------------------------------------------------------
+[ 2018-01-20T11:36:13+08:00 ] ::1 ::1 POST /order/order-v1.0/order/admin.php/home/company/deletecompany.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/deletecompany.html [运行时间：0.611838s][吞吐率：1.63req/s] [内存消耗：4,360.30kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'deletecompany',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '79',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=2',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'delete' => 
+  array (
+    0 => '36',
+    1 => '41',
+    2 => '42',
+    3 => '43',
+    4 => '46',
+  ),
+)
+[ info ] [ RUN ] app\home\controller\Company->deletecompany[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003459s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.002367s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 36 [ RunTime:0.001270s ]
+[ sql ] [ SQL ] DELETE FROM `company`    WHERE  `id` = 36 [ RunTime:0.055743s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 41 [ RunTime:0.002774s ]
+[ sql ] [ SQL ] DELETE FROM `company`    WHERE  `id` = 41 [ RunTime:0.032738s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 42 [ RunTime:0.002842s ]
+[ sql ] [ SQL ] DELETE FROM `company`    WHERE  `id` = 42 [ RunTime:0.051283s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 43 [ RunTime:0.049249s ]
+[ sql ] [ SQL ] DELETE FROM `company`    WHERE  `id` = 43 [ RunTime:0.043480s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 46 [ RunTime:0.001519s ]
+[ sql ] [ SQL ] DELETE FROM `company`    WHERE  `id` = 46 [ RunTime:0.188471s ]
+---------------------------------------------------------------
+[ 2018-01-20T11:36:15+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/index.html?page=2
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=2 [运行时间：0.577635s][吞吐率：1.73req/s] [内存消耗：4,567.01kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=2',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ RUN ] app\home\controller\Company->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\index.html [ array (
+  0 => 'count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003649s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.377205s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001514s ]
+[ sql ] [ SQL ] SELECT * FROM `company` LIMIT 15,15 [ RunTime:0.001905s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001367s ]
+---------------------------------------------------------------
+[ 2018-01-20T11:36:24+08:00 ] ::1 ::1 POST /order/order-v1.0/order/admin.php/home/company/status.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/status.html [运行时间：0.255010s][吞吐率：3.92req/s] [内存消耗：4,345.38kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=2',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '21',
+)
+[ info ] [ RUN ] app\home\controller\Company->status[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004068s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.020466s ]
+[ sql ] [ SQL ] SELECT * FROM `company` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.012073s ]
+[ sql ] [ SQL ] UPDATE `company`  SET `status`=0  WHERE  `id` = 21 [ RunTime:0.059937s ]
+---------------------------------------------------------------
+[ 2018-01-20T11:36:25+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/index.html?page=2
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=2 [运行时间：0.175681s][吞吐率：5.69req/s] [内存消耗：4,567.01kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=2',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ RUN ] app\home\controller\Company->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\index.html [ array (
+  0 => 'count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004038s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.002078s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.000929s ]
+[ sql ] [ SQL ] SELECT * FROM `company` LIMIT 15,15 [ RunTime:0.001830s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.000973s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:12:44+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/company/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/company/index.html [运行时间：0.780224s][吞吐率：1.28req/s] [内存消耗：4,867.40kb] [文件加载：48]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'company',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html?page=2',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Company->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Company.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\company\index.html [ array (
+  0 => 'count',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.125674s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `company` [ RunTime:0.329383s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.001962s ]
+[ sql ] [ SQL ] SELECT * FROM `company` LIMIT 0,15 [ RunTime:0.012892s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:12:59+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/order/addorder.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/order/addorder.html [运行时间：0.158852s][吞吐率：6.30req/s] [内存消耗：1,879.23kb] [文件加载：29]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'order',
+    2 => 'addorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '$this' (T_VARIABLE)[C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Order.php:9]
+---------------------------------------------------------------
+[ 2018-01-20T12:13:22+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/order/addorder.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/order/addorder.html [运行时间：0.180653s][吞吐率：5.54req/s] [内存消耗：2,355.07kb] [文件加载：35]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'order',
+    2 => 'addorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T12:13:42+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/order/addorder.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/order/addorder.html [运行时间：0.138980s][吞吐率：7.20req/s] [内存消耗：2,355.07kb] [文件加载：35]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'order',
+    2 => 'addorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T12:13:59+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/order/addorder.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/order/addorder.html [运行时间：0.083253s][吞吐率：12.01req/s] [内存消耗：2,355.07kb] [文件加载：35]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'order',
+    2 => 'addorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T12:15:26+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/order/addorder.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/order/addorder.html [运行时间：0.127333s][吞吐率：7.85req/s] [内存消耗：2,355.11kb] [文件加载：35]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'order',
+    2 => 'addorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T12:15:52+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/order/addorder.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/order/addorder.html [运行时间：0.613331s][吞吐率：1.63req/s] [内存消耗：2,355.12kb] [文件加载：35]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'order',
+    2 => 'addorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/company/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T12:16:01+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/order/orderadd.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/order/orderadd.html [运行时间：0.237231s][吞吐率：4.22req/s] [内存消耗：2,657.40kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'order',
+    2 => 'orderadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Order->orderadd[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Order.php ]
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\order\orderadd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T12:16:03+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/order/favicon.ico
+[ info ] localhost/order/order-v1.0/order/admin.php/home/order/favicon.ico [运行时间：0.218381s][吞吐率：4.58req/s] [内存消耗：2,354.53kb] [文件加载：35]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'order',
+    2 => 'favicon.ico',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/order/orderadd.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T12:16:14+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/order/orderadd.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/order/orderadd.html [运行时间：0.077337s][吞吐率：12.93req/s] [内存消耗：2,392.40kb] [文件加载：34]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'order',
+    2 => 'orderadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/order/orderadd.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Order->orderadd[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Order.php ]
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\order\orderadd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T12:16:19+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/order/orderadd.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/order/orderadd.html [运行时间：0.088117s][吞吐率：11.35req/s] [内存消耗：2,392.40kb] [文件加载：34]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'order',
+    2 => 'orderadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/order/orderadd.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Order->orderadd[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Order.php ]
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\order\orderadd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T12:16:25+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/user/index.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/user/index.html [运行时间：0.568945s][吞吐率：1.76req/s] [内存消耗：4,833.93kb] [文件加载：48]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/order/orderadd.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\User->index[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\user\index.html [ array (
+  0 => 'list',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004817s ] mysql:dbname=city;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.245718s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.064916s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.001637s ]
+[ sql ] [ SQL ] SELECT * FROM `user` LIMIT 0,3 [ RunTime:0.002293s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:16:28+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/order/orderadd.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/order/orderadd.html [运行时间：0.098565s][吞吐率：10.15req/s] [内存消耗：2,392.42kb] [文件加载：34]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'order',
+    2 => 'orderadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/user/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Order->orderadd[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Order.php ]
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\order\orderadd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T12:17:41+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/order/orderadd.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/order/orderadd.html [运行时间：0.094178s][吞吐率：10.62req/s] [内存消耗：2,658.67kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'order',
+    2 => 'orderadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/user/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Order->orderadd[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Order.php ]
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\order\orderadd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T12:18:03+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/order/orderadd.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/order/orderadd.html [运行时间：0.117059s][吞吐率：8.54req/s] [内存消耗：2,657.73kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'order',
+    2 => 'orderadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/user/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Order->orderadd[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Order.php ]
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\order\orderadd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T12:19:00+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/order/orderadd.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/order/orderadd.html [运行时间：0.139122s][吞吐率：7.19req/s] [内存消耗：2,657.43kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'order',
+    2 => 'orderadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/user/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Order->orderadd[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Order.php ]
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\order\orderadd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T12:19:53+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/order/orderadd.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/order/orderadd.html [运行时间：0.118293s][吞吐率：8.45req/s] [内存消耗：2,657.02kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'order',
+    2 => 'orderadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/user/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Order->orderadd[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Order.php ]
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\order\orderadd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T12:20:41+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/order/orderadd.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/order/orderadd.html [运行时间：0.113121s][吞吐率：8.84req/s] [内存消耗：2,656.88kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'order',
+    2 => 'orderadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/user/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Order->orderadd[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Order.php ]
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\order\orderadd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T12:21:17+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/order/orderadd.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/order/orderadd.html [运行时间：0.098788s][吞吐率：10.12req/s] [内存消耗：2,656.52kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'order',
+    2 => 'orderadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/user/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Order->orderadd[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Order.php ]
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\order\orderadd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T12:24:02+08:00 ] ::1 ::1 GET /order/order-v1.0/order/admin.php/home/order/orderadd.html
+[ info ] localhost/order/order-v1.0/order/admin.php/home/order/orderadd.html [运行时间：0.212509s][吞吐率：4.71req/s] [内存消耗：2,662.91kb] [文件加载：38]
+[ info ] [ LANG ] C:\wamp64\www\order\order-v1.0\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'order',
+    2 => 'orderadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/order/order-v1.0/order/admin.php/home/user/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7874478080; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515676454; PHPSESSID=ej6cidb8jub8uckqj923d4msl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Order->orderadd[ C:\wamp64\www\order\order-v1.0\order\Admin\home\controller\Order.php ]
+[ info ] [ VIEW ] C:\wamp64\www\order\order-v1.0\order/Admin/home\view\order\orderadd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '(', expecting ',' or ';'[C:\wamp64\www\order\order-v1.0\order\runtime\temp\27bb16276473576046b2adfa6dd193bc.php:171]

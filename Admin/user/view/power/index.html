@@ -1,0 +1,63 @@
+{include file="/../../com/view/public/meta" /}
+	<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 管理员管理 <span class="c-gray en">&gt;</span> 角色管理 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+	<div class="Hui-article">
+		<article class="cl pd-20">
+		<!-- <div class="text-c">
+				<input type="text" class="input-text" style="width:250px" placeholder="输入会员名称、编号" id="search" name="value">
+				<button type="button" class="btn btn-success radius" onclick="search()"><i class="Hui-iconfont">&#xe665;</i> 搜用户</button>
+			</div> --><br>
+			<!-- <div class="cl pd-5 bg-1 bk-gray"> <span class="l"> <a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a class="btn btn-primary radius" href="javascript:;" onclick="power_add('poweradd')"><i class="Hui-iconfont">&#xe600;</i> 添加权限</a> </span> <span class="r">共有数据：<strong></strong> 条</span> </div>
+			<div class="mt-10"> -->
+			<table class="table table-border table-bordered table-hover table-bg">
+				<thead>
+					<tr>
+						<th scope="col" colspan="6">权限管理</th>
+					</tr>
+					<tr class="text-c">
+						<th width="">角色ID</th>
+						<th>角色名</th>
+						<th>描述</th>
+						<th>操作</th>
+					</tr>
+				</thead>
+				<tbody>
+				{volist name="list" id="vo"}
+					<tr class="text-c">
+						<td>{$vo.role_id}</td>
+						<td>{$vo.name}</td>
+						<td>{$vo.bewrite}</td>
+						<td width="8%">
+						<a title="权限管理" href="javascript:;" onclick="member_edit('{:url('poweredit',['id'=>$vo['role_id']])}')" style="text-decoration:none;color:red;">权限管理</a>
+						</td>
+					</tr>
+					{/volist}
+				</tbody>
+			</table>
+			</div>
+		</article>
+	</div>
+
+
+{include file="/../../com/view/public/footer" /}
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__STATIC__/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/laypage/1.2/laypage.js"></script>
+<script type="text/javascript">
+/*用户-编辑*/
+function member_edit(url){
+	layer.open({
+  type: 2 //Page层类型
+  ,area: ['800px','700px']
+  ,title: '权限编辑'
+  ,shade: 0.6 //遮罩透明度
+  ,maxmin: true //允许全屏最小化
+  ,anim: 1 //0-6的动画形式，-1不开启
+  ,content: url
+}); 
+}
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>
