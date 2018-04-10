@@ -4,6 +4,7 @@ use app\com\controller\Accesscontrol;
 use app\system\model\Casedesign as Casedesign;
 use app\com\model\Province;
 use app\patient\model\Pash;
+use app\patient\model\File;
 use app\patient\model\Customer;
 use think\Request;
 use think\Session;
@@ -39,6 +40,7 @@ class Patient extends Accesscontrol{
 	{
 		$request=Request::instance();
 		if($request->ispost()){
+			$status=0;
 			$data=$request->param();
 			$test_pash=[
 				'pash'=>$data['pash'],
@@ -57,14 +59,23 @@ class Patient extends Accesscontrol{
             'file_id'=>$pash->pash_id
 			];
 			$customer=Customer::create($test);
-			$file=substr($data['file_name'],0,strlen($data['file_name'])-1);
-			$fiel=explode('/',$file);
-
-
-			// if($pash && $customer){
-			// 	$message="成功。";
-			// }
-			return ['message'=>$fiel];
+			$file_name=substr($data['file_name'],0,strlen($data['file_name'])-1);
+			$file_name=explode('/',$file_name);
+			$test_file=[
+			'pash_id'=>$pash->pash_id
+			];
+			for ($i=0; $i <count($file_name) ; $i++) { 
+				$test_file['file_name']=$file_name[$i];
+				$file=File::create($test_file);
+				if(!$file){
+					return ['message'=>'文件写入失败','status'=>$status];
+				}
+			}
+			if($pash && $customer){
+				$message="成功。";
+				$status=1;
+			}
+			return ['message'=>$message,'status'=>$status];
 		}
 		$province=Province::all();
 		$this->assign('province',$province);
@@ -114,8 +125,22 @@ class Patient extends Accesscontrol{
 	{
 		// $list=Casedesign::get(3);
 		$list=Customer::paginate(15);
+		$count=Customer::count();
 		$this->assign('list',$list);
+		$this->assign('count',$count);
 		return $this->fetch();
+	}
+	public function fileinfo(){
+		$request=Request::instance();
+		$id=$request->param('id');
+		$list=Db::table('file')->alias('a')
+		->join('pash w','a.pash_id = w.pash_id')
+		->where('pash_id',1)
+		->select();
+		var_dump($list);
+
+
+
 	}
 
 }

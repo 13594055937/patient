@@ -57,7 +57,6 @@
 <script type="text/javascript" src="__STATIC__/lib/My97DatePicker/4.8/WdatePicker.js"></script>
 <script type="text/javascript" src="__STATIC__/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="__STATIC__/lib/laypage/1.2/laypage.js"></script>
-<script type="text/javascript" src="__STATIC__/js/LodopFuncs.js"></script>
 <script type="text/javascript">
 // 用户添加
 function add(){
@@ -130,55 +129,7 @@ function datadel(){
 	 })
 	}
 }
-//excel--添加
-function excel_add(){
-		layer.open({
-  type: 2 //Page层类型
-  ,area: ['780px', '200px']
-  ,title: '用户添加'
-  ,shade: 0.6 //遮罩透明度
-  ,maxmin: true //允许全屏最小化
-  ,anim: 1 //0-6的动画形式，-1不开启
-  ,content: 'exceladd.html'
-}); 
-}
-//excel--导出
-function excelexport(){
-		layer.open({
-  type: 2 //Page层类型
-  ,area: ['780px', '200px']
-  ,title: '用户添加'
-  ,shade: 0.6 //遮罩透明度
-  ,maxmin: true //允许全屏最小化
-  ,anim: 1 //0-6的动画形式，-1不开启
-  ,content: 'excelexport.html'
-}); 
-}
 
-// function excelexport(){
-// 	$.post("{:url('user/user/excelexport')}",
-// 	 	 function(data){
-// 	 		layer.msg(data.message);
-// 	 	}
-// 	 )
-// }	
-// function Print(){
-	
-	var LODOP; //声明为全局变量 
-	function Print() {
-	console.log(1);	
-		CreateOneFormPage();	
-		LODOP.PREVIEW();	
-	};
-// }
-function CreateOneFormPage(){
-		LODOP=getLodop();  
-		LODOP.PRINT_INIT("打印控件功能演示_Lodop功能_表单一");	//初始化打印
-		LODOP.SET_PRINT_STYLE("FontSize",18);	//设置对象风格
-		LODOP.SET_PRINT_STYLE("Bold",1);
-		// LODOP.ADD_PRINT_TEXT(50,231,260,39,"打印页面部分内容");
-		LODOP.ADD_PRINT_TABLE(20,10,1000,600,document.getElementById("info").innerHTML);
-	};	
 </script>
 <!--/请在上方写此页面业务相关的脚本-->
 </body>
