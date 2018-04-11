@@ -144,6 +144,7 @@ function selecttime(flag){
  //文件上传
 var file_name='';
 var pash;
+var timestamp=new Date().getTime();
 $("#file-1").fileinput({
         language: 'zh', //设置语言
         theme: 'explorer-fa',//主题
@@ -151,7 +152,7 @@ $("#file-1").fileinput({
         // allowedFileTypes: ['image', 'video', 'flash'], //文件类型
         // allowedFileExtensions: ['jpg', 'png', 'gif','xlsx'],
         // previewFileType:['video','image'],//预览文件类型,内置['image', 'html', 'text', 'video', 'audio', 'flash', 'object',‘other‘]等格式
-        // uploadExtraData:$("form").serializeArray(),
+        uploadExtraData:{time:timestamp},
         showPreview:true, //是否显示预览区域
         showRemove:false, //是否显示移除
         dropZoneEnabled:false,   //是否显示拖拽区域

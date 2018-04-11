@@ -26,8 +26,9 @@ class Patient extends Accesscontrol{
 	{
 		$request=Request::instance();
 		$file = request()->file('file');
+		$data=$request->param();
 		if($file){
-			$pash='uploads/'.date('Y').'/'.date('m').'/'.date('d').'/'.strtotime('now');
+			$pash='uploads/'.date('Y').'/'.date('m').'/'.date('d').'/'.$data['time'];
 			// 移动到服务器的上传目录 并且设置不覆盖
 			$info = $file->move(ROOT_PATH . 'public' . DS . $pash,'');
 			$message=$info?'上传成功。':$file->getError();
@@ -135,12 +136,45 @@ class Patient extends Accesscontrol{
 		$id=$request->param('id');
 		$list=Db::table('file')->alias('a')
 		->join('pash w','a.pash_id = w.pash_id')
-		->where('pash_id',1)
-		->select();
-		var_dump($list);
-
-
-
+		->where('w.pash_id',$id)
+		->paginate(15);
+		$pash=base64_encode(Pash::where('pash_id',$id)->value('pash'));
+		$count=Db::table('file')->alias('a')
+		->join('pash w','a.pash_id = w.pash_id')
+		->where('w.pash_id',$id)->count();
+		$this->assign('pash',$pash);
+		$this->assign('count',$count);
+		$this->assign('list',$list);
+		return $this->fetch();
+	}
+	public function upload()
+	{
+		$request=Request::instance();
+		$data=$request->param();
+		if($request->ispost()){
+			$message='';
+			$file = request()->file('file');
+			if($file){
+				$pash=base64_decode($data['pash']);
+				// 移动到服务器的上传目录 并且设置不覆盖
+				$info = $file->move(ROOT_PATH . 'public' . DS . $pash,'');
+				if($info){
+					$file_name=iconv("GB2312","UTF-8",  $info->getSaveName());
+					$pash_id=Pash::where('pash',$pash)->value('pash_id');
+					$test=[
+					'pash_id'=>$pash_id,
+					'file_name'=>$file_name
+					];
+					$file_upload=File::create($test);
+					$message=$file_upload?'上传成功。':'失败。';
+				}else{
+					$message=$file->getError();
+				}	
+		}
+		return ['message'=>$message];
+		}
+		$this->assign('pash',$data['pash']);
+		return $this->fetch();
 	}
 
 }

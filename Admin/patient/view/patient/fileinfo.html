@@ -1,0 +1,121 @@
+{include file="/../../com/view/public/meta" /}
+	<nav class="breadcrumb"><a href="{:url('file')}"><i class="Hui-iconfont">&#xe66b;</i> 返回</a><a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+	<div class="Hui-article">
+		<article class="cl pd-20">
+			<div class="text-c">
+				<input type="text" class="input-text" style="width:250px" placeholder="输入用户名、姓名" id="search" name="value">
+				<button type="button" class="btn btn-success radius" onclick="search()"><i class="Hui-iconfont">&#xe665;</i> 搜用户</button>
+			</div>
+			<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="datadel()" class="btn btn-secondary radius"><i class="Hui-iconfont">&#xe640;</i> 批量下载</a> <a href="javascript:;" onclick="upload('{:url('upload',['pash'=>$pash])}')" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加文件</a></span> <span class="r">共有数据：<strong>{$count}</strong> 条</span> </div>
+			<form action="" id="info">
+			<div class="mt-20">
+				<table class="table table-border table-bordered table-hover table-bg table-sort" id="">
+					<thead>
+						<tr class="text-c">
+							<th><input type="checkbox" name="" id="checkbox"></th>
+							<th>文件名</th>
+							<th>上次更新时间</th>
+							<th>操作</th>
+						</tr>
+					</thead>
+					<tbody>
+					{volist name="list" id="vo"}
+						<tr class="text-c">
+							<td width="25">
+							<input type="checkbox" value="{$vo.file_id}" name="delete[]" >
+							</td>
+							<td>{$vo.file_name}</td>
+							<td>{$vo.create_time}</td>
+							<td><a title="下载" href="__STATIC__/{$vo.pash}/{$vo.file_name}" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe640;</i></a></td>
+						</tr>
+						{/volist}
+					</tbody>
+				</table>
+				</form>
+			</div>
+				{$list->render()}
+		</article>
+	</div>
+{include file="/../../com/view/public/footer" /}
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__STATIC__/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/laypage/1.2/laypage.js"></script>
+<script type="text/javascript">
+// 用户添加
+function upload(url){
+		layer.open({
+  type: 2 //Page层类型
+  ,area: ['770px', '580px']
+  ,title: '文件上传'
+  ,shade: 0.6 //遮罩透明度
+  ,maxmin: true //允许全屏最小化
+  ,anim: 1 //0-6的动画形式，-1不开启
+  ,content: url
+}); 
+}
+/*用户-搜索*/
+function search(){
+	var search = $('#search').val();
+	// if(search==''){
+	// 	layer.msg('请输入关键字。');
+	// }else{
+		window.location.href='searchuser?value='+search;
+	// }
+	// $.post("{:url('user/searchuser')}",{value:search});
+}
+/*用户-停用*/
+function member_stop(id){
+	layer.confirm('确认要停用/启用吗？',function(){
+		$.post("{:url('user/status')}",{user_id:id},function(data){
+		layer.msg(data.message);
+		setTimeout("location.reload()",500);
+		});
+	});
+}
+/*客户-编辑*/
+function member_edit(url){
+	layer.open({
+  type: 2 //Page层类型
+  ,area: ['770px', '540px']
+  ,title: '客户编辑'
+  ,shade: 0.6 //遮罩透明度
+  ,maxmin: true //允许全屏最小化
+  ,anim: 1 //0-6的动画形式，-1不开启
+  ,content: url
+}); 
+}
+/*用户-删除*/
+function member_del(id){
+	layer.confirm('确认要删除吗？',function(){
+		$.get("{:url('user/userdel')}",{id:id},function(data){
+			layer.msg(data.message,{icon:1,time:1000});
+		});
+	setTimeout("location.reload()",1000);
+	});
+}
+//批量删除
+function datadel(){
+	var len=$("input:checkbox:checked").length;
+	if($('#checkbox').prop('checked') ){
+		len = len-1
+	}
+	 if(len==0){
+	 layer.msg("没有选中用户。");
+	}
+	 else{
+	 	layer.confirm('确定要删除这'+len+'名用户吗？',function(){
+	 	$.post("{:url('user/deleteuser')}",$('form').serializeArray(),
+	 	 function(data){
+	 		layer.msg(data.message);
+	 		setTimeout("location.reload()",1000);
+	 	});
+	 })
+	}
+}
+
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>
