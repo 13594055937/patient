@@ -11,14 +11,14 @@
 					<thead>
 						<tr class="text-c">
 							<th>文件</th>
-							<th>上传时间</th>
+							<th width="150">上传时间</th>
 						</tr>
 					</thead>
 					<tbody>
 					{volist name="list" id="vo"}
 						<tr class="text-c">
 							<td><a href="{:url('fileinfo',['id'=>$vo['file_id']])}">{$vo.customer_name} 相关文件</a></td>
-							<td width="150">{$vo.create_time}</td>
+							<td>{$vo.create_time}</td>
 						</tr>
 						{/volist}
 					</tbody>

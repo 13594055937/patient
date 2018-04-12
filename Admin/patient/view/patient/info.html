@@ -80,15 +80,6 @@ function search(){
 	// }
 	// $.post("{:url('user/searchuser')}",{value:search});
 }
-/*用户-停用*/
-function member_stop(id){
-	layer.confirm('确认要停用/启用吗？',function(){
-		$.post("{:url('user/status')}",{user_id:id},function(data){
-		layer.msg(data.message);
-		setTimeout("location.reload()",500);
-		});
-	});
-}
 /*客户-编辑*/
 function member_edit(url){
 	layer.open({
@@ -105,9 +96,11 @@ function member_edit(url){
 function member_del(id){
 	layer.confirm('确认要删除吗？',function(){
 		$.get("{:url('infodel')}",{id:id},function(data){
-			layer.msg(data.message,{icon:1,time:1000});
+			layer.msg(data.message);
+			if(data.status==1){
+				setTimeout("location.reload()",1000);
+			}
 		});
-	setTimeout("location.reload()",1000);
 	});
 }
 //批量删除

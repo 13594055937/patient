@@ -116,6 +116,13 @@ class Patient extends Accesscontrol{
 	{
 		$request=Request::instance();
 		$id=$request->param('id');
+		$status="";
+		$pash_id=Customer::where('customer_id',$id)->value('file_id');
+		$count=File::where('pash_id',$pash_id)->count();
+		if($count>0){
+			$message="存在该客户相关资料，删除失败。";
+			return ['message'=>$message,'status'=>$status];
+		}
 		$del=Customer::destroy($id);
 		$message=$del?'删除成功。':'删除失败。';
 		$status=$del?1:0;
@@ -147,12 +154,14 @@ class Patient extends Accesscontrol{
 		$this->assign('list',$list);
 		return $this->fetch();
 	}
+	//增加文件
 	public function upload()
 	{
 		$request=Request::instance();
 		$data=$request->param();
 		if($request->ispost()){
 			$message='';
+			$status='';
 			$file = request()->file('file');
 			if($file){
 				$pash=base64_decode($data['pash']);
@@ -160,6 +169,12 @@ class Patient extends Accesscontrol{
 				$info = $file->move(ROOT_PATH . 'public' . DS . $pash,'');
 				if($info){
 					$file_name=iconv("GB2312","UTF-8",  $info->getSaveName());
+					$file_id=File::where('file_name',$file_name)->value('file_id');
+					if($file_id){
+						$message="上传同名文件，已覆盖源文件。";
+						$status=1;
+						return ['message'=>$message,'status'=>$status];
+					}
 					$pash_id=Pash::where('pash',$pash)->value('pash_id');
 					$test=[
 					'pash_id'=>$pash_id,
@@ -167,14 +182,86 @@ class Patient extends Accesscontrol{
 					];
 					$file_upload=File::create($test);
 					$message=$file_upload?'上传成功。':'失败。';
+					$status=$file_upload?1:0;
 				}else{
 					$message=$file->getError();
 				}	
 		}
-		return ['message'=>$message];
+		return ['message'=>$message,'status'=>$status];
 		}
 		$this->assign('pash',$data['pash']);
 		return $this->fetch();
+	}
+	// 文件重命名
+	public function filerename()
+	{
+		$request=Request::instance();
+		$data=$request->param();
+		$list=Db::table('file')->alias('a')
+		->join('pash w','a.pash_id = w.pash_id')
+		->where('a.file_id',$data['id'])
+		->select();
+		$pash=ROOT_PATH . 'public' . DS  . $list[0]['pash'].'/'.$list[0]['file_name'];
+		// $retule=rename($pash,ROOT_PATH . 'public' . DS  . $list[0]['pash'].'/'.$data['name']);
+		$retule=rename(iconv('UTF-8','GBK',$pash), iconv('UTF-8','GBK',ROOT_PATH . 'public' . DS  . $list[0]['pash'].'/'.$data['name']));
+		if($retule){
+			$file_name=File::where('file_id',$data['id'])->update(['file_name'=>$data['name']]);
+			$message=$file_name?"修改成功。":"修改文件名数据失败。";
+		}else{
+			$message='修改文件名失败。';
+		}
+		return ['message'=>$message];
+	}
+	//文件删除
+	public function filedel()
+	{
+		$request=Request::instance();
+		$id=$request->param('id');
+		$status='';
+		$list=Db::table('file')->alias('a')
+		->join('pash w','a.pash_id = w.pash_id')
+		->where('a.file_id',$id)
+		->select();
+		$pash=ROOT_PATH . 'public' . DS  . $list[0]['pash'].'/'.$list[0]['file_name'];
+		try {
+	    		if(is_file(iconv('UTF-8','GBK',$pash))){
+	    		$file_del=unlink(iconv('UTF-8','GBK',$pash));
+	    		}
+	    		$del=File::destroy($id);
+	    		$message=$del?"文件删除成功。":"删除文件数据失败。";
+	    		$status=$del?1:0;
+		} catch (\Exception $e) {
+			$message=$e->getMessage();
+		}
+		return ['message'=>$message,'status'=>$status];
+	}
+	// 文件下载
+	 public function down($pash,$file_name){
+		$file_pash=iconv('UTF-8','GBK',$pash);
+		$file_name=iconv('UTF-8','GBK',$file_name);
+		if(is_file($file_pash)){  
+        	$file=fopen($file_pash,"r");
+			header("Content-Type: application/octet-stream");
+			header("Accept-Ranges: bytes");
+			header("Accept-Length: ".filesize($file_pash));
+			header("Content-Disposition: attachment; filename=$file_name");
+			fread($file,filesize($file_pash));
+			fclose($file); 
+        	$message="文件下载成功。";   
+        }else{
+        	$message="文件不存在。";   
+        }
+        return $message; 
+	} 
+	public function filedown(){
+		$request=Request::instance();
+		$id=$request->param('id');
+		$list=Db::table('file')->alias('a')
+		->join('pash w','a.pash_id = w.pash_id')
+		->where('a.file_id',$id)
+		->select();
+		$pash=ROOT_PATH . 'public' . DS  . $list[0]['pash'].'/'.$list[0]['file_name'];
+		$this->down($pash,$list[0]['file_name']);
 	}
 
 }

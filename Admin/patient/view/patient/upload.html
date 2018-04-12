@@ -41,8 +41,11 @@ $("#file-1").fileinput({
             showUpload: false,
             }//设置预览图片的显示样式   
     }).on("fileuploaded", function (data,index) { //上传成功
-        layer.msg(index.response.message,{icon:1,time:1000});
-        // console.log(index);
+        layer.msg(index.response.message,{icon:1,time:1500});
+        console.log(index);
+        if(index.response.status==1){
+            setTimeout("parent.location.reload()",1000);
+        }
     })
 
 
