@@ -1,0 +1,153 @@
+{include file="/../../com/view/public/meta" /}
+<article class="cl pd-20">
+	<form action="" method="post" class="form form-horizontal" id="form-admin-role-add">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>角色名称：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="" id="roleName" name="roleName" datatype="*4-16" nullmsg="用户账户不能为空">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3">描述：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="" id="" name="memo">
+			</div>
+		</div>
+		<!-- <div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3">网站角色：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<dl class="permission-list">
+					<dt>
+						<label>
+							<input type="checkbox" value="" name="user-Character-0" id="user-Character-0">
+							权限分配</label>
+					</dt><hr>
+<div class="aiui">
+    <div class="ai-treenav">
+        <ul>
+            <li>
+                <ul class="nav-trunk">
+                    <li ><a  class="item-name c-f"><i></i><span class="pull-left"><div class="checkbox c-selected"><input type="checkbox"></div></span><span class="pull-left filename">用户管理</span></a>
+                        <ul class="nav-trunk fold ">
+                            <li ><a  class="item-name c-f" title="二级目录名称二级目录名称二级目录名称"><i></i><span class="pull-left"><div class="checkbox"><input type="checkbox"></div></span><span class="pull-left filename" >用户管理</span></a>
+                                <ul class="nav-trunk fold">
+                                    <li> <a  class="item-name c-f"><i></i><span class="pull-left"><div class="checkbox"><input type="checkbox"></div></span><span class="pull-left filename">三级</span></a>                   
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+					 <li ><a  class="item-name c-f"><i></i><span class="pull-left"><div class="checkbox"><input type="checkbox"></div></span><span class="pull-left filename">一级目录名称</span></a>
+                        <ul class="nav-trunk fold ">
+                            <li ><a  class="item-name c-f"><i></i><span class="pull-left"><div class="checkbox"><input type="checkbox"></div></span><span class="pull-left filename">二级目录名称</span></a>
+                                <ul class="nav-trunk fold">
+                                    <li> <a  class="item-name  item-name-last c-f"><i></i><span class="pull-left"><div class="checkbox"><input type="checkbox"></div></span><span class="pull-left filename">三级目录名称</span></a>
+                                    </li>
+                                    <li> <a  class="item-name  item-name-last c-f"><i></i><span class="pull-left"><div class="checkbox"><input type="checkbox"></div></span><span class="pull-left filename">三级目录名称</span></a>
+                                    </li>
+                                    <li> <a  class="item-name  item-name-last c-f"><i></i><span class="pull-left"><div class="checkbox"><input type="checkbox"></div></span><span class="pull-left filename">三级目录名称</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div><br>	 -->
+			<!-- 	</dl>
+			</div>
+		</div> -->
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>角色状态：</label>
+			<div class="formControls col-xs-8 col-sm-9 skin-minimal">
+				<div class="radio-box">
+					<input name="status" type="radio" id="sex-1" value="1" checked>
+					<label for="sex-1">启用</label>
+				</div>
+				<div class="radio-box">
+					<input type="radio" id="sex-2" name="status" value="0">
+					<label for="sex-2">停用</label>
+				</div>
+			</div>
+		</div>
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+				<button type="submit" class="btn btn-success radius" id="admin-role-save" name="admin-role-save"><i class="icon-ok"></i> 确定</button>
+			</div>
+		</div>
+	</form>
+</article>
+
+{include file="/../../com/view/public/footer" /}
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/jquery.validate.js"></script> 
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/validate-methods.js"></script> 
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/messages_zh.js"></script> 
+<script type="text/javascript">
+// $(function(){
+// 	$(".permission-list dt input:checkbox").click(function(){
+// 		$(this).closest("dl").find("dd input:checkbox").prop("checked",$(this).prop("checked"));
+// 	});
+// 	$(".permission-list2 dd input:checkbox").click(function(){
+// 		var l =$(this).parent().parent().find("input:checked").length;
+// 		var l2=$(this).parents(".permission-list").find(".permission-list2 dd").find("input:checked").length;
+// 		if($(this).prop("checked")){
+// 			$(this).closest("dl").find("dt input:checkbox").prop("checked",true);
+// 			$(this).parents(".permission-list").find("dt").first().find("input:checkbox").prop("checked",true);
+// 		}
+// 		else{
+// 			if(l==0){
+// 				$(this).closest("dl").find("dt input:checkbox").prop("checked",false);
+// 			}
+// 			if(l2==0){
+// 				$(this).parents(".permission-list").find("dt").first().find("input:checkbox").prop("checked",false);
+// 			}
+// 		}
+// 	});
+	
+	$("#form-admin-role-add").validate({
+		rules:{
+			roleName:{
+				required:true,
+			},
+		},
+		onkeyup:false,
+		focusCleanup:true,
+		success:"valid",
+		submitHandler:function(form){
+			 $(form).ajaxSubmit(options);
+            return false;
+		}
+	});
+	var options = {
+	    url: "{:url('role/rolesave')}",
+	    type: 'post',
+	    success: function(data) {
+	    	layer.msg(data.message);
+	    	if(data.status==1){
+	    		// setTimeout("parent.layer.closeAll();",1000);
+	    		setTimeout("parent.location.reload()",1000);
+	    	}
+	   
+	    }
+	 }
+
+$(function () {
+    $(".item-name > i").click(function(){
+        $(this).parent().parent().toggleClass("unfold")
+        $(this).parent().parent().find("ul:first").slideToggle(500);
+        $(this).toggleClass("unfold");
+        $(this).parent().children(".filename").toggleClass("filename-open");
+    });
+    });
+    $(function () {
+        $(".checkbox").click(function (){
+            $(this).toggleClass("c-selected");
+        });
+    });
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>
