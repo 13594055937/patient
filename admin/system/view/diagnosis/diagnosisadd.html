@@ -1,0 +1,80 @@
+﻿{include file="/../../com/view/public/meta" /}
+<article class="cl pd-20">
+	<form action="" method="post" class="form form-horizontal" id="form-admin-diagnosis-add">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>诊断名：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" name="name">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>所属职称：</label>
+			<div class="formControls col-xs-8 col-sm-9 skin-minimal">
+				<div class="radio-box">
+					<input name="difference" type="radio" id="sex-1" value="0" checked>
+					<label for="sex-1">医生</label>
+				</div>
+				<div class="radio-box">
+					<input type="radio" id="sex-2" name="difference" value="1">
+					<label for="sex-2">技师</label>
+				</div>
+			</div>
+		</div><br>
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+				<button type="submit" class="btn btn-success radius" id="admin-diagnosis-save" name="admin-diagnosis-save"><i class="icon-ok"></i> 确定</button>
+			</div>
+		</div>
+	</form>
+</article>
+
+{include file="/../../com/view/public/footer" /}
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/jquery.validate.js"></script> 
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/validate-methods.js"></script> 
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/messages_zh.js"></script> 
+<script type="text/javascript">
+	$("#form-admin-diagnosis-add").validate({
+		rules:{
+			name:{
+				required:true,
+			}
+		},
+		onkeyup:false,
+		focusCleanup:true,
+		success:"valid",
+		submitHandler:function(form){
+			 $(form).ajaxSubmit(options);
+            return false;
+		}
+	});
+	var options = {
+	    url: "{:url('diagnosisadd')}",
+	    type: 'post',
+	    success: function(data) {
+	    	layer.msg(data.message);
+	    	if(data.status==1){
+	    		setTimeout("parent.location.reload()",1000);
+	    	}
+	   
+	    }
+	 }
+
+$(function () {
+    $(".item-name > i").click(function(){
+        $(this).parent().parent().toggleClass("unfold")
+        $(this).parent().parent().find("ul:first").slideToggle(500);
+        $(this).toggleClass("unfold");
+        $(this).parent().children(".filename").toggleClass("filename-open");
+    });
+    });
+    $(function () {
+        $(".checkbox").click(function (){
+            $(this).toggleClass("c-selected");
+        });
+    });
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

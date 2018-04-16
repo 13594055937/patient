@@ -1,0 +1,127 @@
+{include file="/../../com/view/public/meta" /}
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页
+	<span class="c-gray en">&gt;</span>
+	系统管理
+	<span class="c-gray en">&gt;</span>
+	诊断管理
+	<a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a>
+</nav>
+<div class="page-container">
+	<div class="text-c">
+		<input type="text" name="value" id="value" placeholder="请输入搜索诊断名的关键字" style="width:250px" class="input-text">
+		<button onclick="member_search()" class="btn btn-success" type="submit"><i class="Hui-iconfont">&#xe665;</i> 搜索</button>
+	</div>
+	<div class="cl pd-5 bg-1 bk-gray mt-20">
+		<span class="l">
+		<a href="javascript:;" onclick="member_datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a>
+		<a href="javascript:;" onclick="submit_add()" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加诊断</a>
+		</span>
+		<span class="r">共有数据：<strong>{$count}</strong> 条</span>
+	</div> <br>
+	<span class="select-box inline">
+		<select name="" class="select" id="select">
+			<option value="2" {if condition="($difference == 2)"}selected{/if}>显示全部数据</option>
+			<option value="0" {if condition="($difference == 0)"}selected{/if}>仅显示医生数据</option>
+			<option value="1" {if condition="($difference == 1)"}selected{/if}>仅显示技师数据</option>
+		</select>
+		</span><br><br>
+	<form action="" id="form">
+	<table class="table table-border table-bordered table-bg table-hover table-sort">
+		<thead>
+			<tr class="text-c">
+				<th width="25"><input type="checkbox" name="" id="checkbox"></th>
+				<th width="">诊断名</th>
+				<th width="20%">所属职称</th>
+				<th width="15%">创建时间</th>
+				<th width="15%">更新时间</th>
+				<th width="10%">操作</th>
+			</tr>
+		</thead>
+		<tbody>
+		{volist name="list" id="vo"}
+			<tr class="text-c">
+				<td width="25"><input type="checkbox" value="{$vo.diagnosis_id}" name="delete[]" ></td>
+				<td><b>{$vo.diagnosis_name}</b></td>
+				<td>{$vo.difference}</td>
+				<td>{$vo.create_time}</td>
+				<td>{$vo.update_time}</td>
+				<td><a title="编辑" href="javascript:;" onclick="member_edit('{:url('diagnosisedit',['id'=>$vo['diagnosis_id']])}')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> 
+				 <a title="删除" href="javascript:;" onclick="member_del({$vo.diagnosis_id})" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+			</tr>
+			{/volist}
+		</tbody>
+	</table>
+	</form>
+	<div id="pageNav" class="pageNav"></div>
+	{$list->render()}
+</div>
+
+{include file="/../../com/view/public/footer" /}
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__STATIC__/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/laypage/1.2/laypage.js"></script>
+<!-- <script type="text/javascript" src="__STATIC__/js/ajax_layer.js"></script> -->
+<script type="text/javascript">
+  $("#select").change(function(){
+	 var value = $(this).find('option:selected').val();
+	 window.location.href='index/difference/'+value;
+  	})
+function submit_add(){
+	var url='{:url('system/diagnosis/diagnosisadd')}';
+	layer.open({
+  type: 2 //Page层类型
+  ,area: ['50%','30%']
+  ,title: '诊断信息添加'
+  ,shade: 0.6 //遮罩透明度
+  ,maxmin: true //允许全屏最小化
+  ,anim: 1 //0-6的动画形式，-1不开启
+  ,content:url
+}); 
+}
+function member_edit(url){
+	layer.open({
+  type: 2 //Page层类型
+  ,area: ['55%','30%']
+  ,title: '诊断信息添加'
+  ,shade: 0.6 //遮罩透明度
+  ,maxmin: true //允许全屏最小化
+  ,anim: 1 //0-6的动画形式，-1不开启
+  ,content: url
+}); 
+}
+function member_del(id){
+	layer.confirm('确认要删除吗？',function(){
+		$.post("{:url('diagnosisdel')}",{id:id},function(data){
+			layer.msg(data.message);
+		});
+	setTimeout("location.reload()",1000);
+	});
+}
+function member_datadel(){
+	var len=$("input:checkbox:checked").length;
+	if($('#checkbox').prop('checked') ){
+		len = len-1
+	}
+	 if(len==0){
+	 layer.msg("没有选中诊断。");
+	}
+	 else{
+	 	layer.confirm('确定要删除这'+len+'条数据吗？',function(){
+	 	$.post("{:url('diagnosisdelete')}",$('form').serializeArray(),
+	 	 function(data){
+	 		layer.msg(data.message);
+	 		setTimeout("location.reload()",1000);
+	 	});
+	 })
+	}
+}
+function member_search()
+{
+	var text=$('#value').val();
+	window.location.href='diagnosissearch?text='+text;
+}
+</script>
+</body>
+</html>

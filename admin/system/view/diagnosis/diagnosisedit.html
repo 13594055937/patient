@@ -1,0 +1,67 @@
+{include file="/../../com/view/public/meta" /}
+<article class="cl pd-20">
+	<form action="" method="post" class="form form-horizontal" id="form-admin-diagnosis-add">
+	<input type="hidden" value="{$list.diagnosis_id}" name="id">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>诊断名：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="{$list.diagnosis_name}" placeholder="" name="name" datatype="*4-16" nullmsg="用户账户不能为空">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>所属职称：</label>
+			<div class="formControls col-xs-8 col-sm-9 skin-minimal">
+				<div class="radio-box">
+					<input name="difference" type="radio" id="sex-1" value="0" {if condition="($list['difference']== '医生')"}checked{/if}>
+					<label for="sex-1">医生</label>
+				</div>
+				<div class="radio-box">
+					<input type="radio" id="sex-2" name="difference" value="1" {if condition="($list['difference']=='技师')"}checked{/if}>
+					<label for="sex-2">技师</label>
+				</div>
+			</div>
+		</div><br>
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+				<button type="submit" class="btn btn-success radius" id="admin-diagnosis-save" name="admin-diagnosis-save"><i class="icon-ok"></i> 确定</button>
+			</div>
+		</div>
+	</form>
+</article>
+
+{include file="/../../com/view/public/footer" /}
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/jquery.validate.js"></script> 
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/validate-methods.js"></script> 
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/messages_zh.js"></script> 
+<script type="text/javascript">
+$("#form-admin-diagnosis-add").validate({
+		rules:{
+			diagnosisName:{
+				required:true,
+			},
+		},
+		onkeyup:false,
+		focusCleanup:true,
+		success:"valid",
+		submitHandler:function(form){
+			 $(form).ajaxSubmit(options);
+            return false;
+		}
+	});
+	var options = {
+	    url: "{:url('diagnosisedit')}",
+	    type: 'post',
+	    success: function(data) {
+	    	layer.msg(data.message);
+	    	if(data.status==1){
+	    		// setTimeout("parent.layer.closeAll();",1000);
+	    		setTimeout("parent.location.reload()",1000);
+	    		}
+	    	}
+	    }
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>
