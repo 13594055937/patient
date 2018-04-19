@@ -31,49 +31,66 @@
 				<input type="text" class="input-text" value="" placeholder="3到15位字符由字母开头、数字组合" id="customer_name" name="customer_name">
 			</div>
 		</div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>性别：</label>
+            <div class="formControls col-xs-8 col-sm-9 skin-minimal">
+                <div class="radio-box">
+                    <input name="nex" type="radio" id="sex-1" value="1" checked>
+                    <label for="sex-1">男</label>
+                </div>
+                <div class="radio-box">
+                    <input type="radio" id="sex-2" name="nex" value="0">
+                    <label for="sex-2">女</label>
+                </div>
+            </div>
+        </div>
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-2">所属区域：</label>
 			{include file="/../../com/view/public/cityarea" /}
 		</div>
         <input type="hidden" name="pash" value="" id="pash">
         <input type="hidden" name="file_name" value="" id='file_name'>
+		 <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>年龄：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" value="" placeholder="" id="age" name="age">
+            </div>
+        </div>
 		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>出生日期：</label>
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>体重(kg)：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input type="text" name="time" id="countTimestart" onfocus="selecttime(1)" value="" size="17" class="date input-text Wdate" id="logmax" readonly>
+				<input type="text" class="input-text" value="" placeholder="" id="weight" name="weight">
 			</div>
 		</div>
-		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>体重：</label>
-			<div class="formControls col-xs-8 col-sm-9">
-				<input type="text" class="input-text" value="" placeholder="单位为kg" id="weight" name="weight">
-			</div>
-		</div>
-		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>性别：</label>
-			<div class="formControls col-xs-8 col-sm-9 skin-minimal">
-				<div class="radio-box">
-					<input name="nex" type="radio" id="sex-1" value="1" checked>
-					<label for="sex-1">男</label>
-				</div>
-				<div class="radio-box">
-					<input type="radio" id="sex-2" name="nex" value="0">
-					<label for="sex-2">女</label>
-				</div>
-			</div>
-		</div>
-		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>诊断结果：</label>
-			<div class="formControls col-xs-8 col-sm-9">
-				<input type="text" class="input-text" value="" placeholder="" id="result" name="result">
-			</div>
-		</div>
-		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>联系方式：</label>
-			<div class="formControls col-xs-8 col-sm-9">
-				<input type="text" class="input-text" value="" placeholder="" id="tel" name="tel">
-			</div>
-		</div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>身高(cm)：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" value="" placeholder="" id="height" name="height">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>联系方式：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" value="" placeholder="" id="tel" name="tel">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>糖尿病：</label>
+            <div class="formControls col-xs-8 col-sm-9 skin-minimal">
+             <div class="radio-box">
+                    <input name="is" type="radio" id="sex-1" value="2" checked>
+                    <label for="sex-1">未知</label>
+                </div>
+                <div class="radio-box">
+                    <input name="is" type="radio" id="sex-1" value="1">
+                    <label for="sex-1">有</label>
+                </div>
+                <div class="radio-box">
+                    <input type="radio" id="sex-2" name="is" value="0">
+                    <label for="sex-2">无</label>
+                </div>
+            </div>
+        </div>
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>资料上传：</label>
 			<div class="formControls col-xs-8 col-sm-9">

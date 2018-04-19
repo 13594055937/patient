@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:65:"C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedesadd.html";i:1522316293;s:73:"C:\PHP\php11\WWW\Patient/Admin/score\view\..\..\com\view\public\meta.html";i:1521619099;s:75:"C:\PHP\php11\WWW\Patient/Admin/score\view\..\..\com\view\public\footer.html";i:1523166087;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:65:"C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedesadd.html";i:1524102874;s:73:"C:\PHP\php11\WWW\Patient/Admin/score\view\..\..\com\view\public\meta.html";i:1521619099;}*/ ?>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -21,8 +21,14 @@
 <meta name="description" content="H-ui.admin v3.1，是一款由国人开发的轻量级扁平化网站后台模板，完全免费开源的网站后台管理系统模版，适合中小型CMS后台系统。">
 </head>
 <body>
+<link rel="stylesheet" href="__STATIC__/jquery-ui-1.12.1.custom/jquery-ui.min.css">
 <article class="cl pd-20">
 	<form action="" method="post" class="form form-horizontal" id="form-member-add">
+	<label class="form-label col-sm-2"><span class="c-red">*</span>客户名：</label>
+			<div class="formControls col-xs-3 col-sm-3">
+				<input type="text" class="input-text radius" id="tags">
+			</div>
+			<br><br><hr>
 			<label for="name" class="lh-30 ml-30"><strong>一、疼痛（40分） </strong></label><br>
 				<label class="radio-inline ml-50 lh-26 ">
 					<input type="radio" name="pain" value="40">1、 无 
@@ -126,20 +132,17 @@
 			</div>
 	</form>
 </article>
-<script type="text/javascript" src="__STATIC__/lib/jquery/1.9.1/jquery.min.js"></script> 
-<script type="text/javascript" src="__STATIC__/lib/layer/2.4/layer.js"></script>
-<script type="text/javascript" src="__STATIC__/static/h-ui/js/H-ui.min.js"></script>
-<script type="text/javascript" src="__STATIC__/static/h-ui.admin/js/H-ui.admin.js"></script>
-<script type="text/javascript" src="__STATIC__/layui/layui.js"></script>
-
-
 
 <!--请在下方写此页面业务相关的脚本-->
-<script type="text/javascript" src="__STATIC__/lib/My97DatePicker/4.8/WdatePicker.js"></script>
-<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/jquery.validate.js"></script> 
-<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/validate-methods.js"></script> 
-<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/messages_zh.js"></script> 
+<script src="__STATIC__/js/jquery-1.12.4.js"></script>
+<script src="__STATIC__/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
 <script type="text/javascript">
+$( function() {
+   var availableTags = <?php echo json_encode($list); ?>;
+    $("#tags").autocomplete({
+      source: availableTags
+    });
+  } );
 function submit_form(){
 	var len=$("input:radio:checked").length;
 		if(len==9){

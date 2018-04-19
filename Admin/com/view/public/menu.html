@@ -15,7 +15,7 @@
             <dd>
                 <ul>
                     <li><a data-href="{:url('patient/patient/info')}" data-title="患者信息管理" href="javascript:void(0)">患者信息管理</a></li>
-                    <li><a data-href="{:url('patient/patient/data')}" data-title="资料收集表管理" href="javascript:void(0)">资料收集表管理</a></li>
+                    <li><a data-href="{:url('patient/patient/file')}" data-title="资料收集表管理" href="javascript:void(0)">资料收集表管理</a></li>
                     <!-- <li><a data-href="{:url('user/user/index')}" data-title="管理员列表" href="javascript:void(0)">用户列表</a></li> -->
             </ul>
         </dd>
@@ -31,23 +31,36 @@
         </dd>
     </dl>
     <dl id="menu-admin">
+            <dt><i class="Hui-iconfont">&#xe639;</i> 健康管理中心<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a data-href="{:url('manage/devicesurface/index')}" data-title="支辅具定制表" href="javascript:void(0)">支辅具定制表</a></li>
+                    <li><a data-href="{:url('manage/icbsurface/index')}" data-title="ICB信息表" href="javascript:void(0)">ICB信息表</a></li>
+            </ul>
+        </dd>
+    </dl>
+   <!--  <dl id="menu-admin">
             <dt><i class="Hui-iconfont">&#xe6f2;</i> 用户档案文件管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
             <dd>
                 <ul>
                     <li><a data-href="{:url('file/Ibcfile/index')}" data-title="ICB定制用户文件管理" href="javascript:void(0)">ICB定制用户文件管理</a></li>
                     <li><a data-href="{:url('file/Ibcfile/index')}" data-title="支辅具定制用户文件管理" href="javascript:void(0)">支辅具定制用户文件管理</a></li>
                     <!-- <li><a data-href="{:url('user/user/index')}" data-title="管理员列表" href="javascript:void(0)">用户列表</a></li> -->
-            </ul>
+         <!--    </ul>
         </dd>
-    </dl>
+    </dl> --> 
         <dl id="menu-system">
             <dt><i class="Hui-iconfont">&#xe62e;</i> 基础数据管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
             <dd>
                 <ul>
-                    <li><a data-href="{:url('system/Casedesign/info')}" data-title="用户信息表设计器" href="javascript:void(0)">用户信息表设计器</a></li>
-                    <li><a data-href="{:url('system/Casedesign/data')}" data-title="资料收集表设计器" href="javascript:void(0)">资料收集表设计器</a></li>
+                    <li><a data-href="{:url('system/hospital/index')}" data-title="医院管理" href="javascript:void(0)">医院管理</a></li>
+                    <li><a data-href="{:url('system/doctor/index')}" data-title="医生管理" href="javascript:void(0)">医生管理</a></li>
+                    <li><a data-href="{:url('system/technician/index')}" data-title="技师管理" href="javascript:void(0)">技师管理</a></li>
+                    <li><a data-href="{:url('system/diagnosis/index',['difference'=>2])}" data-title="诊断管理" href="javascript:void(0)">诊断管理</a></li>
+                    <li><a data-href="{:url('system/other/index')}" data-title="其他项目管理" href="javascript:void(0)">其他项目管理</a></li>
+                    <!-- <li><a data-href="{:url('system/Casedesign/info')}" data-title="用户信息表设计器" href="javascript:void(0)">用户信息表设计器</a></li>
+                    <!<li><a data-href="{:url('system/Casedesign/data')}" data-title="资料收集表设计器" href="javascript:void(0)">资料收集表设计器</a></li> -->
                     <li><a data-href="{:url('system/node/index')}" data-title="节点管理" href="javascript:void(0)">节点管理</a></li>
-                    <!-- <li><a data-href="system-data.html" data-title="数据字典" href="javascript:void(0)">数据字典</a></li> -->
                     <li><a data-href="{:url('system/Log/index')}" data-title="系统日志" href="javascript:void(0)">系统日志</a></li>
             </ul>
         </dd>

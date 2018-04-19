@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:61:"C:\PHP\php11\WWW\Patient/Admin/patient\view\patient\info.html";i:1523352089;s:75:"C:\PHP\php11\WWW\Patient/Admin/patient\view\..\..\com\view\public\meta.html";i:1521619099;s:77:"C:\PHP\php11\WWW\Patient/Admin/patient\view\..\..\com\view\public\footer.html";i:1523166087;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:61:"C:\PHP\php11\WWW\Patient/Admin/patient\view\patient\info.html";i:1524129684;s:75:"C:\PHP\php11\WWW\Patient/Admin/patient\view\..\..\com\view\public\meta.html";i:1521619099;s:77:"C:\PHP\php11\WWW\Patient/Admin/patient\view\..\..\com\view\public\footer.html";i:1523166087;}*/ ?>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -25,10 +25,10 @@
 	<div class="Hui-article">
 		<article class="cl pd-20">
 			<div class="text-c">
-				<input type="text" class="input-text" style="width:250px" placeholder="输入用户名、姓名" id="search" name="value">
-				<button type="button" class="btn btn-success radius" onclick="search()"><i class="Hui-iconfont">&#xe665;</i> 搜用户</button>
+				<input type="text" class="input-text" style="width:250px" placeholder="输入客户名关键字" id="search" name="value">
+				<button type="button" class="btn btn-success radius" onclick="search()"><i class="Hui-iconfont">&#xe665;</i> 搜客户</button>
 			</div>
-			<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a href="javascript:;" onclick="add()" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加客户</a></span> <span class="r">共有数据：<strong><?php echo $count; ?></strong> 条</span> </div>
+			<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a href="javascript:;" onclick="add()" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加客户</a> <!-- <a href="javascript:;" onclick="print()" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 打印</a> --></span> <span class="r">共有数据：<strong><?php echo $count; ?></strong> 条</span> </div>
 			<form action="" id="info">
 			<div class="mt-20">
 				<table class="table table-border table-bordered table-hover table-bg table-sort" id="">
@@ -37,11 +37,12 @@
 							<th><input type="checkbox" name="" id="checkbox"></th>
 							<th>客户姓名</th>
 							<th>性别</th>					
-							<th>体重</th>
-							<th>出生日期</th>
+							<th>体重(kg)</th>
+							<th>年龄</th>
 							<th>所属区域</th>
 							<th>联系方式</th>
-							<th>诊断结果</th>
+							<th>身高(cm)</th>
+							<th>糖尿病</th>
 							<th>创建时间</th>
 							<th>修改时间</th>
 							<th >操作</th>
@@ -54,14 +55,27 @@
 							<input type="checkbox" value="<?php echo $vo['customer_id']; ?>" name="delete[]" >
 							</td>
 							<td><?php echo $vo['customer_name']; ?></td>
-							<td><?php echo $vo['nex']; ?></td>
+							<td><?php if($vo['nex']==1): ?>
+								男
+								<?php else: ?>
+								女
+								<?php endif; ?></td>
 							<td><?php echo $vo['weight']; ?>kg</td>
-							<td><?php echo $vo['time']; ?></td>
+							<td><?php echo $vo['age']; ?></td>
 							<td><?php echo $vo['province']; ?>-<?php echo $vo['city']; ?>-<?php echo $vo['area']; ?></td>
 							<td><?php echo $vo['tel']; ?></td>
-							<td><?php echo $vo['result']; ?></td>
-							<td><?php echo $vo['create_time']; ?></td>
-							<td><?php echo $vo['update_time']; ?></td>
+							<td><?php echo $vo['height']; ?></td>
+							<td>
+							<?php if($vo['diabetes']==1): ?>
+								有
+								<?php elseif($vo['diabetes']==0): ?>
+								无
+								<?php else: ?>
+								未知
+								<?php endif; ?>
+							</td>
+							<td><?php echo date('Y-m-d h:m:s',$vo['create_time']); ?></td>
+							<td><?php echo date('Y-m-d h:m:s',$vo['update_time']); ?></td>
 							<td class="td-manage">
 							<a title="编辑" href="javascript:;" onclick="member_edit('<?php echo url('infoedit',['id'=>$vo['customer_id']]); ?>')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a title="删除" href="javascript:;" onclick="member_del(<?php echo $vo['customer_id']; ?>)" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
 						</tr>
@@ -85,7 +99,6 @@
 <script type="text/javascript" src="__STATIC__/lib/My97DatePicker/4.8/WdatePicker.js"></script>
 <script type="text/javascript" src="__STATIC__/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="__STATIC__/lib/laypage/1.2/laypage.js"></script>
-<script type="text/javascript" src="__STATIC__/js/LodopFuncs.js"></script>
 <script type="text/javascript">
 // 用户添加
 function add(){
@@ -102,21 +115,7 @@ function add(){
 /*用户-搜索*/
 function search(){
 	var search = $('#search').val();
-	// if(search==''){
-	// 	layer.msg('请输入关键字。');
-	// }else{
-		window.location.href='searchuser?value='+search;
-	// }
-	// $.post("<?php echo url('user/searchuser'); ?>",{value:search});
-}
-/*用户-停用*/
-function member_stop(id){
-	layer.confirm('确认要停用/启用吗？',function(){
-		$.post("<?php echo url('user/status'); ?>",{user_id:id},function(data){
-		layer.msg(data.message);
-		setTimeout("location.reload()",500);
-		});
-	});
+	window.location.href='searchuser?value='+search;
 }
 /*客户-编辑*/
 function member_edit(url){
@@ -134,79 +133,19 @@ function member_edit(url){
 function member_del(id){
 	layer.confirm('确认要删除吗？',function(){
 		$.get("<?php echo url('infodel'); ?>",{id:id},function(data){
-			layer.msg(data.message,{icon:1,time:1000});
+			layer.msg(data.message);
+			if(data.status==1){
+				setTimeout("location.reload()",1000);
+			}
 		});
-	setTimeout("location.reload()",1000);
 	});
 }
-//批量删除
-function datadel(){
-	var len=$("input:checkbox:checked").length;
-	if($('#checkbox').prop('checked') ){
-		len = len-1
-	}
-	 if(len==0){
-	 layer.msg("没有选中用户。");
-	}
-	 else{
-	 	layer.confirm('确定要删除这'+len+'名用户吗？',function(){
-	 	$.post("<?php echo url('user/deleteuser'); ?>",$('form').serializeArray(),
-	 	 function(data){
-	 		layer.msg(data.message);
-	 		setTimeout("location.reload()",1000);
-	 	});
-	 })
-	}
-}
-//excel--添加
-function excel_add(){
-		layer.open({
-  type: 2 //Page层类型
-  ,area: ['780px', '200px']
-  ,title: '用户添加'
-  ,shade: 0.6 //遮罩透明度
-  ,maxmin: true //允许全屏最小化
-  ,anim: 1 //0-6的动画形式，-1不开启
-  ,content: 'exceladd.html'
-}); 
-}
-//excel--导出
-function excelexport(){
-		layer.open({
-  type: 2 //Page层类型
-  ,area: ['780px', '200px']
-  ,title: '用户添加'
-  ,shade: 0.6 //遮罩透明度
-  ,maxmin: true //允许全屏最小化
-  ,anim: 1 //0-6的动画形式，-1不开启
-  ,content: 'excelexport.html'
-}); 
+// 打印
+function print(){
+	
 }
 
-// function excelexport(){
-// 	$.post("<?php echo url('user/user/excelexport'); ?>",
-// 	 	 function(data){
-// 	 		layer.msg(data.message);
-// 	 	}
-// 	 )
-// }	
-// function Print(){
-	
-	var LODOP; //声明为全局变量 
-	function Print() {
-	console.log(1);	
-		CreateOneFormPage();	
-		LODOP.PREVIEW();	
-	};
-// }
-function CreateOneFormPage(){
-		LODOP=getLodop();  
-		LODOP.PRINT_INIT("打印控件功能演示_Lodop功能_表单一");	//初始化打印
-		LODOP.SET_PRINT_STYLE("FontSize",18);	//设置对象风格
-		LODOP.SET_PRINT_STYLE("Bold",1);
-		// LODOP.ADD_PRINT_TEXT(50,231,260,39,"打印页面部分内容");
-		LODOP.ADD_PRINT_TABLE(20,10,1000,600,document.getElementById("info").innerHTML);
-	};	
+
 </script>
 <!--/请在上方写此页面业务相关的脚本-->
 </body>

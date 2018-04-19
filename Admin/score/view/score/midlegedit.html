@@ -1,0 +1,133 @@
+{include file="/../../com/view/public/meta" /}
+<article class="cl pd-20">
+	<form action="" method="post" class="form form-horizontal" id="form-member-add">
+	<span class="ml-30">客户名:<b>{$list['customer_name']}</b></span>
+	<hr>
+	<input type="hidden" value="{$list['midleg_id']}" name="midleg_id">
+			<label for="name" class="lh-30 ml-30"><strong>一、疼痛（40分） </strong></label><br>
+				<label class="radio-inline ml-50 lh-26 ">
+					<input type="radio" name="pain" value="40" {if condition="($list['pain']==40)"}checked{/if}>1、 无 
+				</label><br>
+				<label class="radio-inline ml-50 lh-26">
+					<input type="radio" name="pain" value="30" {if condition="($list['pain']==30)"}checked{/if}>2、轻，偶尔 
+				</label><br>
+				<label class="radio-inline ml-50 lh-26">
+					<input type="radio" name="pain" value="20" {if condition="($list['pain']==20)"}checked{/if}>3、中度，每天
+				</label><br>
+				<label class="radio-inline ml-50 lh-26">
+					<input type="radio" name="pain" value="0" {if condition="($list['pain']==0)"}checked{/if}>4、重度，一直存在
+				</label><br>
+			<label for="name" class="lh-30 ml-30"><strong>二、功能（45分）  </strong></label><br>
+			<label for="name" class="lh-30 ml-40"><strong>活动受限，需要辅助： </strong></label><br>
+				<label class="radio-inline ml-50 lh-26">
+					<input type="radio" name="auxiliary" value="10" {if condition="($list['auxiliary']==10)"}checked{/if}>1、无 
+				</label><br>
+				<label class="radio-inline ml-50 lh-26">
+					<input type="radio" name="auxiliary" value="7" {if condition="($list['auxiliary']==7)"}checked{/if}>2、日常无受限，休闲活动受限
+				</label><br>
+				<label class="radio-inline ml-50 lh-26">
+					<input type="radio" name="auxiliary" value="4" {if condition="($list['auxiliary']==4)"}checked{/if}>3、休闲及日常活动受限 
+				</label><br>
+				<label class="radio-inline ml-50 lh-26">
+					<input type="radio" name="auxiliary" value="0" {if condition="($list['auxiliary']==0)"}checked{/if}>4、休闲及日常活动严重受限，需要助行器，拐杖或是轮椅、支具 
+				</label><br>
+			<label for="name" class="lh-30 ml-40"><strong>穿鞋需求：</strong></label><br>
+				<label class="radio-inline ml-50 lh-26">
+					<input type="radio" name="shoes" value="5" {if condition="($list['shoes']==5)"}checked{/if}>1、时尚、休闲，无需内垫
+				</label><br>
+				<label class="radio-inline ml-50 lh-26">
+					<input type="radio" name="shoes" value="3" {if condition="($list['shoes']==3)"}checked{/if}> 2、舒适鞋，需内垫 
+				</label><br>
+				<label class="radio-inline ml-50 lh-26">
+					<input type="radio" name="shoes" value="0" {if condition="($list['shoes']==0)"}checked{/if}>3、改良鞋或是支具 
+				</label><br>
+			<label for="name" class="lh-30 ml-40"><strong>最大行走距离（街区，1街区约200米）： </strong></label><br>
+				<label class="radio-inline ml-50 lh-26">
+					<input type="radio" name="distance" value="10" {if condition="($list['distance']==10)"}checked{/if}>1、大于6街区（约1200米） 
+				</label><br>
+				<label class="radio-inline ml-50 lh-26">
+					<input type="radio" name="distance" value="7" {if condition="($list['distance']==7)"}checked{/if}>2、 4-6街区 
+				</label><br>
+				<label class="radio-inline ml-50 lh-26">
+					<input type="radio" name="distance" value="4" {if condition="($list['distance']==4)"}checked{/if}>3、1-3街区
+				</label><br>
+				<label class="radio-inline ml-50 lh-26">
+					<input type="radio" name="distance" value="0" {if condition="($list['distance']==0)"}checked{/if}>4、小于1 街区
+				</label><br>
+			<label for="name" class="lh-30 ml-40"><strong>行走路面：</strong></label><br>
+				<label class="radio-inline ml-50 lh-26">
+					<input type="radio" name="pavement" value="10" {if condition="($list['pavement']==10)"}checked{/if}>1、任何路面无困难 
+				</label><br>
+				<label class="radio-inline ml-50 lh-26">
+					<input type="radio" name="pavement" value="5" {if condition="($list['pavement']==5)"}checked{/if}>2、不平路面、台阶、下坡、梯子有一些困难 
+				</label><br>
+				<label class="radio-inline ml-50 lh-26">
+					<input type="radio" name="pavement" value="0" {if condition="($list['pavement']==0)"}checked{/if}>3、不平路面、台阶、下坡、梯子严重受限 
+				</label><br>
+			<label for="name" class="lh-30 ml-40"><strong>步态异常： </strong></label><br>
+				<label class="radio-inline ml-50 lh-26">
+					<input type="radio" name="gait" value="10" {if condition="($list['gait']==10)"}checked{/if}>1、大于6街区（约1200米） 
+				</label><br>
+				<label class="radio-inline ml-50 lh-26">
+					<input type="radio" name="gait" value="5" {if condition="($list['gait']==5)"}checked{/if}>2、有明显异常
+				</label><br>
+				<label class="radio-inline ml-50 lh-26">
+					<input type="radio" name="gait" value="0" {if condition="($list['gait']==0)"}checked{/if}>3、存在显著的病理步态 
+				</label><br>
+			<label for="name" class="lh-30 ml-30"><strong>三、力线（10分）</strong></label><br>
+				<label class="radio-inline ml-50 lh-26">
+					<input type="radio" name="Line_of_force" value="15" {if condition="($list['line_of_force']==15)"}checked{/if}>1、好，跖行足，后足对线好
+				</label><br>
+				<label class="radio-inline ml-50 lh-26">
+					<input type="radio" name="Line_of_force" value="8" {if condition="($list['line_of_force']==8)"}checked{/if}>2、一般，跖行足，后足有一些力线不正，无症状
+				</label><br>
+				<label class="radio-inline ml-50 lh-26">
+					<input type="radio" name="Line_of_force" value="0" {if condition="($list['line_of_force']==0)"}checked{/if}>3、不佳，非跖行足，严重对线不良，有症状
+				</label>
+				<hr>
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3 ml-50">
+				<input class="btn btn-primary radius" type="button" onclick="submit_form()" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+			</div>
+	</form>
+</article>
+{include file="/../../com/view/public/footer" /}
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__STATIC__/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/jquery.validate.js"></script> 
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/validate-methods.js"></script> 
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/messages_zh.js"></script> 
+<script type="text/javascript">
+function submit_form(){
+	var len=$("input:radio:checked").length;
+		if(len==7){
+			var pain = $('input[name="pain"]:checked ').val();
+			var auxiliary = $('input[name="auxiliary"]:checked ').val();
+			var distance = $('input[name="distance"]:checked ').val();
+			var pavement = $('input[name="pavement"]:checked ').val();
+			var gait = $('input[name="gait"]:checked ').val();
+			var shoes = $('input[name="shoes"]:checked ').val();
+			var Line_of_force = $('input[name="Line_of_force"]:checked ').val();
+			var Total=parseInt(Line_of_force)+parseInt(pain)+parseInt(auxiliary)+parseInt(distance)+parseInt(pavement)+parseInt(gait)+parseInt(shoes);
+			layer.confirm('合计得分：'+Total+'<br>点击【确定】将保存该次调研。', function(){
+				 $.ajax({
+            		type:"POST",
+            		url:"{:url('midlegedit')}",
+            		data:$("form").serialize(),//将表单序列化
+            		dataType:'json',
+            		success:function(data){
+            			layer.msg(data.message);
+                    		setTimeout("parent.location.reload()",1000);
+            			}
+        			})
+				});
+			}
+		else{
+		len=7-len;
+		layer.msg('你还有'+len+'个问题未回答。');
+		}
+	}
+</script> 
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

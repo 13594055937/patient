@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:65:"C:\PHP\php11\WWW\Patient/Admin/patient\view\patient\infoedit.html";i:1523341446;s:77:"C:\PHP\php11\WWW\Patient/Admin/patient\view\..\..\com\view\public\footer.html";i:1523166087;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:65:"C:\PHP\php11\WWW\Patient/Admin/patient\view\patient\infoedit.html";i:1524128584;s:77:"C:\PHP\php11\WWW\Patient/Admin/patient\view\..\..\com\view\public\footer.html";i:1523166087;}*/ ?>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -28,6 +28,19 @@
 				<input type="text" class="input-text" value="<?php echo $list['customer_name']; ?>" id="customer_name" name="customer_name">
 			</div>
 		</div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>性别：</label>
+            <div class="formControls col-xs-8 col-sm-9 skin-minimal">
+                <div class="radio-box">
+                    <input name="nex" type="radio" id="sex-1" value="1" <?php if(($list['nex'] == 1)): ?>checked<?php endif; ?>>
+                    <label for="sex-1">男</label>
+                </div>
+                <div class="radio-box">
+                    <input type="radio" id="sex-2" name="nex" value="0" <?php if(($list['nex'] == 0)): ?>checked<?php endif; ?>>
+                    <label for="sex-2">女</label>
+                </div>
+            </div>
+        </div>
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-2">所属区域：</label>
 			  <div class="formControls col-xs-8 col-sm-9"> 
@@ -55,9 +68,9 @@
         </div>
 		</div>
 		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>出生日期：</label>
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>年龄：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input type="text" name="time" id="countTimestart" onfocus="selecttime(1)" value="<?php echo $list['time']; ?>" size="17" class="date input-text Wdate" id="logmax" readonly>
+				<input type="text" class="input-text" value="<?php echo $list['age']; ?>" id="age" name="age">
 			</div>
 		</div>
 		<div class="row cl">
@@ -66,23 +79,11 @@
 				<input type="text" class="input-text" value="<?php echo $list['weight']; ?>" id="weight" name="weight">
 			</div>
 		</div>
+		
 		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>性别：</label>
-			<div class="formControls col-xs-8 col-sm-9 skin-minimal">
-				<div class="radio-box">
-					<input name="nex" type="radio" id="sex-1" value="1" checked>
-					<label for="sex-1">男</label>
-				</div>
-				<div class="radio-box">
-					<input type="radio" id="sex-2" name="nex" value="0">
-					<label for="sex-2">女</label>
-				</div>
-			</div>
-		</div>
-		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>诊断结果：</label>
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>身高：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input type="text" class="input-text" value="<?php echo $list['result']; ?>" id="result" name="result">
+				<input type="text" class="input-text" value="<?php echo $list['height']; ?>" id="height" name="height">
 			</div>
 		</div>
 		<div class="row cl">
@@ -91,6 +92,23 @@
 				<input type="text" class="input-text" value="<?php echo $list['tel']; ?>" placeholder="" id="tel" name="tel">
 			</div>
 		</div>
+         <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>糖尿病：</label>
+            <div class="formControls col-xs-8 col-sm-9 skin-minimal">
+             <div class="radio-box">
+                    <input name="is" type="radio" id="sex-1" value="2" <?php if(($list['diabetes'] == 2)): ?>checked<?php endif; ?>>
+                    <label for="sex-1">未知</label>
+                </div>
+                <div class="radio-box">
+                    <input name="is" type="radio" id="sex-1" value="1" <?php if(($list['diabetes'] == 1)): ?>checked<?php endif; ?>>
+                    <label for="sex-1">有</label>
+                </div>
+                <div class="radio-box">
+                    <input type="radio" id="sex-2" name="is" value="0" <?php if(($list['diabetes'] == 0)): ?>checked<?php endif; ?>>
+                    <label for="sex-2">无</label>
+                </div>
+            </div>
+        </div>
 			<br> 
 			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
 				<button type="submit" class="btn btn-success radius" id="admin-role-save" name="admin-role-save"><i class="icon-ok"></i> 确定</button>

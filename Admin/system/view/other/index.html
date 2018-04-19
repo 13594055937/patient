@@ -1,0 +1,119 @@
+{include file="/../../com/view/public/meta" /}
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页
+	<span class="c-gray en">&gt;</span>
+	系统管理
+	<span class="c-gray en">&gt;</span>
+	其他项目管理
+	<a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a>
+</nav>
+<div class="page-container">
+	<div class="text-c">
+		<input type="text" name="value" id="value" placeholder="请输入搜索其他项目名的关键字" style="width:250px" class="input-text">
+		<button onclick="member_search()" class="btn btn-success" type="submit"><i class="Hui-iconfont">&#xe665;</i> 搜索</button>
+	</div>
+	<div class="cl pd-5 bg-1 bk-gray mt-20">
+		<span class="l">
+		<a href="javascript:;" onclick="member_datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a>
+		<a href="javascript:;" onclick="submit_add()" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加其他项目</a>
+		</span>
+		<span class="r">共有数据：<strong>{$count}</strong> 条</span>
+	</div><br>
+	<form action="" id="form">
+	<table class="table table-border table-bordered table-bg table-hover table-sort">
+		<thead>
+			<tr class="text-c">
+				<th width="25"><input type="checkbox" name="" id="checkbox"></th>
+				<th width="">其他项目名</th>
+				<th width="18%">创建时间</th>
+				<th width="18%">更新时间</th>
+				<th width="12%">操作</th>
+			</tr>
+		</thead>
+		<tbody>
+		{volist name="list" id="vo"}
+			<tr class="text-c">
+				<td width="25"><input type="checkbox" value="{$vo.other_id}" name="delete[]" ></td>
+				<td><b>{$vo.other_name}</b></td>
+				<td>{$vo.create_time}</td>
+				<td>{$vo.update_time}</td>
+				<td><a title="编辑" href="javascript:;" onclick="member_edit({$vo.other_id},'{$vo.other_name}')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> 
+				 <a title="删除" href="javascript:;" onclick="member_del({$vo.other_id})" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+			</tr>
+			{/volist}
+		</tbody>
+	</table>
+	</form>
+	<div id="pageNav" class="pageNav"></div>
+	{$list->render()}
+</div>
+
+{include file="/../../com/view/public/footer" /}
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__STATIC__/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/laypage/1.2/laypage.js"></script>
+<!-- <script type="text/javascript" src="__STATIC__/js/ajax_layer.js"></script> -->
+<script type="text/javascript">
+function submit_add(){
+	layer.prompt({
+  formType: 0,
+  title: '请输入其他项目名',
+}, function(value, index, elem){
+	$.post("{:url('otheradd')}",{name:value},function(data){
+			layer.msg(data.message);
+			// console.log(data);
+			if(data.status==1){
+			setTimeout("location.reload()",900);
+			}
+		});
+	})
+}
+function member_edit(id,text){
+	layer.prompt({
+  formType: 0,
+   value: text,
+  title: '其他项目修改',
+}, function(value, index, elem){
+	$.post("{:url('otheredit')}",{id:id,name:value},function(data){
+			layer.msg(data.message);
+			if(data.status==1){
+			setTimeout("location.reload()",900);
+			}
+		});
+	})
+}
+function member_del(id){
+	layer.confirm('确认要删除吗？',function(){
+		$.post("{:url('otherdel')}",{id:id},function(data){
+			layer.msg(data.message);
+		});
+	setTimeout("location.reload()",1000);
+	});
+}
+function member_datadel(){
+	var len=$("input:checkbox:checked").length;
+	if($('#checkbox').prop('checked') ){
+		len = len-1
+	}
+	 if(len==0){
+	 layer.msg("没有选中其他项目。");
+	}
+	 else{
+	 	layer.confirm('确定要删除这'+len+'条数据吗？',function(){
+	 	$.post("{:url('otherdelete')}",$('form').serializeArray(),
+	 	 function(data){
+	 		layer.msg(data.message);
+	 		setTimeout("location.reload()",1000);
+	 	});
+	 })
+	}
+}
+function member_search()
+{
+	var text=$('#value').val();
+	window.location.href='othersearch?text='+text;
+}
+</script>
+</body>
+</html>

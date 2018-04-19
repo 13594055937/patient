@@ -1,6 +1,12 @@
 {include file="/../../com/view/public/meta" /}
+<link rel="stylesheet" href="__STATIC__/jquery-ui-1.12.1.custom/jquery-ui.min.css">
 <article class="cl pd-20">
 	<form action="" method="post" class="form form-horizontal" id="form-member-add">
+		<label class="form-label col-sm-2"><span class="c-red">*</span>客户名：</label>
+			<div class="formControls col-xs-3 col-sm-3">
+				<input type="text" class="input-text radius" id="tags">
+			</div>
+			<br><br><hr>
 			<label for="name" class="lh-30 ml-30"><strong>一、疼痛（40分） </strong></label><br>
 				<label class="radio-inline ml-50 lh-26 ">
 					<input type="radio" name="pain" value="40">1、 无 
@@ -87,14 +93,17 @@
 			</div>
 	</form>
 </article>
-{include file="/../../com/view/public/footer" /}
 
 <!--请在下方写此页面业务相关的脚本-->
-<script type="text/javascript" src="__STATIC__/lib/My97DatePicker/4.8/WdatePicker.js"></script>
-<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/jquery.validate.js"></script> 
-<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/validate-methods.js"></script> 
-<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/messages_zh.js"></script> 
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script type="text/javascript">
+$( function() {
+   var availableTags = {:json_encode($list)};
+    $("#tags").autocomplete({
+      source: availableTags
+    });
+  } );
 function submit_form(){
 	var len=$("input:radio:checked").length;
 		if(len==7){
@@ -109,11 +118,12 @@ function submit_form(){
 			layer.confirm('合计得分：'+Total+'<br>点击【确定】将保存该次调研。', function(){
 				 $.ajax({
             		type:"POST",
-            		url:"{:url('')}",
+            		url:"{:url('midlegadd')}",
             		data:$("form").serialize(),//将表单序列化
             		dataType:'json',
             		success:function(data){
             			layer.msg(data.message);
+            			console.log(data.message);
                 		if(data.status==1){
                     		setTimeout("parent.location.reload()",1000);
 							}

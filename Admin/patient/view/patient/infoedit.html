@@ -27,6 +27,19 @@
 				<input type="text" class="input-text" value="{$list.customer_name}" id="customer_name" name="customer_name">
 			</div>
 		</div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>性别：</label>
+            <div class="formControls col-xs-8 col-sm-9 skin-minimal">
+                <div class="radio-box">
+                    <input name="nex" type="radio" id="sex-1" value="1" {if condition="($list['nex'] == 1)"}checked{/if}>
+                    <label for="sex-1">男</label>
+                </div>
+                <div class="radio-box">
+                    <input type="radio" id="sex-2" name="nex" value="0" {if condition="($list['nex'] == 0)"}checked{/if}>
+                    <label for="sex-2">女</label>
+                </div>
+            </div>
+        </div>
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-2">所属区域：</label>
 			  <div class="formControls col-xs-8 col-sm-9"> 
@@ -54,9 +67,9 @@
         </div>
 		</div>
 		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>出生日期：</label>
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>年龄：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input type="text" name="time" id="countTimestart" onfocus="selecttime(1)" value="{$list.time}" size="17" class="date input-text Wdate" id="logmax" readonly>
+				<input type="text" class="input-text" value="{$list.age}" id="age" name="age">
 			</div>
 		</div>
 		<div class="row cl">
@@ -65,23 +78,11 @@
 				<input type="text" class="input-text" value="{$list.weight}" id="weight" name="weight">
 			</div>
 		</div>
+		
 		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>性别：</label>
-			<div class="formControls col-xs-8 col-sm-9 skin-minimal">
-				<div class="radio-box">
-					<input name="nex" type="radio" id="sex-1" value="1" checked>
-					<label for="sex-1">男</label>
-				</div>
-				<div class="radio-box">
-					<input type="radio" id="sex-2" name="nex" value="0">
-					<label for="sex-2">女</label>
-				</div>
-			</div>
-		</div>
-		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>诊断结果：</label>
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>身高：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input type="text" class="input-text" value="{$list.result}" id="result" name="result">
+				<input type="text" class="input-text" value="{$list.height}" id="height" name="height">
 			</div>
 		</div>
 		<div class="row cl">
@@ -90,6 +91,23 @@
 				<input type="text" class="input-text" value="{$list.tel}" placeholder="" id="tel" name="tel">
 			</div>
 		</div>
+         <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>糖尿病：</label>
+            <div class="formControls col-xs-8 col-sm-9 skin-minimal">
+             <div class="radio-box">
+                    <input name="is" type="radio" id="sex-1" value="2" {if condition="($list['diabetes'] == 2)"}checked{/if}>
+                    <label for="sex-1">未知</label>
+                </div>
+                <div class="radio-box">
+                    <input name="is" type="radio" id="sex-1" value="1" {if condition="($list['diabetes'] == 1)"}checked{/if}>
+                    <label for="sex-1">有</label>
+                </div>
+                <div class="radio-box">
+                    <input type="radio" id="sex-2" name="is" value="0" {if condition="($list['diabetes'] == 0)"}checked{/if}>
+                    <label for="sex-2">无</label>
+                </div>
+            </div>
+        </div>
 			<br> 
 			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
 				<button type="submit" class="btn btn-success radius" id="admin-role-save" name="admin-role-save"><i class="icon-ok"></i> 确定</button>

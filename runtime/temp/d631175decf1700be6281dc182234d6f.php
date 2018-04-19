@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:56:"C:\PHP\php11\WWW\Patient/Admin/user\view\role\index.html";i:1519290609;s:72:"C:\PHP\php11\WWW\Patient/Admin/user\view\..\..\com\view\public\meta.html";i:1521619099;s:74:"C:\PHP\php11\WWW\Patient/Admin/user\view\..\..\com\view\public\footer.html";i:1521619090;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:56:"C:\PHP\php11\WWW\Patient/Admin/user\view\role\index.html";i:1519290609;s:72:"C:\PHP\php11\WWW\Patient/Admin/user\view\..\..\com\view\public\meta.html";i:1521619099;s:74:"C:\PHP\php11\WWW\Patient/Admin/user\view\..\..\com\view\public\footer.html";i:1523166087;}*/ ?>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -24,7 +24,7 @@
 	<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 用户管理 <span class="c-gray en">&gt;</span> 角色管理 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
 	<div class="Hui-article">
 		<article class="cl pd-20">
-			<div class="cl pd-5 bg-1 bk-gray"> <span class="l"> <a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a class="btn btn-primary radius" href="javascript:;" onclick="role_add()"><i class="Hui-iconfont">&#xe600;</i> 添加角色</a> </span> <span class="r">共有数据：<strong>{$count}</strong> 条</span> </div>
+			<div class="cl pd-5 bg-1 bk-gray"> <span class="l"> <a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a class="btn btn-primary radius" href="javascript:;" onclick="role_add()"><i class="Hui-iconfont">&#xe600;</i> 添加角色</a> </span> <span class="r">共有数据：<strong><?php echo $count; ?></strong> 条</span> </div>
 			<form action="">
 			<div class="mt-10">
 			<table class="table table-border table-bordered table-hover table-bg">
@@ -47,13 +47,13 @@
 				<tbody>
 				<?php if(is_array($list) || $list instanceof \think\Collection || $list instanceof \think\Paginator): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
 					<tr class="text-c">
-						<td><input type="checkbox" value="{$vo.role_id}" name="delete[]"></td>
-						<td>{$vo.role_id}</td>
-			<!-- 			<td>{$vo.father_id}</td> -->
-						<td>{$vo.name}</td>
-						<!-- <td>{$vo.powerid}</td> -->
-						<td>{$vo.bewrite}</td>
-						<td>{$vo.create_roletime}</td>
+						<td><input type="checkbox" value="<?php echo $vo['role_id']; ?>" name="delete[]"></td>
+						<td><?php echo $vo['role_id']; ?></td>
+			<!-- 			<td><?php echo $vo['father_id']; ?></td> -->
+						<td><?php echo $vo['name']; ?></td>
+						<!-- <td><?php echo $vo['powerid']; ?></td> -->
+						<td><?php echo $vo['bewrite']; ?></td>
+						<td><?php echo $vo['create_roletime']; ?></td>
 						<td class="td-status">
 								<?php if($vo['role_status']==1): ?>
 								<span class="label label-success radius">已启用</span>
@@ -65,11 +65,11 @@
 							</td>
 						<td width="8%">
 						<?php if($vo['role_status']==1): ?>
-								<a style="text-decoration:none" onClick="member_stop({$vo.role_id})" href="javascript:;" title="停用"><i class="Hui-iconfont">&#xe631;</i></a>  
+								<a style="text-decoration:none" onClick="member_stop(<?php echo $vo['role_id']; ?>)" href="javascript:;" title="停用"><i class="Hui-iconfont">&#xe631;</i></a>  
 								<?php else: ?>
-								<a style="text-decoration:none" onClick="member_stop({$vo.role_id})" href="javascript:;" title="启用"><i class="Hui-iconfont">&#xe6e1;</i></a> 
+								<a style="text-decoration:none" onClick="member_stop(<?php echo $vo['role_id']; ?>)" href="javascript:;" title="启用"><i class="Hui-iconfont">&#xe6e1;</i></a> 
 								<?php endif; ?> 
-						&ensp;<a title="编辑" href="javascript:;" onclick="member_edit('{:url('roleedit',['role_id'=>$vo['role_id']])}')" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a title="删除" href="javascript:;" onclick="member_del({$vo.role_id})" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+						&ensp;<a title="编辑" href="javascript:;" onclick="member_edit('<?php echo url('roleedit',['role_id'=>$vo['role_id']]); ?>')" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a title="删除" href="javascript:;" onclick="member_del(<?php echo $vo['role_id']; ?>)" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
 					</tr>
 					<?php endforeach; endif; else: echo "" ;endif; ?>
 				</tbody>
@@ -107,7 +107,7 @@ function role_add(){
 /*角色-停用/启用*/
 function member_stop(id){
 	layer.confirm('确认要停用/启用吗？',function(){
-		$.post("{:url('role/status')}",{id:id},function(data){
+		$.post("<?php echo url('role/status'); ?>",{id:id},function(data){
 		layer.msg(data.message);
 		setTimeout("location.reload()",500);
 		});
@@ -116,7 +116,7 @@ function member_stop(id){
 /*角色-删除*/
 function member_del(id){
 	layer.confirm('确认要删除吗？删除前请确保该角色中没有用户。',function(){
-		$.post("{:url('role/roledel')}",{role_id:id},function(data){
+		$.post("<?php echo url('role/roledel'); ?>",{role_id:id},function(data){
 			layer.msg(data.message);
 			if(data.status==1){
 				setTimeout("location.reload()",500);
@@ -134,7 +134,7 @@ function datadel(){
 	}
 	 else{
 	 	layer.confirm('确定要删除这'+len+'个角色吗？',function(){
-	 	$.post("{:url('deleterole')}",$('form').serializeArray(),
+	 	$.post("<?php echo url('deleterole'); ?>",$('form').serializeArray(),
 	 	 function(data){
 	 		layer.msg(data.message);
 	 		if(data.status){

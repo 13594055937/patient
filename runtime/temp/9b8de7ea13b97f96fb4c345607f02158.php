@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:56:"C:\PHP\php11\WWW\Patient/Admin/com\view\index\index.html";i:1520390250;s:56:"C:\PHP\php11\WWW\Patient/Admin/com\view\public\meta.html";i:1521619099;s:58:"C:\PHP\php11\WWW\Patient/Admin/com\view\public\header.html";i:1520389074;s:56:"C:\PHP\php11\WWW\Patient/Admin/com\view\public\menu.html";i:1523339564;s:58:"C:\PHP\php11\WWW\Patient/Admin/com\view\public\footer.html";i:1523166087;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:56:"C:\PHP\php11\WWW\Patient/Admin/com\view\index\index.html";i:1520390250;s:56:"C:\PHP\php11\WWW\Patient/Admin/com\view\public\meta.html";i:1521619099;s:58:"C:\PHP\php11\WWW\Patient/Admin/com\view\public\header.html";i:1524126888;s:56:"C:\PHP\php11\WWW\Patient/Admin/com\view\public\menu.html";i:1524043743;s:58:"C:\PHP\php11\WWW\Patient/Admin/com\view\public\footer.html";i:1523166087;}*/ ?>
 ﻿<!DOCTYPE HTML>
 <html>
 <head>
@@ -23,7 +23,7 @@
 <body>
 <header class="navbar-wrapper">
     <div class="navbar navbar-fixed-top">
-        <div class="container-fluid cl"> <a class="logo navbar-logo f-l mr-10 hidden-xs" href="/aboutHui.shtml">工單管理系統</a> <!-- <a class="logo navbar-logo-m f-l mr-10 visible-xs" href="/aboutHui.shtml">H-ui</a>  -->
+        <div class="container-fluid cl"> <a class="logo navbar-logo f-l mr-10 hidden-xs" href="#">工單管理系統</a> <!-- <a class="logo navbar-logo-m f-l mr-10 visible-xs" href="/aboutHui.shtml">H-ui</a>  -->
             <span class="logo navbar-slogan f-l mr-10 hidden-xs">v1.0</span> 
             <a aria-hidden="false" class="nav-toggle Hui-iconfont visible-xs" href="javascript:;">&#xe667;</a>
             <!-- <nav class="nav navbar-nav">
@@ -81,7 +81,7 @@
             <dd>
                 <ul>
                     <li><a data-href="<?php echo url('patient/patient/info'); ?>" data-title="患者信息管理" href="javascript:void(0)">患者信息管理</a></li>
-                    <li><a data-href="<?php echo url('patient/patient/data'); ?>" data-title="资料收集表管理" href="javascript:void(0)">资料收集表管理</a></li>
+                    <li><a data-href="<?php echo url('patient/patient/file'); ?>" data-title="资料收集表管理" href="javascript:void(0)">资料收集表管理</a></li>
                     <!-- <li><a data-href="<?php echo url('user/user/index'); ?>" data-title="管理员列表" href="javascript:void(0)">用户列表</a></li> -->
             </ul>
         </dd>
@@ -97,23 +97,36 @@
         </dd>
     </dl>
     <dl id="menu-admin">
+            <dt><i class="Hui-iconfont">&#xe639;</i> 健康管理中心<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a data-href="<?php echo url('manage/devicesurface/index'); ?>" data-title="支辅具定制表" href="javascript:void(0)">支辅具定制表</a></li>
+                    <li><a data-href="<?php echo url('manage/icbsurface/index'); ?>" data-title="ICB信息表" href="javascript:void(0)">ICB信息表</a></li>
+            </ul>
+        </dd>
+    </dl>
+   <!--  <dl id="menu-admin">
             <dt><i class="Hui-iconfont">&#xe6f2;</i> 用户档案文件管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
             <dd>
                 <ul>
                     <li><a data-href="<?php echo url('file/Ibcfile/index'); ?>" data-title="ICB定制用户文件管理" href="javascript:void(0)">ICB定制用户文件管理</a></li>
                     <li><a data-href="<?php echo url('file/Ibcfile/index'); ?>" data-title="支辅具定制用户文件管理" href="javascript:void(0)">支辅具定制用户文件管理</a></li>
                     <!-- <li><a data-href="<?php echo url('user/user/index'); ?>" data-title="管理员列表" href="javascript:void(0)">用户列表</a></li> -->
-            </ul>
+         <!--    </ul>
         </dd>
-    </dl>
+    </dl> --> 
         <dl id="menu-system">
             <dt><i class="Hui-iconfont">&#xe62e;</i> 基础数据管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
             <dd>
                 <ul>
-                    <li><a data-href="<?php echo url('system/Casedesign/info'); ?>" data-title="用户信息表设计器" href="javascript:void(0)">用户信息表设计器</a></li>
-                    <li><a data-href="<?php echo url('system/Casedesign/data'); ?>" data-title="资料收集表设计器" href="javascript:void(0)">资料收集表设计器</a></li>
+                    <li><a data-href="<?php echo url('system/hospital/index'); ?>" data-title="医院管理" href="javascript:void(0)">医院管理</a></li>
+                    <li><a data-href="<?php echo url('system/doctor/index'); ?>" data-title="医生管理" href="javascript:void(0)">医生管理</a></li>
+                    <li><a data-href="<?php echo url('system/technician/index'); ?>" data-title="技师管理" href="javascript:void(0)">技师管理</a></li>
+                    <li><a data-href="<?php echo url('system/diagnosis/index',['difference'=>2]); ?>" data-title="诊断管理" href="javascript:void(0)">诊断管理</a></li>
+                    <li><a data-href="<?php echo url('system/other/index'); ?>" data-title="其他项目管理" href="javascript:void(0)">其他项目管理</a></li>
+                    <!-- <li><a data-href="<?php echo url('system/Casedesign/info'); ?>" data-title="用户信息表设计器" href="javascript:void(0)">用户信息表设计器</a></li>
+                    <!<li><a data-href="<?php echo url('system/Casedesign/data'); ?>" data-title="资料收集表设计器" href="javascript:void(0)">资料收集表设计器</a></li> -->
                     <li><a data-href="<?php echo url('system/node/index'); ?>" data-title="节点管理" href="javascript:void(0)">节点管理</a></li>
-                    <!-- <li><a data-href="system-data.html" data-title="数据字典" href="javascript:void(0)">数据字典</a></li> -->
                     <li><a data-href="<?php echo url('system/Log/index'); ?>" data-title="系统日志" href="javascript:void(0)">系统日志</a></li>
             </ul>
         </dd>

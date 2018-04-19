@@ -78,7 +78,8 @@ layer.prompt({
 }, function(value, index, elem){
 	$.post("{:url('filerename')}",{id:id,name:value},function(data){
 			layer.msg(data.message,{icon:1,time:1000});
-			console.log(data.message);
+			setTimeout("location.reload()",1000);
+			// console.log(data.message);
 		});
   // layer.msg(value); //得到value
   // layer.close(index);

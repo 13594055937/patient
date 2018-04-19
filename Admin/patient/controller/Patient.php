@@ -15,7 +15,7 @@ class Patient extends Accesscontrol{
 	public function info()
 	{
 		// $list=Casedesign::get(2);
-		$list=Customer::paginate('15');
+		$list=Db::table('customer')->paginate('15');
 		$count=Customer::count();
 		$this->assign('list',$list);
 		$this->assign('count',$count);
@@ -52,9 +52,10 @@ class Patient extends Accesscontrol{
             'province'=>$data['province'],
             'city'=>$data['city'],
             'area'=>$data['area'],
-            'time'=>$data['time'], 
+            'age'=>$data['age'], 
             'weight'=>$data['weight'], 
-            'result'=>$data['result'], 
+            'height'=>$data['height'], 
+            'diabetes'=>$data['is'], 
             'tel'=>$data['tel'],
             'nex'=>$data['nex'],
             'file_id'=>$pash->pash_id
@@ -73,7 +74,7 @@ class Patient extends Accesscontrol{
 				}
 			}
 			if($pash && $customer){
-				$message="成功。";
+				$message="客户数据添加成功。";
 				$status=1;
 			}
 			return ['message'=>$message,'status'=>$status];
@@ -93,9 +94,10 @@ class Patient extends Accesscontrol{
             'province'=>$data['province'],
             'city'=>$data['city'],
             'area'=>$data['area'],
-            'time'=>$data['time'], 
+            'age'=>$data['age'], 
             'weight'=>$data['weight'], 
-            'result'=>$data['result'], 
+            'height'=>$data['height'], 
+            'diabetes'=>$data['is'], 
             'tel'=>$data['tel'],
             'nex'=>$data['nex'],
 			];
@@ -245,7 +247,7 @@ class Patient extends Accesscontrol{
 			header("Accept-Ranges: bytes");
 			header("Accept-Length: ".filesize($file_pash));
 			header("Content-Disposition: attachment; filename=$file_name");
-			fread($file,filesize($file_pash));
+			echo fread($file,filesize($file_pash));
 			fclose($file); 
         	$message="文件下载成功。";   
         }else{
@@ -261,7 +263,21 @@ class Patient extends Accesscontrol{
 		->where('a.file_id',$id)
 		->select();
 		$pash=ROOT_PATH . 'public' . DS  . $list[0]['pash'].'/'.$list[0]['file_name'];
+		// var_dump($pash);exit;
 		$this->down($pash,$list[0]['file_name']);
+	}
+	public function searchuser(){
+		$request=Request::instance();
+		$text=$request->param('value');
+		$list=Db::table('customer')
+		->where("customer_name like '%$text%'")
+		->paginate(15);
+		$count=Db::table('customer')
+		->where("customer_name like '%$text%'")
+		->count();
+		$this->assign('count',$count);
+		$this->assign('list',$list);
+		return $this->fetch('info');
 	}
 
 }

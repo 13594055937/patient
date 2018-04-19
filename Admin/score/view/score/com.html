@@ -1,0 +1,75 @@
+{include file="/../../com/view/public/meta" /}
+	<div class="Hui-article">
+		<article class="cl pd-20">
+			<div class="text-c">
+				<input type="text" class="input-text" style="width:250px" placeholder="输入用户名、姓名" id="search" name="value">
+				<button type="button" class="btn btn-success radius" onclick="search()"><i class="Hui-iconfont">&#xe665;</i> 搜客户</button>
+			</div><div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"> <a href="javascript:;" onclick="add()" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加评分</a></span> </div>
+			<form action="" id="info">
+			<div class="mt-20">
+				<table class="table table-border table-bordered table-hover table-bg table-sort" id="">
+					<thead>
+						<tr class="text-c">
+						<th></th>
+							<th>客户姓名</th>
+							<th>性别</th>					
+							<th>体重(kg)</th>
+							<th>年龄</th>
+							<th>所属区域</th>
+							<th>联系方式</th>
+							<th>身高(cm)</th>
+							<th>糖尿病</th>
+							<th>创建时间</th>
+						</tr>
+					</thead>
+					<tbody>
+					{volist name="list" id="vo"}
+						<tr class="text-c">
+							<td width="15">
+							<input type="radio" name="customer" value="{$vo.customer_id}">
+							</td>
+								<td>{$vo.customer_name}</td>
+							<td>{if condition="$vo['nex']==1"}
+								男
+								{else /}
+								女
+								{/if}</td>
+							<td>{$vo.weight}kg</td>
+							<td>{$vo.age}</td>
+							<td>{$vo.province}-{$vo.city}-{$vo.area}</td>
+							<td>{$vo.tel}</td>
+							<td>{$vo.height}</td>
+							<td>
+							{if condition="$vo['diabetes']==1"}
+								有
+								{elseif condition="$vo['diabetes']==0"/}
+								无
+								{else /}
+								未知
+								{/if}
+							</td>
+							<td>{$vo.create_time|date='Y-m-d h:m:s',###}</td>
+						</tr>
+						{/volist}
+					</tbody>
+				</table>
+				</form>
+			</div>
+				{$list->render()}
+		</article>
+	</div>
+{include file="/../../com/view/public/footer" /}
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__STATIC__/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/laypage/1.2/laypage.js"></script>
+<script type="text/javascript">
+function search(){
+	var search = $('#search').val();
+	window.location.href='com?value='+search;
+}
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

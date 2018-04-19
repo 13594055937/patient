@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:64:"C:\PHP\php11\WWW\Patient/Admin/patient\view\patient\infoadd.html";i:1523351936;s:79:"C:\PHP\php11\WWW\Patient/Admin/patient\view\..\..\com\view\public\cityarea.html";i:1523171571;s:77:"C:\PHP\php11\WWW\Patient/Admin/patient\view\..\..\com\view\public\footer.html";i:1523166087;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:64:"C:\PHP\php11\WWW\Patient/Admin/patient\view\patient\infoadd.html";i:1524108377;s:79:"C:\PHP\php11\WWW\Patient/Admin/patient\view\..\..\com\view\public\cityarea.html";i:1523171571;s:77:"C:\PHP\php11\WWW\Patient/Admin/patient\view\..\..\com\view\public\footer.html";i:1523166087;}*/ ?>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -32,6 +32,19 @@
 				<input type="text" class="input-text" value="" placeholder="3到15位字符由字母开头、数字组合" id="customer_name" name="customer_name">
 			</div>
 		</div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>性别：</label>
+            <div class="formControls col-xs-8 col-sm-9 skin-minimal">
+                <div class="radio-box">
+                    <input name="nex" type="radio" id="sex-1" value="1" checked>
+                    <label for="sex-1">男</label>
+                </div>
+                <div class="radio-box">
+                    <input type="radio" id="sex-2" name="nex" value="0">
+                    <label for="sex-2">女</label>
+                </div>
+            </div>
+        </div>
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-2">所属区域：</label>
 					  <div class="formControls col-xs-8 col-sm-9"> 
@@ -95,43 +108,47 @@
 		</div>
         <input type="hidden" name="pash" value="" id="pash">
         <input type="hidden" name="file_name" value="" id='file_name'>
+		 <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>年龄：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" value="" placeholder="" id="age" name="age">
+            </div>
+        </div>
 		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>出生日期：</label>
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>体重(kg)：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input type="text" name="time" id="countTimestart" onfocus="selecttime(1)" value="" size="17" class="date input-text Wdate" id="logmax" readonly>
+				<input type="text" class="input-text" value="" placeholder="" id="weight" name="weight">
 			</div>
 		</div>
-		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>体重：</label>
-			<div class="formControls col-xs-8 col-sm-9">
-				<input type="text" class="input-text" value="" placeholder="单位为kg" id="weight" name="weight">
-			</div>
-		</div>
-		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>性别：</label>
-			<div class="formControls col-xs-8 col-sm-9 skin-minimal">
-				<div class="radio-box">
-					<input name="nex" type="radio" id="sex-1" value="1" checked>
-					<label for="sex-1">男</label>
-				</div>
-				<div class="radio-box">
-					<input type="radio" id="sex-2" name="nex" value="0">
-					<label for="sex-2">女</label>
-				</div>
-			</div>
-		</div>
-		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>诊断结果：</label>
-			<div class="formControls col-xs-8 col-sm-9">
-				<input type="text" class="input-text" value="" placeholder="" id="result" name="result">
-			</div>
-		</div>
-		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>联系方式：</label>
-			<div class="formControls col-xs-8 col-sm-9">
-				<input type="text" class="input-text" value="" placeholder="" id="tel" name="tel">
-			</div>
-		</div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>身高(cm)：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" value="" placeholder="" id="height" name="height">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>联系方式：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" value="" placeholder="" id="tel" name="tel">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>糖尿病：</label>
+            <div class="formControls col-xs-8 col-sm-9 skin-minimal">
+             <div class="radio-box">
+                    <input name="is" type="radio" id="sex-1" value="2" checked>
+                    <label for="sex-1">未知</label>
+                </div>
+                <div class="radio-box">
+                    <input name="is" type="radio" id="sex-1" value="1">
+                    <label for="sex-1">有</label>
+                </div>
+                <div class="radio-box">
+                    <input type="radio" id="sex-2" name="is" value="0">
+                    <label for="sex-2">无</label>
+                </div>
+            </div>
+        </div>
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>资料上传：</label>
 			<div class="formControls col-xs-8 col-sm-9">
@@ -208,6 +225,7 @@ function selecttime(flag){
  //文件上传
 var file_name='';
 var pash;
+var timestamp=new Date().getTime();
 $("#file-1").fileinput({
         language: 'zh', //设置语言
         theme: 'explorer-fa',//主题
@@ -215,7 +233,7 @@ $("#file-1").fileinput({
         // allowedFileTypes: ['image', 'video', 'flash'], //文件类型
         // allowedFileExtensions: ['jpg', 'png', 'gif','xlsx'],
         // previewFileType:['video','image'],//预览文件类型,内置['image', 'html', 'text', 'video', 'audio', 'flash', 'object',‘other‘]等格式
-        // uploadExtraData:$("form").serializeArray(),
+        uploadExtraData:{time:timestamp},
         showPreview:true, //是否显示预览区域
         showRemove:false, //是否显示移除
         dropZoneEnabled:false,   //是否显示拖拽区域
@@ -281,10 +299,8 @@ $("#form-member-add").validate({
         success: function(data) {
             layer.msg(data.message);
             if(data.status==1){
-                // setTimeout("parent.layer.closeAll();",1000);
                 setTimeout("parent.location.reload()",1000);
             }
-       
         }
      }
 

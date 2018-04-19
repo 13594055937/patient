@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:62:"C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html";i:1522316077;s:73:"C:\PHP\php11\WWW\Patient/Admin/score\view\..\..\com\view\public\meta.html";i:1521619099;s:75:"C:\PHP\php11\WWW\Patient/Admin/score\view\..\..\com\view\public\footer.html";i:1523166087;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:62:"C:\PHP\php11\WWW\Patient/Admin/score\view\score\metapedes.html";i:1524129461;s:73:"C:\PHP\php11\WWW\Patient/Admin/score\view\..\..\com\view\public\meta.html";i:1521619099;s:75:"C:\PHP\php11\WWW\Patient/Admin/score\view\..\..\com\view\public\footer.html";i:1523166087;}*/ ?>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -25,17 +25,17 @@
 	<div class="Hui-article">
 		<article class="cl pd-20">
 			<div class="text-c">
-				<input type="text" class="input-text" style="width:250px" placeholder="输入用户名、姓名" id="search" name="value">
+				<input type="text" class="input-text" style="width:250px" placeholder="输入客户名的关键字" id="search" name="value">
 				<button type="button" class="btn btn-success radius" onclick="search()"><i class="Hui-iconfont">&#xe665;</i> 搜索</button>
 			</div>
-			<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a href="javascript:;" onclick="add()" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i>后足AOFAS评分</a> <!-- <a href="javascript:;" onclick="Print()" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 打印</a> --><!-- <a href="javascript:;" onclick="excel_add()" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> Excel导入</a> <a href="javascript:;" onclick="excelexport()" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> Excel导出</a> --></span> <span class="r">共有数据：<strong><?php echo $count; ?></strong> 条</span> </div>
+			<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a href="javascript:;" onclick="add()" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i>后足AOFAS评分</a> </span> <span class="r">共有数据：<strong><?php echo $count; ?></strong> 条</span> </div>
 			<form action="" id="info">
 			<div class="mt-20">
 				<table class="table table-border table-bordered table-hover table-bg table-sort" id="">
 					<thead>
 						<tr class="text-c">
 							<th><input type="checkbox" name="" id="checkbox"></th>
-							<th>用户名</th>
+							<th>客户名</th>
 							<th>疼痛</th>					
 							<th>活动受限，需要辅助</th>
 							<th>最大行走距离</th>
@@ -56,20 +56,20 @@
 							<td width="25">
 							<input type="checkbox" value="<?php echo $vo['metapedes_id']; ?>" name="delete[]" >
 							</td>
-							<td>无</td>
-							<td><?php echo $vo['pain']; ?></td>
-							<td><?php echo $vo['auxiliary']; ?></td>
-							<td><?php echo $vo['distance']; ?></td>
-							<td><?php echo $vo['pavement']; ?></td>
-							<td><?php echo $vo['gait']; ?></td>
-							<td><?php echo $vo['sagittal']; ?></td>
-							<td><?php echo $vo['foot']; ?></td>
-							<td><?php echo $vo['stability']; ?></td>
-							<td><?php echo $vo['line_of_force']; ?></td>
-							<td><?php echo $vo['pain']+$vo['auxiliary']+$vo['distance']+$vo['pavement']+$vo['gait']+$vo['sagittal']+$vo['foot']+$vo['stability']+$vo['line_of_force']; ?></td>
-							<td><?php echo $vo['create_time']; ?></td>
+							<td><?php echo $vo['customer_name']; ?></td>
+							<td><?php echo $vo['pain']; ?>分</td>
+							<td><?php echo $vo['auxiliary']; ?>分</td>
+							<td><?php echo $vo['distance']; ?>分</td>
+							<td><?php echo $vo['pavement']; ?>分</td>
+							<td><?php echo $vo['gait']; ?>分</td>
+							<td><?php echo $vo['sagittal']; ?>分</td>
+							<td><?php echo $vo['foot']; ?>分</td>
+							<td><?php echo $vo['stability']; ?>分</td>
+							<td><?php echo $vo['line_of_force']; ?>分</td>
+							<td><?php echo $vo['pain']+$vo['auxiliary']+$vo['distance']+$vo['pavement']+$vo['gait']+$vo['sagittal']+$vo['foot']+$vo['stability']+$vo['line_of_force']; ?>分</td>
+							<td><?php echo date('Y-m-d h:m:s',$vo['metapedescreate_time']); ?></td>
 							<td class="td-manage">
-							<a title="编辑" href="javascript:;" onclick="member_edit('<?php echo url('useredit',['id'=>$vo['metapedes_id']]); ?>')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> 
+							<a title="编辑" href="javascript:;" onclick="member_edit('<?php echo url('metapedesedit',['id'=>$vo['metapedes_id']]); ?>')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> 
 							</a> <a title="删除" href="javascript:;" onclick="member_del(<?php echo $vo['metapedes_id']; ?>)" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
 						</tr>
 						<?php endforeach; endif; else: echo "" ;endif; ?>
@@ -98,36 +98,20 @@
 function add(){
 		layer.open({
   type: 2 //Page层类型
-  ,area: ['770px', '580px']
-  ,title: '后足AOFAS评分'
+  ,area: ['80%', '70%']
+  ,title: '客户选择'
   ,shade: 0.6 //遮罩透明度
   ,maxmin: true //允许全屏最小化
   ,anim: 1 //0-6的动画形式，-1不开启
-  ,content: 'metapedesadd.html'
-}); 
-}
-/*密码-修改*/
-function change_password(url){
-		layer.open({
-  type: 2 //Page层类型
-  ,area: ['430px', '345px']
-  ,title: '用户添加'
-  ,shade: 0.6 //遮罩透明度
-  ,maxmin: true //允许全屏最小化
-  ,anim: 1 //0-6的动画形式，-1不开启
-  ,content: url
+  ,content: 'com.html'
 }); 
 }
 /*用户-搜索*/
 function search(){
 	var search = $('#search').val();
-	// if(search==''){
-	// 	layer.msg('请输入关键字。');
-	// }else{
-		window.location.href='searchuser?value='+search;
-	// }
-	// $.post("<?php echo url('user/searchuser'); ?>",{value:search});
+	window.location.href='metapedesearch?value='+search;
 }
+
 /*用户-停用*/
 function member_stop(id){
 	layer.confirm('确认要停用/启用吗？',function(){
@@ -152,8 +136,8 @@ function member_edit(url){
 /*用户-删除*/
 function member_del(id){
 	layer.confirm('确认要删除吗？',function(){
-		$.get("<?php echo url('user/userdel'); ?>",{id:id},function(data){
-			layer.msg(data.message,{icon:1,time:1000});
+		$.get("<?php echo url('metapededel'); ?>",{id:id},function(data){
+			layer.msg(data.message);
 		});
 	setTimeout("location.reload()",1000);
 	});
